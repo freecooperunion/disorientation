@@ -1,7 +1,9 @@
 ---
 title: Removing Barriers Mobilizes Resources
 author: David Gersten
+published: true
 ---
+
 I think we all recognize that our Cooper Union faces an existential 
 crisis.
 
