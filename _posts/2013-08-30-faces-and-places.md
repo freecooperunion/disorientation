@@ -1,6 +1,7 @@
 ---
 title: Faces and Places
 subtitle: Keep your friends close...
+layout: post
 ---
 
 ## Board of Trustees

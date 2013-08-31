@@ -3,13 +3,17 @@
 	<meta charset="utf-8">
 	<title>{{ page.title }}</title>
 	<meta name="viewport" content="width = device-width, initial-scale = 1.0,maximum-scale = 1.0" />
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,800,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="//use.typekit.net/guj5das.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body {% if page.body_id %}id="{{ page.body_id }}"{% endif %}>
-{% include nav.html %}
 <section id="content">
 {{ content }}
 </section>
+<footer>
+<a href="/"><img src="/img/logo.png" title="Free Cooper Union" /></a>
+<p>Stay Free or Die Tryin</p>
+</footer>
 </body>
 </html>

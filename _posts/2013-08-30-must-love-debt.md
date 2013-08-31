@@ -1,6 +1,7 @@
 ---
 title: Must Love Debt
 subtitle: A timeline based on research by **Barry Drogin**, EE ‘83
+layout: post
 ---
 
 ## 1961-1968

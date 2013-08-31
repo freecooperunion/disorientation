@@ -1,0 +1,27 @@
+---
+body_id: notes-single
+layout: default
+---
+<article>
+	<header>
+		<h1>{{ page.title }}</h1>
+		<h2>{{ page.author }}</h2>
+	</header>
+	{{content}}
+</article>
+
+<hr />
+
+<section>
+	<h2>Read More</h2>
+	<nav>
+		<dl>
+			{% for item in site.posts %}
+			<dt>
+				<a href="{{item.url}}" class="title">{{item.title}}</a>
+			</dt>
+			<dd><p>{{ item.subtitle }}</p></dd>
+			{% endfor %}
+		</dl>
+	</nav>
+</section>

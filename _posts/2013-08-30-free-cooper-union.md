@@ -1,6 +1,7 @@
 ---
 title: Free Cooper Union
 subtitle: We are students, faculty and alumni at The Cooper Union, organizing in response to the unfolding tuition and student debt crisis since 2011.
+layout: post
 ---
 ### Why the red clock?
 

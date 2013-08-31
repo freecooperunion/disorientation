@@ -1,14 +1,17 @@
 ---
-title: Cooper&nbsp;Union Art&nbsp;Student&nbsp;Council
+title: Free Cooper Union
+subtitle: A Disorientation Reader
 layout: index
 body_id: index
-filepath: index.md
 ---
 
-We're [a group of art students](/people). (You can [join too](mailto:cuartcouncil@gmail.com?subject=Joining%20Art%20Student%20Council).) We get to go to faculty and administrative meetings within the existing bureaucratic structure at Cooper. We get to vote on behalf of students and [take **notes** which we share](/notes). The school gives us money to throw parties. We're whatever the student body needs their bureaucratic presence to be.
+<h2>dis<span style="font-family:CooperUnion;text-transform:uppercase;">Orientation</span></h2>
 
-Peruse the [about section](/about) to learn more about our [structure](/about/committees), [technology](/about/this-site), and commitment to [transparency](/about/transparency).
+<p class="intro">is a student-led counter-orientation intended to introduce you, the incoming class of 2017/18, to the real story of Cooper’s dense internal politics, as well as larger student issues, and to preserve institutional memory that is all too often expunged 
+upon graduation.</p>
 
-***
-
-🙇💭📨⚡ Have ideas, comments, or questions for Art Student Council? Email <a href="mailto:CUArtCouncil@gmail.com">CUArtCouncil@gmail.com</a> to reach <a href="/people">all of us</a> at once.
+<section id="download">
+	<h2>Download PDF</h2>
+	<a href="/download/disorientation-reader-booklet.pdf">Imposed PDF for double-sided printing.</a>
+	<a href="/download/disorientation-reader-booklet.pdf">Sequential pages PDF.</a>
+</section>

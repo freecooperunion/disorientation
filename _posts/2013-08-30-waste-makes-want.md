@@ -1,6 +1,7 @@
 ---
 title: Waste Makes Want
 subtitle: Comparative financial background by Adrian Burton Jovanovic, BSE ‘89
+layout: post
 ---
 In a sworn Cy Pres Petition statement to the NYS Supreme Court in 2006, the Cooper Union Board of Trustees petitioned for the right to borrow $175 million against the Chrysler building.
 

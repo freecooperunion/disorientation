@@ -2,6 +2,26 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<header>
+	<h1>{{ page.title }}</h1>
+	<h2 class="intro">{{ page.subtitle }}</h2>
+	<img src="/img/cover.jpg" />
+</header>
 
 {{content}}
+
+
+<section id="read-online">
+	<h2 class="read-online"><em>or</em> Read Online</h2>
+		<h2>dis<span style="font-family:CooperUnion;text-transform:uppercase;">Contents</span></h2>
+		<nav>
+			<dl>
+				{% for item in site.posts %}
+				<dt>
+					<a href="{{item.url}}" class="title">{{item.title}}</a>
+				</dt>
+				<dd><p>{{ item.subtitle }}</p></dd>
+				{% endfor %}
+			</dl>
+		</nav>
+</section>

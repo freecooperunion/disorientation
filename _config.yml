@@ -1,4 +1,4 @@
-permalink: pretty
+permalink: /:title
 prose:
   rooturl: "_posts"
   metadata:
