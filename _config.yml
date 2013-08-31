@@ -1,3 +1,4 @@
+baseurl: http://freecooperunion.github.io/disorientation
 permalink: /:title
 prose:
   rooturl: "_posts"
