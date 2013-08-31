@@ -1,0 +1,656 @@
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+	 HTML5 display definitions
+	 ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+		display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+
+audio,
+canvas,
+video {
+		display: inline-block;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+		display: none;
+		height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+
+[hidden] {
+		display: none;
+}
+
+/* ==========================================================================
+	 Base
+	 ========================================================================== */
+
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+		font-family: sans-serif; /* 1 */
+		-webkit-text-size-adjust: 100%; /* 2 */
+		-ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Removes default margin.
+ */
+
+body {
+		margin: 0;
+}
+
+/* ==========================================================================
+	 Links
+	 ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+		outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+		outline: 0;
+}
+
+/* ==========================================================================
+	 Typography
+	 ========================================================================== */
+
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+
+h1 {
+		font-size: 2em;
+}
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+		border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+
+b,
+strong {
+		font-weight: bold;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+		font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+
+mark {
+		background: #ff0;
+		color: #000;
+}
+
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+		font-family: monospace, serif;
+		font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+
+pre {
+		white-space: pre;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+}
+
+/*
+ * Sets consistent quote types.
+ */
+
+q {
+		quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+
+small {
+		font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+		font-size: 75%;
+		line-height: 0;
+		position: relative;
+		vertical-align: baseline;
+}
+
+sup {
+		top: -0.5em;
+}
+
+sub {
+		bottom: -0.25em;
+}
+
+/* ==========================================================================
+	 Embedded content
+	 ========================================================================== */
+
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+
+img {
+		border: 0;
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+		overflow: hidden;
+}
+
+/* ==========================================================================
+	 Figures
+	 ========================================================================== */
+
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+
+figure {
+		margin: 0;
+}
+
+/* ==========================================================================
+	 Forms
+	 ========================================================================== */
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+		border: 1px solid #c0c0c0;
+		margin: 0 2px;
+		padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+		border: 0; /* 1 */
+		padding: 0; /* 2 */
+}
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+
+button,
+input,
+select,
+textarea {
+		font-family: inherit; /* 1 */
+		font-size: 100%; /* 2 */
+		margin: 0; /* 3 */
+}
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+		line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+		-webkit-appearance: button; /* 2 */
+		cursor: pointer; /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+		cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+		box-sizing: border-box; /* 1 */
+		padding: 0; /* 2 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+		-webkit-appearance: textfield; /* 1 */
+		-moz-box-sizing: content-box;
+		-webkit-box-sizing: content-box; /* 2 */
+		box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+		-webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+		border: 0;
+		padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+		overflow: auto; /* 1 */
+		vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+	 Tables
+	 ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+		border-collapse: collapse;
+		border-spacing: 0;
+}
+
+/* ==========================================================================
+	 Cooper ASC Styles
+	 ========================================================================== */
+
+body {
+	padding:0;
+	font-family:Helvetica;
+	line-height:1.25;
+	background:#eee;
+}
+
+h1, h2, h3 {
+		font-family: "Open Sans";
+}
+
+h1 {
+	font-weight: 100;
+}
+
+h2 {
+	font-weight:600;
+}
+
+h3 {
+	font-weight:800;
+	font-size:16px!important;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+
+p {
+	padding-top:5px!important;
+	margin-top:0;
+}
+
+nav ul, body#notes-index ul#notes-list {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+nav a:link, nav a:visited, body#notes-index ul#notes-list a:link, body#notes-index ul#notes-list a:visited {
+	text-decoration:none;
+}
+
+nav#people ul {
+	margin:0;
+	padding:0;
+}
+nav#people ul li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+nav#people img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#people-single nav#people li {
+	width:100px;
+}
+
+#content {
+	margin:10px;
+}
+
+#notes-single header {
+	border-bottom:1px solid black;
+	padding:0 0 15px 0;
+	margin:0 0 10px 0;
+}
+
+nav#top {
+	border-bottom: 1px solid black;
+}
+
+nav#top li {
+	margin:0;
+	padding:0;
+}
+
+nav#top a:link, nav#top a:visited {
+	padding:10px;
+	margin:0;
+	color:black;
+}
+
+nav#top .label {
+	display:none;
+}
+
+nav#top a:hover {
+}
+
+.active {
+	font-weight:bold;
+	border-top:2px solid black;
+}
+
+.metadata {
+	box-shadow:0px 0px 5px rgba(0,0,0,.10);
+	border:1px solid #eee;
+	background:#fff;
+	padding:10px;
+	line-height:1.5em;
+}
+
+.metadata a:link, .metadata a:visited {
+	text-decoration: none;
+}
+
+.metadata ul {
+	padding:0;
+	margin:0;
+	list-style-position: inside;
+}
+
+article {
+	border-bottom:1px solid #eee;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+footer {
+	margin-top:10px;
+	padding: 10px;
+	border-top:1px solid #eee;
+}
+
+hr {
+	border:none;
+	border-top:1px solid #ccc;
+}
+
+body#notes-index ul#notes-list {
+	border-top: 1px solid rgba(0,0,0,.10);
+}
+
+body#notes-index ul#notes-list li {
+}
+
+body#notes-index ul#notes-list li a:link, body#notes-index ul#notes-list li a:visited {
+	display:block;
+	border-bottom: 1px solid rgba(0,0,0,.10);
+	padding:10px;
+}
+
+body#notes-index ul#notes-list li a:hover{
+	background:rgba(0,0,0,.05);
+}
+
+body#notes-index ul#notes-list li a:hover .title{
+	text-decoration:underline;
+}
+body#notes-index ul#notes-list li a:hover .meta {
+	opacity:1;
+}
+
+body#notes-index .date, body#notes-index .notetaker {
+	display:inline;
+	color:black;
+}
+
+#notes-list .meta {
+	display:block;
+	padding-top:10px;
+	opacity:.5;
+	font-size:14px;
+}
+
+body#notes-index ul#notes-list li .title {
+	font-size:18px;
+	font-weight:bold;
+	display:inline;
+	color:black;
+}
+
+body#notes-index ul#notes-list li .tags {
+	display:inline;
+	color:rgba(0,0,0,.25);
+}
+
+.search-n-sort {
+	margin-bottom:20px;
+	background:rgba(0,0,0,.10);
+	padding:0;
+}
+
+.search-n-sort input {
+	width:100%;
+	padding:10px;
+	border:0;
+	background:transparent;
+}
+
+.search-n-sort input:focus {
+	background:#fff;
+	outline:none;
+	box-shadow:0 0 10px rgba(0,0,0,.25);
+}
+
+.search-n-sort a {
+	display:inline-block;
+	border-radius:5px;
+	background:#bbb;
+	color:#fff;
+	padding:3px 5px;
+	text-decoration: none;
+}
+
+.search-n-sort a:active {
+	background:gray;
+}
+
+@media (max-width: 340px) {
+	/* code for iPhones only */
+}
+	nav#top li {
+		display:inline-block;
+		margin:0;
+	}
+	nav#top li a:link, nav#top li a:visited {
+		display: block;
+		margin:0;
+	}
+@media (min-width: 340px) {
+	/* code for tablets only */
+
+	nav#top .label {
+		display:inline;
+	}
+}
+
+@media (min-width: 720px) {
+	/* all other code if its not mobile or tablet */
+	#content, nav#top, footer {
+		max-width:800px;
+		margin:auto;
+	}
+	.metadata {
+		display:inline-block;
+		width:200px;
+		float:right;
+		margin:0 0 10px 20px;
+	}
+}
+
+@media print {
+	body {
+		background: none;
+		color: black;
+    	font-size:.8em;
+	}
+	#notes-single header {
+		border-top:1px solid black;
+		padding:0px 0 15px 0;
+		margin:15px 0 10px 0;
+	}
+	#content {
+		width: 100%;
+		margin: 0; padding: 0;
+		background: none;
+	}
+	.metadata {
+		display:none;
+	}
+	#content a:link, #content a:visited {
+		color:black;
+	}
+	#content a:link:after, #content a:visited:after {
+		content: " (" attr(href) ") ";
+	}
+	nav#top {
+		display:none;
+	}
+	#content:before {
+		content: "This page was printed from the website of Cooper Union's Art Student Council (http://asc.cooper.edu). Make sure to check online for updates, as many pages are living documents.";
+	}
+}

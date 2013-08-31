@@ -1,9 +1,7 @@
 ---
 title: Removing Barriers Mobilizes Resources
-author: David Gersten
-published: true
+subtitle: David Gersten, School of Architecture Faculty, answers the question: what do elevators, undersea cables, democracy, and Cooper have in common?
 ---
-
 I think we all recognize that our Cooper Union faces an existential 
 crisis.
 

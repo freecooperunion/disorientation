@@ -1,0 +1,22 @@
+permalink: pretty
+prose:
+  rooturl: "_posts"
+  metadata:
+    "_posts/notes": |
+      category: notes
+      layout: notes-single
+      published: true
+      title: Meeting or Note Title
+      notetaker: Firstname Lastname
+      tags: committee-name
+      filepath: _posts/notes/filename.md
+    "_posts/people": |
+      category: people
+      layout: people-single
+      published: true
+      title: Firstname Lastname
+      class: Senior
+      tags: committee-name
+      preferred_email: email@address.com
+      gravatar_email: email@address.com
+      permalink: /people/firstname-lastname/
