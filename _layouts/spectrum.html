@@ -1,0 +1,53 @@
+---
+layout: default
+body_id: spectrum
+---
+<ul>
+{% for group in site.data.groups %}
+  <li class="group {% if group.span %}span-{{group.span}}{% endif %}">
+	<strong>{{ group.name }}</strong>
+	{% if group.members %}
+		<ul>
+			{% for member in group.members %}
+			<li class="{{member.type}} {{member.stance}}">{{ member.name }}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+	{% if group.groups %}
+		<ul>
+			{% for group in group.groups %}
+			<li class="group {% if group.span %}span-{{group.span}}{% endif %}">
+			<strong>{{ group.name }}</strong>
+			{% if group.members %}
+				<ul>
+					{% for member in group.members %}
+					<li class="{{member.type}} {{member.stance}}">
+					{{ member.name }}
+					{% if member.cites %}
+						<ul>
+							{% for cite in member.cites %}
+							<li>{{ cite }}</li>
+							{% endfor %}
+						</ul>
+					{% endif %}
+					</li>
+					{% endfor %}
+				</ul>
+			{% endif %}
+			</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+  </li>
+{% endfor %}
+</ul>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+  //toggle the componenet with class msg_body
+  jQuery("li").click(function()
+  {
+    jQuery(this).children("ul").slideToggle(500);
+  });
+});
+</script>

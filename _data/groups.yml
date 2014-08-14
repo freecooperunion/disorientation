@@ -1,0 +1,68 @@
+- name: Free Cooper Union
+  membership: [Informal, Open]
+  last_active: current
+  span: free
+- name: Committee to Save Cooper Union
+  membership: [Formal, Closed]
+  last_active: current
+  span: free
+- name: Friends of Cooper Union
+  membership: [Informal, Closed]
+  last_active: June 2014
+  span: free
+- name: Working Group
+  last_active: January 2014
+  span: all
+- name: Faculties
+  groups:
+    - name: Engineering
+      span: neutral-free
+    - name: Architecture
+      span: neutral-free
+    - name: Art
+      span: free
+    - name: Humanities
+      span: free
+- name: Staff
+- name: Unions
+  span: neutral
+  groups:
+    - name: CUFCT
+      span: all
+    - name: U@CU
+      span: all
+    - name: CUOP
+      span: all
+- name: Student Councils
+  span: neutral-free
+  groups:
+    - name: Engineering Student Council
+      span: tuition-neutral
+    - name: Architecture Student Council
+      span: neutral-free
+    - name: Art Student Council
+      span: free
+    - name: Joint Student Council
+      span: all
+- name: Administration
+  span: tuition
+  members:
+    - name: Jamshed Bharucha
+    - name: Lawrence Cacciatore
+  groups:
+    - name: Vice Presidents
+      members:
+        - name: Steve Baker
+          stance: tuition
+          cites:
+            - "Started off as an athletics coach and in less than a year is a Vice President."
+        - name: Justin Harmon
+          stance: tuition
+    - name: Admissions
+    - name: Deans
+    - name: Development
+    - name: Alumni Affairs
+- name: Board
+  members:
+    - name: Mark Epstein
+- name: CU Alumni Association
