@@ -12,6 +12,6 @@ upon graduation.</p>
 
 <section id="download">
 	<h2>Download PDF</h2>
-<a href="{{site.baseurl}}/download/disorientation-reader-pages.pdf">Sequential pages PDF.</a><br><br>
-	<a href="{{site.baseurl}}/download/disorientation-reader-booklet.pdf">Imposed PDF for double-sided printing.</a>
+<a href="{{site.baseurl}}/download/disorientation-reader-pages.pdf">Sequential pages PDF (good for reading on screen).</a><br><br>
+	<a href="{{site.baseurl}}/download/disorientation-reader-booklet.pdf">Imposed PDF (good for double-sided printing and stapling).</a>
 </section>
