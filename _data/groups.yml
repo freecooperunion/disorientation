@@ -10,6 +10,27 @@
   membership: [Informal, Closed]
   last_active: June 2014
   span: free
+- name: Student Councils
+  span: neutral-free
+  groups:
+    - name: Engineering Student Council
+      span: tuition-neutral
+    - name: Architecture Student Council
+      span: neutral-free
+    - name: Art Student Council
+      span: free
+    - name: Joint Student Council
+      span: all
+- name: Unions
+  info: Cooper Union has three unions, which must remain largely neutral due to complex internal politics.
+  span: neutral-free
+  groups:
+    - name: CUFCT
+      span: all
+    - name: U@CU
+      span: all
+    - name: CUOP
+      span: all
 - name: Working Group
   last_active: January 2014
   span: all
@@ -24,54 +45,6 @@
     - name: Humanities
       span: free
 - name: Staff
-- name: Unions
-  info: Cooper Union has three unions, which must remain largely neutral due to complex internal politics.
-  span: neutral
-  groups:
-    - name: CUFCT
-      span: all
-    - name: U@CU
-      span: all
-    - name: CUOP
-      span: all
-- name: Student Councils
-  span: neutral-free
-  groups:
-    - name: Engineering Student Council
-      span: tuition-neutral
-    - name: Architecture Student Council
-      span: neutral-free
-    - name: Art Student Council
-      span: free
-    - name: Joint Student Council
-      span: all
-- name: Administrators
-  info: "Administrators are college employees responsible for the maintenance and supervision of the institution separate from the faculty. Administrative responsibilities include academic affairs, school finances, fundraising, public affairs, and press. Administrative bloat is a term used for the inflated administrative ratios in recent years. Between 1993 and 2007, spending on administration rose twice as fast as funding for research and teaching at 198 leading U.S. universities.<br><br> At a time where college budgets are tight, students are amassing record debt, and tuition is skyrocketing, the ratio of administrators to faculty has jumped up in the past decade: across universities nationwide employment of administrators has risen 60 percent from 1993 to 2009, 10 times the growth rate for tenured faculty."
-  span: tuition
-  members:
-    - name: Jamshed Bharucha
-      img: bharucha.jpg
-      title: President; Trustee
-    - name: Lawrence Cacciatore
-      img: cacciatore.jpg
-      title: Chief of Staff and Secretary to the Board of Trustees
-  groups:
-    - name: Vice Presidents
-      info: In the span of a year, the college went from having no Vice Presidents to nearly ten.
-      members:
-        - name: Stephen Baker
-          stance: tuition
-          img: baker.jpg
-          title: Vice President of Student Affairs
-          info: Started off as an athletics coach and in less than a year is a Vice President.
-        - name: Justin Harmon
-          stance: tuition
-          title: Vice President for Communications
-    - name: Admissions
-      info: A ton of new admissions people have been hired.
-    - name: Deans
-    - name: Development
-    - name: Alumni Affairs
 - name: Board
   members:
     - name: Devora Najjar
@@ -157,3 +130,42 @@
       img: wertheimer.jpg
       info: EE'82   
 - name: CU Alumni Association
+- name: Administrators
+  info: "Administrators are college employees responsible for the maintenance and supervision of the institution separate from the faculty. Administrative responsibilities include academic affairs, school finances, fundraising, public affairs, and press. Administrative bloat is a term used for the inflated administrative ratios in recent years. Between 1993 and 2007, spending on administration rose twice as fast as funding for research and teaching at 198 leading U.S. universities.<br><br> At a time where college budgets are tight, students are amassing record debt, and tuition is skyrocketing, the ratio of administrators to faculty has jumped up in the past decade: across universities nationwide employment of administrators has risen 60 percent from 1993 to 2009, 10 times the growth rate for tenured faculty."
+  span: tuition-neutral
+  members:
+    - name: Jamshed Bharucha
+      img: bharucha.jpg
+      span: tuition
+      stance: tuition
+      title: President; Trustee
+    - name: Lawrence Cacciatore
+      span: tuition
+      stance: tuition
+      img: cacciatore.jpg
+      title: Chief of Staff and Secretary to the Board of Trustees
+  groups:
+    - name: Vice Presidents
+      info: In the span of a year, the college went from having no Vice Presidents to nearly ten.
+      members:
+        - name: Stephen Baker
+          stance: tuition
+          img: baker.jpg
+          title: Vice President of Student Affairs
+          info: Started off as an athletics coach and in less than a year is a Vice President.
+        - name: Justin Harmon
+          stance: tuition
+          title: Vice President for Communications
+    - name: Admissions
+      info: A ton of new admissions people have been hired.
+    - name: Deans
+      span: all
+      members:
+        - name: Saskia Bos
+        - name: William Germano
+        - name: Elizabeth O'Donnell
+        - name: Teresa Dahlberg
+        - name: Alan Wolf
+        - name: Anthony Vidler
+    - name: Development
+    - name: Alumni Affairs

@@ -21,6 +21,7 @@ body {
 	font-size:16px;
 	border-top:10px solid #c12530;
 	color:#222;
+	background:#ddd;
 }
 
 header {
@@ -232,10 +233,13 @@ body#spectrum {
 		padding:0;
 	}
 	.group {
-		background:rgba(0,0,0,.075);
+		background:#efefef;
 		border-radius:5px;
 		text-align:center;
 		padding:10px 0;
+		.group {
+			background:#fff;
+		}
 	}
 	.tuition {color:red;}
 	.neutral {color:red;}
