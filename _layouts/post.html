@@ -18,7 +18,7 @@ layout: default
 		<dl>
 			{% for item in site.posts %}
 			<dt>
-				<a href="{{item.url}}" class="title">{{item.title}}</a>
+				<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a>
 			</dt>
 			<dd><p>{{ item.subtitle }}</p></dd>
 			{% endfor %}
