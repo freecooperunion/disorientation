@@ -45,7 +45,10 @@
       span: free
     - name: Joint Student Council
       span: all
-- name: Administration
+- name: Administrators
+  info: Administrators are college employees responsible for the maintenance and supervision of the institution separate from the faculty. Administrative responsibilities include academic affairs, school finances, fundraising, public affairs, and press. Administrative bloat is a term used for the inflated administrative ratios in recent years. Between 1993 and 2007, spending on administration rose twice as fast as funding for research and teaching at 198 leading U.S. universities.<br><br> At a time where college budgets are tight, students are amassing record debt, and tuition is skyrocketing, the ratio of administrators to faculty has jumped up in the past decade: across universities nationwide employment of administrators has risen 60 percent from 1993 to 2009, 10 times the growth rate for tenured faculty.
+
+
   span: tuition
   members:
     - name: Jamshed Bharucha
