@@ -2,52 +2,90 @@
 layout: default
 body_id: spectrum
 ---
-<ul>
+<header>
+	<h2 style="color:red">Pro-Tuition</h2>
+	<h2 style="color:gray">&ldquo;Neutral&rdquo;<br><small><em>or </em>Undecided <em>or </em>Unknown</small></h2>
+	<h2 style="color:limegreen">For Free Education</h2>
+</header>
+<ul id="spectrum">
 {% for group in site.data.groups %}
-  <li class="group {% if group.span %}span-{{group.span}}{% endif %}">
-	<strong>{{ group.name }}</strong>
-	{% if group.members %}
-		<ul>
-			{% for member in group.members %}
-			<li class="{{member.type}} {{member.stance}}">{{ member.name }}</li>
-			{% endfor %}
-		</ul>
+  <li class="group {% if group.span %}span-{{group.span}}{% endif %}" {% if group.info %}title="<strong>{{ group.name }}</strong><br><br>{{group.info}}"{% endif %}>
+	{% if group.members or group.groups  %}
+		<a class="toggle" href="#" onclick="return false"><strong>{{ group.name }}</strong></a>
+	{% else %}
+		<strong>{{ group.name }}</strong>
 	{% endif %}
-	{% if group.groups %}
-		<ul>
-			{% for group in group.groups %}
-			<li class="group {% if group.span %}span-{{group.span}}{% endif %}">
-			<strong>{{ group.name }}</strong>
-			{% if group.members %}
-				<ul>
-					{% for member in group.members %}
-					<li class="{{member.type}} {{member.stance}}">
-					{{ member.name }}
-					{% if member.cites %}
-						<ul>
-							{% for cite in member.cites %}
-							<li>{{ cite }}</li>
-							{% endfor %}
-						</ul>
-					{% endif %}
-					</li>
-					{% endfor %}
-				</ul>
+	<section>
+		{% if group.members %}
+		<ul class="members">
+			{% for member in group.members %}
+			<li class="{{member.type}} {{member.stance}} {% if member.span %}span-{{member.span}}{% endif %}" {% if member.info or member.title %}title="<strong>{{member.name}}</strong><br>{% if member.title %}<em>{{member.title}}</em><br>{% endif %}{% if member.info %}<br>{% endif %}{{member.info}}"{% endif %}>
+			{% if member.img %}
+				<img src="img/spectrum/{{member.img}}">
+			{% else %}
+				{{ member.name }}
 			{% endif %}
 			</li>
 			{% endfor %}
 		</ul>
-	{% endif %}
+		{% endif %}
+		{% if group.groups %}
+			<ul>
+				{% for group in group.groups %}
+				<li class="group {% if group.span %}span-{{group.span}}{% endif %}" {% if group.info %}title="<strong>{{ group.name }}</strong><br><br>{{group.info}}"{% endif %}>
+				<strong>{{ group.name }}</strong>
+				{% if group.members %}
+				<ul class="members">
+					{% for member in group.members %}
+					<li class="{{member.type}} {{member.stance}} {% if member.span %}span-{{member.span}}{% endif %}" {% if member.info or member.title %}title="<strong>{{member.name}}</strong><br>{% if member.title %}<em>{{member.title}}</em><br>{% endif %}{% if member.info %}<br>{% endif %}{{member.info}}"{% endif %}>
+					{% if member.img %}
+						<img src="img/spectrum/{{member.img}}">
+					{% else %}
+						{{ member.name }}
+					{% endif %}
+					</li>
+					{% endfor %}
+				</ul>
+				{% endif %}
+				</li>
+				{% endfor %}
+			</ul>
+		{% endif %}
+	</section>
   </li>
 {% endfor %}
 </ul>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function() {
-  //toggle the componenet with class msg_body
-  jQuery("li").click(function()
-  {
-    jQuery(this).children("ul").slideToggle(500);
-  });
+	//toggle the componenet with class msg_body
+	jQuery("#content section").hide();
+	jQuery(".toggle").click(function(){
+		jQuery(this).next("section").slideToggle(500);
+	});
+    $( document ).tooltip({
+		track: true,
+		effect: "none",
+		delay: 0,
+		items: "[title]",
+		content: function() {
+		var element = $( this );
+		if ( element.is( "[title]" ) ) {
+			return element.attr( "title" );
+		}
+      }
+    });
 });
 </script>
+<style type="text/css">
+.ui-tooltip {
+	padding: 10px;
+	color: #000;
+	border-radius: 0;
+	box-shadow:0 0px 10px rgba(0,0,0,.25);
+	border:none;
+	font-size: 1em;
+}
+</style>

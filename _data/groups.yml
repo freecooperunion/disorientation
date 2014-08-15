@@ -25,6 +25,7 @@
       span: free
 - name: Staff
 - name: Unions
+  info: Cooper Union has three unions, which must remain largely neutral due to complex internal politics.
   span: neutral
   groups:
     - name: CUFCT
@@ -48,21 +49,104 @@
   span: tuition
   members:
     - name: Jamshed Bharucha
+      img: bharucha.jpg
+      title: President; Trustee
     - name: Lawrence Cacciatore
+      img: cacciatore.jpg
+      title: Chief of Staff and Secretary to the Board of Trustees
   groups:
     - name: Vice Presidents
+      info: In the span of a year, the college went from having no Vice Presidents to nearly ten.
       members:
-        - name: Steve Baker
+        - name: Stephen Baker
           stance: tuition
-          cites:
-            - "Started off as an athletics coach and in less than a year is a Vice President."
+          img: baker.jpg
+          title: Vice President of Student Affairs
+          info: Started off as an athletics coach and in less than a year is a Vice President.
         - name: Justin Harmon
           stance: tuition
+          title: Vice President for Communications
     - name: Admissions
+      info: A ton of new admissions people have been hired.
     - name: Deans
     - name: Development
     - name: Alumni Affairs
 - name: Board
   members:
+    - name: Devora Najjar
+      info: ChE’16
+      img: najjar.jpg
+      title: Student Representative
+    - name: Jeffrey Gural
+      img: gural.jpg
+    - name: John Leeper
+      img: leeper.jpg
+      info: AR'85
+      title: Alumni Association President
+    - name: Kevin Slavin
+      img: slavin.jpg
+      stance: free
+      span: free
+      info: A’95
+      title: Alumni Trustee
+    - name: Charles S. Cohen  
+      img: cohen.jpg
+    - name: Daniel Okrent 
+      img: okrent.jpg
+    - name: Eric Hirschhorn
+      info: ME’89 
+      img: hirschhorn.jpg
+    - name: Jeffrey Hersch
+      info: EE’87 
+      img: hersch.jpg
+    - name: Johnny C. Taylor Jr.
+      img: taylor.jpg
+    - name: Malcolm King
+      info: EE’97 
+      img: king.jpg
+    - name: Monica Vachher  
+      img: vacher.jpg
+    - name: Rachel L. Warren  
+      img: warren.jpg
+    - name: Thomas Driscoll
+      img: driscoll.jpg
+      info: ME'77 
+    - name: Richard S. Lincer
+      img: lincer.jpg
+      title: Chairman of the Board    
+    - name: Francois de Menil
+      img: demenil.jpg
+      info: AR'87
+      title: Vice Chairman of the Board   
+    - name: Robert Bernhard
+      img: bernhard.jpg
+      title: Chairman Emeritus    
+    - name: Jamshed Bharucha    
+      img: bharucha.jpg
+    - name: Joseph B. Dobronyi Jr.    
+      img: dobronyi.jpg
     - name: Mark Epstein
+      img: epstein.jpg
+      info: A'76
+      title: Chairman Emeritus    
+    - name: Raymond G. Falci
+      img: falci.jpg
+      info: ME'86
+      title: Alumni Trustee   
+    - name: Catharine Hill   
+      img: hill.jpg
+    - name: Edgar Mokuvos
+      img: mokuvos.jpg
+      info: EE'78
+      title: Alumni Trustee   
+    - name: Bruce Pasternack
+      img: pasternack.jpg
+      info: ME'68   
+    - name: Lee H. Skolnick
+      img: skolnick.jpg
+      info: AR'79
+      title: Alumni Trustee   
+    - name: Jeremy Wertheimer
+      img: wertheimer.jpg
+      info: EE'82   
 - name: CU Alumni Association

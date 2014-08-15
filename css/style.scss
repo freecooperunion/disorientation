@@ -184,51 +184,97 @@ hr {
 }
 
 body#spectrum {
+	a:link, a:visited {
+		color:darkblue;
+	}
+	header {
+		width:100%;
+		padding:10px 0;
+		margin:0;
+	    font-family: 'CooperUnion', sans-serif !important;
+		position:fixed;
+			top:0;
+			left:0;
+		background:#fff;
+		box-shadow:0 5px 10px rgba(0,0,0,.15);
+		h2 {
+			display:inline-block;
+			width:(98%/3);
+			text-align:center;
+			margin:0;
+			padding:0;
+			vertical-align: middle;
+		}
+	}
+	span {
+		display:block;
+	}
 	#content {
 		max-width:none;
+		width:100%;
+		margin:0;
+		padding:0;
+	}
+	#spectrum {
+		padding-top:100px;
 	}
 	ul {
 		list-style-type:none;
-		padding:0;
-		margin:10px 2.5%;
+		padding:10px 2.5%;
+		margin:10px auto;
 		width:95%;
 	}
 	li {
-		margin:10px 2.5%;
+		margin:10px 0;
 		display:block;
-		width:95%;
+		width:100%;
+		padding:0;
 	}
 	.group {
-		background:rgba(0,0,0,.10);
-		padding: .5em 1em;
-		border-radius:2px;
-		width:95%;
+		background:rgba(0,0,0,.075);
+		border-radius:5px;
+		text-align:center;
+		padding:10px 0;
 	}
-	.tuition {
-		background:red;
-	}
-	.free {
-		background:green;
-	}
+	.tuition {color:red;}
+	.neutral {color:red;}
+	.free {color:lime;}
 	.span-tuition {
-		width:31.6%;
+		width:(100%/3);
 	}
 	.span-neutral {
-		width:31.6%;
-		margin-left:31.6%;
+		width:(100%/3);
+		margin-left:(100%/3);
 	}
 	.span-free {
-		width:31.6%;
-		margin-left:63.3%;
+		width:(100%/3);
+		margin-left:(100%/3*2);
 	}
 	.span-tuition-neutral {
-		width:63.3%;
+		width:(100%/3*2);
 	}
 	.span-neutral-free {
-		width:63.3%;
-		margin-left:31.6%;
+		width:(100%/3*2);
+		margin-left:(100%/3);
 	}
 	.span-all {
-		width:95%;
+		width:100%;
+	}
+	li[title] {
+		cursor: pointer;
+	}
+	ul.members li {
+		display:inline-block;
+		width:auto;
+		padding:5px;
+	}
+	li[title]:hover img {
+		box-shadow:0 0 15px rgba(255,0,0,.5);
+	}
+	img {
+		width:75px;
+		height:75px;
+		border-radius:75px;
+		border:2px solid red;
 	}
 }
