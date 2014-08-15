@@ -16,7 +16,7 @@
 
 body {
 	padding:0;
-	font-family:sans-serif;
+	font-family:Helvetica Neue, sans-serif;
 	line-height:1.25;
 	font-size:16px;
 	border-top:10px solid #c12530;
@@ -199,11 +199,12 @@ body#spectrum {
 		box-shadow:0 5px 10px rgba(0,0,0,.15);
 		h2 {
 			display:inline-block;
-			width:(98%/3);
+			width:(97%/3);
 			text-align:center;
 			margin:0;
 			padding:0;
 			vertical-align: middle;
+			overflow:hidden;
 		}
 	}
 	span {
@@ -268,13 +269,24 @@ body#spectrum {
 		width:auto;
 		padding:5px;
 	}
-	li[title]:hover img {
+	li[title].tuition:hover img {
+		box-shadow:0 0 15px rgba(255,0,0,.5);
+	}
+	li[title].free:hover img {
 		box-shadow:0 0 15px rgba(255,0,0,.5);
 	}
 	img {
 		width:75px;
 		height:75px;
 		border-radius:75px;
+	}
+	.tuition img {
 		border:2px solid red;
+	}
+	.neutral img {
+		border:2px solid gray;
+	}
+	.free img {
+		border:2px solid limegreen;
 	}
 }

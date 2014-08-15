@@ -75,12 +75,18 @@
 - name: Board
   members:
     - name: Devora Najjar
+      stance: free
+      span: free
       info: ChE’16
       img: najjar.jpg
       title: Student Representative
-    - name: Jeffrey Gural
+    - name: Jeff Gural
+      stance: free
+      span: free
       img: gural.jpg
     - name: John Leeper
+      stance: free
+      span: free
       img: leeper.jpg
       info: AR'85
       title: Alumni Association President

@@ -21,7 +21,7 @@ body_id: spectrum
 			{% for member in group.members %}
 			<li class="{{member.type}} {{member.stance}} {% if member.span %}span-{{member.span}}{% endif %}" {% if member.info or member.title %}title="<strong>{{member.name}}</strong><br>{% if member.title %}<em>{{member.title}}</em><br>{% endif %}{% if member.info %}<br>{% endif %}{{member.info}}"{% endif %}>
 			{% if member.img %}
-				<img src="img/spectrum/{{member.img}}">
+				<img src="{{site.baseurl}}/img/spectrum/{{member.img}}">
 			{% else %}
 				{{ member.name }}
 			{% endif %}
@@ -39,7 +39,7 @@ body_id: spectrum
 					{% for member in group.members %}
 					<li class="{{member.type}} {{member.stance}} {% if member.span %}span-{{member.span}}{% endif %}" {% if member.info or member.title %}title="<strong>{{member.name}}</strong><br>{% if member.title %}<em>{{member.title}}</em><br>{% endif %}{% if member.info %}<br>{% endif %}{{member.info}}"{% endif %}>
 					{% if member.img %}
-						<img src="img/spectrum/{{member.img}}">
+						<img src="{{site.baseurl}}/img/spectrum/{{member.img}}">
 					{% else %}
 						{{ member.name }}
 					{% endif %}
