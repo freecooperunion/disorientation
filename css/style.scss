@@ -301,3 +301,18 @@ body#timeline {
 
 	}
 }
+nav {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:3;
+	ul {
+		width:100%;
+		list-style-type:none;
+		li {
+			display:inline-block;
+			padding:10px;
+		}
+	}
+}
