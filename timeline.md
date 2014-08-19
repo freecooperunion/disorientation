@@ -4,6 +4,21 @@ title: Timeline
 permalink: timeline/
 body_id: timeline
 ---
-<iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0ApTTgpc7dScadElnbzVGaTR1X3pTYThoWkpxSEZrbWc&font=Bevan-PotanoSans&maptype=toner&lang=en&hash_bookmark=true&start_at_slide=0&height=850' width='100%' height='850' frameborder='0'></iframe>
+
+<div id="timeline-embed"></div>
+<script type="text/javascript">
+    var timeline_config = {
+        width:              '100%',
+        height:             '850px',
+        source:             '0ApTTgpc7dScadElnbzVGaTR1X3pTYThoWkpxSEZrbWc',
+        embed_id:           'timeline-embed',               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
+        start_at_end:       false,                          //OPTIONAL START AT LATEST DATE
+        start_at_slide:     '0',                            //OPTIONAL START AT SPECIFIC SLIDE
+        hash_bookmark:      true,                           //OPTIONAL LOCATION BAR HASHES
+        font:               'Bevan-PotanoSans',             //OPTIONAL FONT
+        maptype:            'watercolor',                   //OPTIONAL MAP STYLE
+    }
+</script>
+<script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
 
 <p style="max-width:800px;margin:auto;">Thanks to <a href="http://www.friendsofcooperunion.org">Friends of Cooper Union</a>, <a href="http://www.notnicemusic.com/Cassandra/cooper.html">Alumni Pioneer</a>, and <a href="http://savecooperunion.org">Committee to Save Cooper Union</a> for their research, much of which we've borrowed to create this timeline.</p>
