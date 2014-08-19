@@ -21,4 +21,4 @@ body_id: timeline
 </script>
 <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
 
-<p style="max-width:800px;margin:auto;">Thanks to <a href="http://www.friendsofcooperunion.org">Friends of Cooper Union</a>, <a href="http://www.notnicemusic.com/Cassandra/cooper.html">Alumni Pioneer</a>, and <a href="http://savecooperunion.org">Committee to Save Cooper Union</a> for their research, much of which we've borrowed to create this timeline.</p>
+<p style="max-width:800px;margin:auto;">Thanks to <a href="http://www.friendsofcooperunion.org">Friends of Cooper Union</a>, <a href="http://www.notnicemusic.com/Cassandra/cooper.html">Alumni Pioneer</a>, and <a href="http://savecooperunion.org">Committee to Save Cooper Union</a> for their research, from which we've borrowed extensively to create this timeline.</p>
