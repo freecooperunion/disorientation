@@ -12,9 +12,8 @@ body_id: timeline
         height:             '850px',
         source:             'https://docs.google.com/spreadsheet/pub?key=0ApTTgpc7dScadElnbzVGaTR1X3pTYThoWkpxSEZrbWc&output=html',
         embed_id:           'timeline-embed',               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
-        start_at_end:       false,                          //OPTIONAL START AT LATEST DATE
         start_at_slide:     '0',                            //OPTIONAL START AT SPECIFIC SLIDE
-        start_zoom_adjust:  '3',                            //OPTIONAL TWEAK THE DEFAULT ZOOM LEVEL
+        start_zoom_adjust:  '8',                            //OPTIONAL TWEAK THE DEFAULT ZOOM LEVEL
         hash_bookmark:      true,                           //OPTIONAL LOCATION BAR HASHES
         font:               'Bevan-PotanoSans',             //OPTIONAL FONT
         maptype:            'watercolor',                   //OPTIONAL MAP STYLE
