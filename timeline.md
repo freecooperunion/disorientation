@@ -10,7 +10,7 @@ body_id: timeline
     var timeline_config = {
         width:              '100%',
         height:             '850px',
-        source:             '0ApTTgpc7dScadElnbzVGaTR1X3pTYThoWkpxSEZrbWc',
+        source:             'https://docs.google.com/spreadsheet/pub?key=0ApTTgpc7dScadElnbzVGaTR1X3pTYThoWkpxSEZrbWc&output=html',
         embed_id:           'timeline-embed',               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
         start_at_end:       false,                          //OPTIONAL START AT LATEST DATE
         start_at_slide:     '0',                            //OPTIONAL START AT SPECIFIC SLIDE
