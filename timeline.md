@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: timeline
 title: Timeline
 permalink: timeline/
 body_id: timeline
