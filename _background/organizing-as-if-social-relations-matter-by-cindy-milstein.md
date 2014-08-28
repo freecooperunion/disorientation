@@ -1,7 +1,7 @@
 ---
 title: Organizing As If Social Relations Matter
 author: Cindy Milstein, Activist
-subhead: 
+subtitle: Lifelong activist and organizer Cindy Milstein writes about the merit of patient organizing and community-building.
 date: February 2013
 publication: Outside the Circle
 link: http://cbmilstein.wordpress.com/2013/02/21/organizing-as-if-social-relations-matter/

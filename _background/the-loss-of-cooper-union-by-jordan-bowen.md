@@ -1,7 +1,7 @@
 ---
 title: The Loss of Cooper Union
 author: Jordan Bowen
-subhead: 
+subtitle: Jordan Bowen reflects on the role Cooper plays in the changing face of New York. 
 date: April 2013
 publication: Kinja
 link: http://jordanbowen.kinja.com/the-loss-of-cooper-union-478333312

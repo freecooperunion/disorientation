@@ -1,10 +1,10 @@
 ---
 title: Two Educations for the Price of None
 author: Jakob Biernat, Art ‘16
-subhead: 
+subtitle: An open letter to incoming freshmen about self-care and Cooper politics from School of Art transfer student Jakob Biernat.
 date: May 2013
 layout: post
-order: 8
+order: 9
 ---
 It is often written that the crisis and scandal of Cooper Union is a crystallization of a national and global struggle in higher education, most recently in ArtInfo’s article by Ben Davis:
 

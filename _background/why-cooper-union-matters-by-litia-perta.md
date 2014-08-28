@@ -1,7 +1,7 @@
 ---
 title: Why Cooper Union Matters
 author: Litia Perta, Former HSS Adjunct Faculty
-subhead: 
+subtitle: Former humanities adjunct professor Litia Perta recalls one of the first community summits following the announcement of Cooper's financial problems.
 date: December 2011
 publication: The Brooklyn Rail
 link: http://brooklynrail.org/2011/12/local/why-cooper-union-matters

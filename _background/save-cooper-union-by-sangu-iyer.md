@@ -3,9 +3,10 @@ title: Save Cooper Union
 author: Sangu Iyer
 publication: n+1
 date: April 2013
+subtitle: Part one of School of Engineering alumna Sangu Iyer's exhaustive research on the events leading up to Jamshed Bharucha's appointment as President.
 link: https://nplusonemag.com/online-only/online-only/save-cooper-union/
 layout: post
-order: 9
+order: 10
 ---
 On November 17, 2011, at a student rally in Union Square organized by Occupy Wall Street, a young woman’s words echoed through the crowd via the people’s microphone: “Education should be as free as air and water.”
 

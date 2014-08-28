@@ -1,7 +1,7 @@
 ---
 title: Academy Fight Song
 author: Thomas Frank, Political Analyst, Historian, Founding Editor of The Baffler
-subhead: 
+subtitle: Thomas Frank, political analyst, historian, and founding editor of The Baffler, desmystifies the dream of American higher education.
 date: January 2014
 publication: The Baffler
 link: http://www.thebaffler.com/salvos/academy-fight-song

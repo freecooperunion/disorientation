@@ -1,7 +1,7 @@
 ---
 title: Why Cooper Union’s Tuition Fight Matters for the Future of Art
 author: Ben Davis, Former Executive Editor of ArtInfo
-subhead: 
+subtitle: Written during his tenure as Executive Editor of ArtInfo, Ben Davis explains how tuition at Cooper will ripple through the art world.
 date: May 2013
 publication: ArtInfo
 link: http://www.blouinartinfo.com/news/story/905940/why-cooper-unions-tuition-fight-matters-for-the-future-of-art?qt-article_detail_popular=2
