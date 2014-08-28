@@ -330,6 +330,9 @@ body#glossary {
 		tr {
 			border-bottom:1px dotted #ccc;
 		}
+		tr:target {
+			background:lightyellow;
+		}
 		th {
 			font-weight:bold;
 			text-align:left;
