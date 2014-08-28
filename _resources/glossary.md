@@ -40,4 +40,6 @@ body_id: glossary
 	<tr id="unions"> <th>Unions</th> <td>Unions are an organization of workers that have banded together to achieve common goals such as protecting the integrity of their trade, achieving higher pay, increasing the number of employees and employer hires, and bettering working conditions. Unions in general are in decline in the United States, academic unions in particular are under attack, and a large majority of faculty members hold part-time, nontenurable jobs that benefit from collective bargaining power.<br><br>Some campuses have made it difficult for faculty and staff to organize and have a voice as decisions have become more centralized within institutions.</td> </tr>
 	<tr id="wg"><th>WG</th><td>Working Group</td></tr>
 	<tr id="yellow-clock"><th>Yellow Clock</th><td>asdas</td></tr>
+	<tr id="pioneer"> <th>Pioneer</th> <td>School newspaper.</td> </tr>
+	<tr id="alumni-pioneer"> <td>Alumni Pioneer</td> <td></td> </tr>
 </table>
