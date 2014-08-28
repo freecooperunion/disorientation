@@ -72,7 +72,7 @@ p {
 
 a:link, a:visited {
 	text-decoration: none;
-	color:#c12530;
+	color:blue;
 	-webkit-transition:all .25s;
 }
 
@@ -91,7 +91,7 @@ a:hover, a:active {
 
 article {
 	max-width:600px;
-	margin:auto;
+	margin:40px auto;
 }
 img {
 	max-width:100%;
@@ -112,9 +112,12 @@ footer {
 	border-radius:10px;
 	text-align: center;
 }
-
+#read-online {
+	padding:10px;
+	border:1px solid #000;
+	margin:10px 0;
+}
 #read-online h2.read-online {
-	text-align: center;
 	margin-bottom:10px;
 	padding-bottom: 10px;
 }
@@ -302,16 +305,22 @@ body#timeline {
 	}
 }
 nav#main {
-
 	width:100%;
 	z-index:3;
+	margin:0;
+	text-align:center;
 	ul {
+		background:#222;
 		padding:0;
+		margin:0;
 		width:100%;
 		list-style-type:none;
 		li {
 			display:inline-block;
 			padding:10px;
+			a {
+				color:gray;
+			}
 		}
 	}
 }

@@ -19,16 +19,16 @@ layout: default
 
 <hr />
 
-<section>
-	<h2>Read More</h2>
-	<nav>
-		<dl>
-			{% for item in site.reader %}
-			<dt>
-				<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a>
-			</dt>
-			<dd><p>{{ item.subtitle }}</p></dd>
-			{% endfor %}
-		</dl>
-	</nav>
+<section id="read-online">
+	<h2 class="read-online">Read Online</h2>
+		<nav>
+			<dl>
+				{% for item in site.reader %}
+				<dt>
+					<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a> by {{item.author}}
+				</dt>
+				<dd><p>{{ item.subtitle }}</p></dd>
+				{% endfor %}
+			</dl>
+		</nav>
 </section>
