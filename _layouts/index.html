@@ -23,7 +23,7 @@ layout: default
 </section>
 <section>
 	<h2 class="section-heading">Background</h2>
-	<p>These essays dig into why Cooper matters, what's going wrong with education everywhere, and how we might fix it.</p>
+	<p>These selected essays dig into why Cooper matters, what's going wrong with education everywhere, and how we might fix it.</p>
 		<nav>
 			<dl>
 				{% for order in (1..15) %}
@@ -32,7 +32,7 @@ layout: default
 							<dt>
 								<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a>
 							</dt>
-							{% if item.subtitle %}<dd><p>{{ item.subtitle }}</p></dd>{% endif %}
+							{% if item.subtitle %}<dd>{{ item.subtitle | markdownify }}</dd>{% endif %}
 						{% endif %}
 					{% endfor %}
 				{% endfor %}				
