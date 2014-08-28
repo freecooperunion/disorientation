@@ -23,7 +23,7 @@ layout: default
 	<h2 class="read-online">Read Online</h2>
 		<nav>
 			<dl>
-				{% for item in site.reader %}
+				{% for item in site.prose %}
 				<dt>
 					<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a> by {{item.author}}
 				</dt>

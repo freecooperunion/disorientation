@@ -1,6 +1,6 @@
 permalink: :title
 baseurl: /disorientation
 collections:
-  reader:
+  prose:
     output: true
-    permalink: /reader/:path/
+    permalink: /prose/:path/

@@ -1,0 +1,17 @@
+---
+title: The Loss of Cooper Union
+author: Jordan Bowen
+subhead: 
+date: April 2013
+publication: Kinja
+link: http://jordanbowen.kinja.com/the-loss-of-cooper-union-478333312
+layout: post
+---
+This was a long time coming, and like the destruction of the Chelsea Hotel, marks the end of a certain kind of city, one that can sustain a viable, non-commercial creative culture. We live now in a city of unpaid internships and backbreaking rent and tuition, where hopeful young settlers must one after the other face the hard reality of a real estate and job market that has been sealed up in advance by those who got here first. As Patti Smith answered, when asked her advice to young people: don't come to New York. They took it from you. It's over. Manhattan is turning into Geneva, a city of great poverty and great wealth, without a middle class. A homogenous, crowded, tourist-infested, expensive, and rather dull capital of the world.
+
+Cooper Union's flagship is the Foundation Building, an Italianate brownstone that was once the crown of the wide expanse of Astor Place. Abraham Lincoln gave a famous speech in its Great Hall. The school was founded to offer free classes to the illiterate masses boiling up from the slums of the Bowery; Peter Cooper was himself illiterate. At the center of Astor's triangular plaza is a rotating black cube turned on one point, under which skaters and punks used to loiter. When I first came to New York, the curvy glass condo tower, the tacky "Sculpture for Living" lined with a first floor Chase Bank that glows fluorescent at all hours, was a parking lot in which people bought and sold pornography. The former Cooper Union engineering building, across from the Foundation Building, was a dingy, mid-century brick and metal structure with a cafe and a line of trees in front. This year, it was torn down and replaced with a monolithic black "Death Star," an architectural horror that belongs better in midtown, or Houston, and now cuts a black shadow across Astor Place.
+
+Change has been tearing apart and rebuilding New York since it was a Dutch colony. There's no point crying about it. But there is a poignant loss to Cooper Union, which woefully mismanaged its money and generously rewarded the upper echelon of its administration even as the ship began to sink. This culminated in a new spaceship of a building, built to enhance the school's prestige and reviled by students and faculty alike, which it constructed while boasting the institution had weathered the economic storm of 2008 in sound financial health. That was either an illusion or a lie, and within two years the situation had become unsustainable. The new president of Cooper tried to break the news softly that Cooper was insolvent, that it might give up its non-profit status and 'explore' the option of tuition. Like all politically sensitive fiats, the Board of Trustees made a show of community involvement just to soften the blow, but the decision itself was final. The school was shocked, then erupted into a bitter and futile protest.
+
+Cooper Union, because it was free, was anything but dead. That leverage is, after all, the point of higher education. When Cooper becomes more like Columbia, an exclusive brand sold to those who are expensively prepped for admission and able or willing to pay, it will be yet another rung in the ladder lost to those still on the lower rungs. It will be another once free space in the city taken over by wealth, another desirable amenity in the luxury conclave of New York.
+

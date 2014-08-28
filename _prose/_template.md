@@ -2,7 +2,7 @@
 title: 
 author: 
 subhead: 
-date:  
+date: 
 publication: 
 link: 
 layout: post
