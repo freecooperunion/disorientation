@@ -4,6 +4,6 @@ author:
 subhead: 
 date:  
 publication: 
-url: 
+link: 
 layout: post
 ---

@@ -2,10 +2,10 @@
 title: Save Cooper Union
 author: Sangu Iyer
 publication: n+1
+date: April 2013
 link: https://nplusonemag.com/online-only/online-only/save-cooper-union/
 layout: post
 ---
-
 On November 17, 2011, at a student rally in Union Square organized by Occupy Wall Street, a young woman’s words echoed through the crowd via the people’s microphone: “Education should be as free as air and water.”
 
 The rally came just a few weeks after Dr. Jamshed Bharucha, who became president of Cooper Union in July 2011, revealed the grim financial condition of the school and suggested that the historically tuition-free institution could no longer be free. “I’m not saying I want to charge tuition,” Bharucha said at a subsequent meeting in his office with alumni. “I’m saying the institution is going down. We have to have all options on the table and hopefully this is only the last resort.”
@@ -14,7 +14,7 @@ Cooper Union is currently only one of a handful of schools that offer tuition-fr
 
 In an era in which air and water have become increasingly commoditized, education at Cooper Union until now has been spared the fate of the University of California. This small art, architecture, and engineering college, with a student body of fewer than one thousand students, is dealing not only with a financial crisis but also an existential one. What is playing out at this East Village institution speaks both to the national debate about debt, labor, and the affordability of higher education and to Cooper Union’s history, which in its early years was so closely tied to the desires of the nation.
 
-
+---
 
 For more than 150 years, Cooper Union has been a symbol of a certain American dream. Founder Peter Cooper himself seemed to come right out of one of Horatio Alger’s tales. Born during the Washington Administration, in 1791, he rose through a series of craftsman jobs, with almost no formal education, to acquire wealth through innovation. His inventions included the first gelatin dessert, the structural I-beam, and perhaps most notably, the first steam locomotive to be used on a common carrier railroad. Cooper also devoted decades to public service, becoming a New York City alderman, supporting the antislavery and Native American reform movements, and at 85 serving as the presidential nominee of the populist Greenback Party. He became one of the wealthiest men in New York, but unlike his robber-baron contemporaries, Cooper believed that wealth was a public trust.
 
