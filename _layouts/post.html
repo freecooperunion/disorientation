@@ -10,11 +10,11 @@ layout: default
 		<h1>{{ page.title }}</h1>
 		{% if page.author %}<h2>{{ page.author }}</h2>{% endif %}
 		{% if page.date and page.publication %}
-			<p>Originally published at <em>{% if page.link %}<a href="{{ page.link }}">{% endif %}{{ page.publication }}{% if page.link %}</a>{% endif %}</em>, {{ page.date }}.</p>
+			<span>Originally published at <em>{% if page.link %}<a href="{{ page.link }}">{% endif %}{{ page.publication }}{% if page.link %}</a>{% endif %}</em>, {{ page.date }}.</span>
 		{% elsif page.publication %}
-			<p>Originally published by <em>{{ page.publication }}</em>.</p>
+			<span>Originally published by <em>{{ page.publication }}</em>.</span>
 		{% elsif page.date %}
-			<p>Originally published {{ page.date }}.</p>
+			<span>Originally published {{ page.date }}.</span>
 		{% endif %}
 	</header>
 	{{content}}
