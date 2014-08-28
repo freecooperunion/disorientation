@@ -1,6 +1,7 @@
 ---
 title: The Tragedy of Cooper Union (A Six-Part Series)
 author: Felix Salmon
+publication: Reuters
 layout: post
 ---
 <!--

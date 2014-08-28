@@ -1,6 +1,8 @@
 ---
 title: Save Cooper Union
 author: Sangu Iyer
+publication: n+1
+link: https://nplusonemag.com/online-only/online-only/save-cooper-union/
 layout: post
 ---
 
