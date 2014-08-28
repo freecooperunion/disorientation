@@ -4,6 +4,7 @@ author: Sam Rosner, Art ‘17
 subhead: 
 date: December 2013
 layout: post
+order: 9
 ---
 Stop what you're doing. Take a good look around.  Look out the window and look out into the hallway.  Have you spoken to anybody outside of your school today?  If you're an engineer, have you talked to an artist today?  Artists, have you spoken to an engineer today?  Architects, have you left your studio today?  
 

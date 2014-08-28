@@ -6,6 +6,7 @@ date: April 2013
 publication: Kinja
 link: http://jordanbowen.kinja.com/the-loss-of-cooper-union-478333312
 layout: post
+order: 2
 ---
 This was a long time coming, and like the destruction of the Chelsea Hotel, marks the end of a certain kind of city, one that can sustain a viable, non-commercial creative culture. We live now in a city of unpaid internships and backbreaking rent and tuition, where hopeful young settlers must one after the other face the hard reality of a real estate and job market that has been sealed up in advance by those who got here first. As Patti Smith answered, when asked her advice to young people: don't come to New York. They took it from you. It's over. Manhattan is turning into Geneva, a city of great poverty and great wealth, without a middle class. A homogenous, crowded, tourist-infested, expensive, and rather dull capital of the world.
 

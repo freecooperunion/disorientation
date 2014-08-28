@@ -1,7 +1,7 @@
 permalink: :title
 baseurl: /disorientation
 collections:
-  breakdown:
+  lowdown:
     output: true
     permalink: /:path/
   background:

@@ -6,6 +6,7 @@ link: http://www.brooklynrail.org/2012/10/artseen/removing-barriers-mobilizes-re
 date: October 2012
 subtitle: David Gersten, School of Architecture Faculty, answers the question what do elevators, undersea cables, democracy, and Cooper have in common?
 layout: post
+order: 7
 ---
 
 _This is the text of an address delivered by David Gersten in the Great Hall of the Cooper Union on December 5, 2011._

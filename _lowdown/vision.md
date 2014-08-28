@@ -1,5 +1,6 @@
 ---
-title: Code of Conduct & Private Security
+title: Vision
+order: 7
 layout: post
 ---
 Cooper union should be a beacon

@@ -1,5 +1,6 @@
 ---
 title: Step Down
+order: 4
 subtitle: A look at Bharucha’s track record as President
 layout: post
 ---

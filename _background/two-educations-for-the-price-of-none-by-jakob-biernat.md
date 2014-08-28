@@ -4,6 +4,7 @@ author: Jakob Biernat, Art ‘16
 subhead: 
 date: May 2013
 layout: post
+order: 8
 ---
 It is often written that the crisis and scandal of Cooper Union is a crystallization of a national and global struggle in higher education, most recently in ArtInfo’s article by Ben Davis:
 

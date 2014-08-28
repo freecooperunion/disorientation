@@ -6,6 +6,7 @@ date:
 publication: 
 link: 
 layout: post
+order:1
 ---
 _Former Trustee Mike Borkowsky’s statement to the Board of Trustees in response to Board Chair Richard Lincer’s email dated July 18, 2014._
 

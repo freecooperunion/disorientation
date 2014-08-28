@@ -4,17 +4,21 @@ layout: post
 body_id: glossary
 ---
 <table>
+	<tr id="adjuncts"> <th>Adjuncts</th> <td>Adjunct professors are part-time, non-salaried, non-tenure track faculty members who are paid for each class they teach. Adjuncts have no office or materials or supplies, limited technology and administrative support, are not paid for office hours, and have no job security since they are often hired per class. Studies have also shown that sustained interaction with faculty members beyond the classroom directly correlates with measures of student success such as retention and progress toward degree. </td> </tr>
+	<tr id="administrators"> <th>Administrators</th> <td>College employees responsible for the maintenance and supervision of the institution separate from the faculty. Administrative responsibilities include academic affairs, school finances, fundraising, public affairs, and press. </td> </tr>
 	<tr id="archsc"><th>ArchSC</th><td>Architecture Student Council</td></tr>
 	<tr id="asc"><th>ASC</th><td>Art Student Council</td></tr>
 	<tr id="bda"><th>BDA</th><td>Beau Dietl &amp; Associates. Private security firm hired by Cooper's administration in 2014.</td></tr>
 	<tr id="bhqfu"><th>BHQFU</th><td>Bruce High Quality Foundation University. Alphabet City based extra-curricular art school featuring free night classes, founded by Bruce High Quality Foundation, an anonymous art collective composed largely of Cooper alums. Served as a space for Free Cooper organizing in Fall 2013.</td></tr>
+	<tr id="bloat"> <th>Bloat</th> <td>Administrative bloat is a term used for the inflated administrative ratios in recent years. Between 1993 and 2007, spending on administration rose twice as fast as funding for research and teaching at 198 leading U.S. universities.<br><br>At a time where college budgets are tight, students are amassing record debt, and tuition is skyrocketing, the ratio of administrators to faculty has jumped up  in the past decade: across universities nationwide employment of administrators has risen 60 percent from 1993 to 2009, 10 times the growth rate for tenured faculty.</td> </tr>
+	<tr id="bot"> <th>BOT</th> <td>Board of Trustees. Governs the college by establishing broad policies and objectives. Cooper’s board is composed of about twenty unpaid members that meet about four times a year. The board appoints the President.</td> </tr>
 	<tr id="bse"><th>BSE</th><td>Bachelor of Science and Engineering.</td></tr>
 	<tr id="charas"><th>CHARAS</th><td>East Village community center founded in the 60s that is controversially being redeveloped into a luxury dormitory. Cooper's administration signed a deal with developer Gregg Singer to be an anchor tenant. In 2013, Free Cooper <a href="http://freecooperunion.org/disorientation/timeline/#54">marched with CHARAS</a> to ask the city to return the center to the community.</td></tr>
 	<tr id="che"><th>ChE</th><td>Chemical Engineer</td></tr>
 	<tr id="cive"><th>CivE</th><td>Civil Engineer</td></tr>
 	<tr id="cuaa"><th>CUAA</th><td>Cooper Union Alumni Association</td></tr>
 	<tr id="cucft"><th>CUFCT</th><td>Cooper Union Federation of College Teachers. Full-time faculty union.</td></tr>
-	<tr id="emt"><th>EMT</th><td>Emergency Management Team. A group of appointed administrators which was supposedly put together to deal with events like natural disasters, however the only time the group has been officially convened was to deal with the occupation.</td></tr>
+	<tr id="emt"><th>EMT</th><td>Emergency Management Team. A group of appointed administrators which was supposedly put together to deal with events like natural disasters, however the only time the group has been officially convened was to <a href="http://freecooperunion.org/disorientation/timeline/#49">deal with the occupation</a>.</td></tr>
 	<tr id="eoys"><th>EOYS</th><td>End of Year Show. At the end of each school year, students and faculty from all three schools push furniture into storage areas and convert the entirety of campus into an exhibition. In 2013, Free Cooper took over the 7th floor for an unauthorized exhibition for free education.</td></tr>
 	<tr id="ertf"><th>ERTF</th><td>Expense Reduction Task Force</td></tr>
 	<tr id="esc"><th>ESC</th><td>Engineering Student Council</td></tr>
@@ -26,12 +30,14 @@ body_id: glossary
 	<tr id="jsc"><th>JSC</th><td>Joint Student Council</td></tr>
 	<tr id="lemon"><th>Lemon</th><td>asdas</td></tr>
 	<tr id="me"><th>ME</th><td>Mechanical Engineer</td></tr>
+	<tr id="moa"><th>MOA</th><td>Memorandum of agreement. <a href="http://www.cualumni.com/s/1289/images/editor_documents/cuaa_handbook.pdf">PDF</a></td></tr>
 	<tr id="nab"><th>NAB</th><td>New Academic Building</td></tr>
 	<tr id="plt"><th>PLT</th><td>Presidential Leadership Team</td></tr>
 	<tr id="ra"><th>RA</th><td>Residential Advisor</td></tr>
 	<tr id="red-clock"><th>Red Clock</th><td>asdas</td></tr>
 	<tr id="rtf"><th>RTF</th><td>Revenue Task Force</td></tr>
+	<tr id="tenure"> <th>Tenure</th> <td>Tenure refers to a senior professor’s contractual right not to have their position terminated without just cause. In 1975, 57% of all college professors had tenure or were on a tenure track, in 2007, that number had fallen to 31%. </td> </tr>
+	<tr id="unions"> <th>Unions</th> <td>Unions are an organization of workers that have banded together to achieve common goals such as protecting the integrity of their trade, achieving higher pay, increasing the number of employees and employer hires, and bettering working conditions. Unions in general are in decline in the United States, academic unions in particular are under attack, and a large majority of faculty members hold part-time, nontenurable jobs that benefit from collective bargaining power.<br><br>Some campuses have made it difficult for faculty and staff to organize and have a voice as decisions have become more centralized within institutions.</td> </tr>
 	<tr id="wg"><th>WG</th><td>Working Group</td></tr>
 	<tr id="yellow-clock"><th>Yellow Clock</th><td>asdas</td></tr>
-	<tr id="moa"><th>MOA</th><td>Memorandum of agreement. <a href="http://www.cualumni.com/s/1289/images/editor_documents/cuaa_handbook.pdf">PDF</a></td></tr>
 </table>

@@ -1,59 +1,63 @@
 ---
 layout: default
 ---
-
 <header style='background: url({{site.baseurl}}/img/cover.jpg);background-size:cover;background-position:center;width:100%;height:500px;'>
 </header>
-<section id="content">
-
 {{page.intro}}
 <section>
-	<h2 class="read-online">Breakdown</h2>
-	<p>The breakdown is a compilation of the key things you need to know: recent developments, active groups, and ongoing issues.</p>
+	<h2 class="section-heading">Lowdown</h2>
+	<p>Brief introductions to the things you need to know: recent developments, active groups, and ongoing issues.</p>
 		<nav>
-			<dl>
-				{% for item in site.breakdown %}
-				<dt>
-					<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a>
-				</dt>
+			<ol>
+				{% for order in (1..7) %}
+					{% for item in site.lowdown | sort: 'title' %}
+						{% if item.order == order %}
+						<li>
+							<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a>
+						</li>
+						{% endif %}
+					{% endfor %}
 				{% endfor %}
-			</dl>
+			</ol>
 		</nav>
 </section>
 <section>
-	<h2 class="read-online">Background</h2>
+	<h2 class="section-heading">Background</h2>
 	<p>These essays dig into why Cooper matters, what's going wrong with education everywhere, and how we might fix it.</p>
 		<nav>
 			<dl>
-				{% for item in site.background %}
-				<dt>
-					<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a> by {{item.author}}
-				</dt>
-				<dd><p>{{ item.subtitle }}</p></dd>
-				{% endfor %}
+				{% for order in (1..15) %}
+					{% for item in site.background %}
+						{% if item.order == order %}
+							<dt>
+								<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a>
+							</dt>
+							{% if item.subtitle %}<dd><p>{{ item.subtitle }}</p></dd>{% endif %}
+						{% endif %}
+					{% endfor %}
+				{% endfor %}				
 			</dl>
 		</nav>
 </section>
 <section>
-	<h2 class="read-online">Resources</h2>
-		<nav>
-			<dl>
-				{% for item in site.resources %}
-				<dt>
-					<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a>
-				</dt>
-				{% endfor %}
-			</dl>
-		</nav>
-	</section>
-	<section>
-		<h2>Colophon</h2>
-	</section>
-	{{content}}
+	<h2 class="section-heading">Resources</h2>
+	<nav>
+		<ul>
+			{% for item in site.resources %}
+			<li>
+				<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</nav>
+</section>
+<section>
+	<h2 class="section-heading">Colophon</h2>
+</section>
+{{content}}
 
-	<section>
-		<h2>Download + Print</h2>
-	<a href="{{site.baseurl}}/download/disorientation-reader-pages.pdf">Sequential pages PDF (good for reading on screen).</a><br><br>
-		<a href="{{site.baseurl}}/download/disorientation-reader-booklet.pdf">Imposed PDF (good for double-sided printing and stapling).</a>
-	</section>
-</section
+<section>
+	<h2 class="section-heading">Download + Print</h2>
+<a href="{{site.baseurl}}/download/disorientation-reader-pages.pdf">Sequential pages PDF (good for reading on screen).</a><br><br>
+	<a href="{{site.baseurl}}/download/disorientation-reader-booklet.pdf">Imposed PDF (good for double-sided printing and stapling).</a>
+</section>

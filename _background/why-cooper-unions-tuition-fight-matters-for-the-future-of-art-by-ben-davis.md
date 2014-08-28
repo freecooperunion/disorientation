@@ -6,6 +6,7 @@ date: May 2013
 publication: ArtInfo
 link: http://www.blouinartinfo.com/news/story/905940/why-cooper-unions-tuition-fight-matters-for-the-future-of-art?qt-article_detail_popular=2
 layout: post
+order: 3
 ---
 People should be angry about what has happened at Cooper Union.
 

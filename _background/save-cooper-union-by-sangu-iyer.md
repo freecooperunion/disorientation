@@ -5,6 +5,7 @@ publication: n+1
 date: April 2013
 link: https://nplusonemag.com/online-only/online-only/save-cooper-union/
 layout: post
+order: 9
 ---
 On November 17, 2011, at a student rally in Union Square organized by Occupy Wall Street, a young woman’s words echoed through the crowd via the people’s microphone: “Education should be as free as air and water.”
 

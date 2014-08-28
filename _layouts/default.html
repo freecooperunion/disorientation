@@ -3,8 +3,6 @@
 	<meta charset="utf-8">
 	<title>{{ page.title }}</title>
 	<meta name="viewport" content="width = device-width, initial-scale = 1.0,maximum-scale = 1.0" />
-	<script type="text/javascript" src="//use.typekit.net/guj5das.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 </head>
 <body {% if page.body_id %}id="{{ page.body_id }}"{% endif %}>
@@ -15,9 +13,11 @@
 		<li><a href="{{site.baseurl}}/timeline">Timeline</a></li>
 	</ul>
 </nav>
-{{ content }}
+<section id="content">
+ {{ content }}
+ </section>
 <footer>
-<a href="{{site.baseurl}}"><img src="{{site.baseurl}}/img/logo.png" title="Free Cooper Union" /></a>
+<a href="/"><img src="{{site.baseurl}}/img/logo.png" title="Free Cooper Union" /></a>
 <p>Stay Free or Die Tryin</p>
 </footer>
 </body>

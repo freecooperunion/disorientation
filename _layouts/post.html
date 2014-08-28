@@ -4,8 +4,11 @@ layout: default
 ---
 <article>
 	<header>
+		<h2 class="section-heading">{{ page.collection }}</h2>
+		{{page.previous}}
+		{{page.next}}
 		<h1>{{ page.title }}</h1>
-		<h2>{{ page.author }}</h2>
+		{% if page.author %}<h2>{{ page.author }}</h2>{% endif %}
 		{% if page.date and page.publication %}
 			<p>Originally published at <em>{% if page.link %}<a href="{{ page.link }}">{% endif %}{{ page.publication }}{% if page.link %}</a>{% endif %}</em>, {{ page.date }}.</p>
 		{% elsif page.publication %}
@@ -18,17 +21,3 @@ layout: default
 </article>
 
 <hr />
-
-<section id="read-online">
-	<h2 class="read-online">Read Online</h2>
-		<nav>
-			<dl>
-				{% for item in site.prose %}
-				<dt>
-					<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a> by {{item.author}}
-				</dt>
-				<dd><p>{{ item.subtitle }}</p></dd>
-				{% endfor %}
-			</dl>
-		</nav>
-</section>
