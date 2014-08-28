@@ -1,5 +1,6 @@
 ---
 title: Removing Barriers Mobilizes Resources
+author: David Gersten
 subtitle: David Gersten, School of Architecture Faculty, answers the question what do elevators, undersea cables, democracy, and Cooper have in common?
 layout: post
 ---

@@ -16,9 +16,9 @@ layout: default
 		<h2>dis<span style="font-family:CooperUnion;text-transform:uppercase;">Contents</span></h2>
 		<nav>
 			<dl>
-				{% for item in site.posts %}
+				{% for item in site.reader %}
 				<dt>
-					<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a>
+					<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a> by {{item.author}}
 				</dt>
 				<dd><p>{{ item.subtitle }}</p></dd>
 				{% endfor %}
