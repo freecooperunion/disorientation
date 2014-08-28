@@ -10,7 +10,7 @@ layout: default
 			<p>Originally published at <em>{% if page.link %}<a href="{{ page.link }}">{% endif %}{{ page.publication }}{% if page.link %}</a>{% endif %}</em>, {{ page.date }}.</p>
 		{% elsif page.publication %}
 			<p>Originally published by <em>{{ page.publication }}</em>.</p>
-		{% elsif page.title %}
+		{% elsif page.date %}
 			<p>Originally published {{ page.date }}.</p>
 		{% endif %}
 	</header>

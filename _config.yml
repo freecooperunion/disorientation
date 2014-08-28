@@ -1,6 +1,12 @@
 permalink: :title
 baseurl: /disorientation
 collections:
-  prose:
+  breakdown:
     output: true
-    permalink: /prose/:path/
+    permalink: /:path/
+  background:
+    output: true
+    permalink: /:path/
+  resources:
+    output: true
+    permalink: /:path/

@@ -7,25 +7,45 @@ layout: default
 <section id="content">
 
 	{{page.intro}}
-	<section>
-		<h2>Facts &amp; Figures</h2>
-	</section>
-	<section>
-		<h2 class="read-online">Prose</h2>
-			<nav>
-				<dl>
-					{% for item in site.prose %}
-					<dt>
-						<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a> by {{item.author}}
-					</dt>
-					<dd><p>{{ item.subtitle }}</p></dd>
-					{% endfor %}
-				</dl>
-			</nav>
-	</section>
-	<section>
-		<h2>Resources</h2>
-	</section>
+		<section>
+			<h2 class="read-online">Breakdown</h2>
+			<p>The breakdown is a compilation of the key things you need to know: recent developments, active groups, and ongoing issues.</p>
+				<nav>
+					<dl>
+						{% for item in site.breakdown %}
+						<dt>
+							<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a>
+						</dt>
+						{% endfor %}
+					</dl>
+				</nav>
+		</section>
+		<section>
+			<h2 class="read-online">Background</h2>
+			<p>These essays dig into why Cooper matters, what's going wrong with education everywhere, and how we might fix it.</p>
+				<nav>
+					<dl>
+						{% for item in site.background %}
+						<dt>
+							<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a> by {{item.author}}
+						</dt>
+						<dd><p>{{ item.subtitle }}</p></dd>
+						{% endfor %}
+					</dl>
+				</nav>
+		</section>
+		<section>
+			<h2 class="read-online">Resources</h2>
+				<nav>
+					<dl>
+						{% for item in site.resources %}
+						<dt>
+							<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a>
+						</dt>
+						{% endfor %}
+					</dl>
+				</nav>
+		</section>
 	<section>
 		<h2>Colophon</h2>
 	</section>

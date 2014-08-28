@@ -1,6 +1,5 @@
 ---
-title: On The Tuition Issue
-subtitle: Excerpts by **Peter Buckley**, humanities faculty, vice-president of the full-time faculty union, and historian of The Cooper Union
+title: Frequent Misleading Questions
 layout: post
 ---
 Cooper Union was established as a free school in almost all of its educational activities.  The night schools of art and science were always free, and explicitly made so in the founding documents.  The Day School of Art for Women, originally called the Female School of Design, has a more complex history that is worth examining in close detail given the way that the very small numbers of fee paying students admitted to the school have been shoved into a Trojan horse and wheeled into Peter Cooper’s founding intent.
