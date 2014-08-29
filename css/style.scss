@@ -411,11 +411,11 @@ nav#sidebar {
 		text-decoration:none;
 	}
 	section {
-		display:none;
 		vertical-align:top;
-		display:inline-block;
+		display:none;
 		margin:0;
 		padding:0;
+		section {display:inline-block;}
 		ul, ol {
 			margin:0;
 			padding:0 0 0 1em;
