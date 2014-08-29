@@ -5,7 +5,7 @@
 	{% for order in (1..7) %}
 		{% for item in site.lowdown | sort: 'title' %}
 			{% if item.order == order %}
-		    <option value="{{ item.url }}" {% if page.url == item.url %}selected="selected"{% endif %}>&nbsp;&nbsp;&nbsp;&nbsp;{{ item.title }}</option>
+		    <option value="{{site.baseurl}}{{ item.url }}" {% if page.url == item.url %}selected="selected"{% endif %}>&nbsp;&nbsp;&nbsp;&nbsp;{{ item.title }}</option>
 			{% endif %}
 		{% endfor %}
 	{% endfor %}
@@ -13,13 +13,13 @@
 	{% for order in (1..15) %}
 		{% for item in site.background %}
 			{% if item.order == order %}
-		    <option value="{{ item.url }}" {% if page.url == item.url %}selected="selected"{% endif %}>&nbsp;&nbsp;&nbsp;&nbsp;{{ item.title }}</option>
+		    <option value="{{site.baseurl}}{{ item.url }}" {% if page.url == item.url %}selected="selected"{% endif %}>&nbsp;&nbsp;&nbsp;&nbsp;{{ item.title }}</option>
 			{% endif %}
 		{% endfor %}
 	{% endfor %}				
 <option value="" disabled>R E S O U R C E S</option>
 {% for item in site.resources %}
-		    <option value="{{ item.url }}" {% if page.url == item.url %}selected="selected"{% endif %}>&nbsp;&nbsp;&nbsp;&nbsp;{{ item.title }}</option>
+		    <option value="{{site.baseurl}}{{ item.url }}" {% if page.url == item.url %}selected="selected"{% endif %}>&nbsp;&nbsp;&nbsp;&nbsp;{{ item.title }}</option>
 {% endfor %}
 </select>
 </form>
