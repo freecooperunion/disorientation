@@ -102,6 +102,11 @@ article {
 		margin:30px 0 20px 0;
 
 	}
+	header {
+		h2 {
+			margin:0 0 10px 0;
+		}
+	}
 	figure {
 		display:block;
 		width:100%;
@@ -392,10 +397,12 @@ nav#sidebar {
 	line-height:20px!important;
 	width:95%;
 	padding:10px 2.5% 20px 2.5%;
-	background:#ccc;
+	background:#222;
 	display:none;
+	color:gray;
 	li a:link, li a:visited {
 		padding:0;
+		color:gray;
 	}
 	.current {
 		font-weight:bold!important;
