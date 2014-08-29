@@ -7,7 +7,9 @@ subtitle: Part one of School of Engineering alumna Sangu Iyer's exhaustive resea
 link: https://nplusonemag.com/online-only/online-only/save-cooper-union/
 layout: post
 order: 10
+img: /img/freeschool.png
 ---
+
 On November 17, 2011, at a student rally in Union Square organized by Occupy Wall Street, a young woman’s words echoed through the crowd via the people’s microphone: “Education should be as free as air and water.”
 
 The rally came just a few weeks after Dr. Jamshed Bharucha, who became president of Cooper Union in July 2011, revealed the grim financial condition of the school and suggested that the historically tuition-free institution could no longer be free. “I’m not saying I want to charge tuition,” Bharucha said at a subsequent meeting in his office with alumni. “I’m saying the institution is going down. We have to have all options on the table and hopefully this is only the last resort.”

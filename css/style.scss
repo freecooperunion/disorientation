@@ -32,12 +32,14 @@ h1 {
 h2, h3 {
 	font-family: Avenir, sans-serif;
 }
-
+h2 {
+	font-weight:100;
+}
 h2.section-heading {
 	font-weight:100!important;
-	background:#000;
+	background:#333 url("http://api.thumbr.it/whitenoise-400x200.png?background=000000ff&noise=cccccc&density=80&opacity=80");
 	color:#fff;
-	padding:5px 7px;
+	padding:5px 10px;
 	display:inline-block;
 	text-transform:uppercase;
 	letter-spacing:4px;
@@ -56,7 +58,7 @@ h3 {
 	margin-bottom:0;
 }
 
-p {
+p, ul {
 	padding-top:1em!important;
 	margin-top:0;
 }
@@ -87,11 +89,19 @@ article {
 	padding:1em;
 	p, ul, ol, dl, blockquote {		
 		max-width:600px;
-		margin:auto
+		margin:auto;
 	}
 	hr {
-		max-width:400px;
-		margin:30px auto 10px auto;
+		max-width:200px;
+		margin:40px auto 25px auto;
+		border-top:1px solid #000;
+	}
+	ul li {
+		margin-bottom: 5px;
+	}
+	h2 {
+		margin:30px 0 20px 0;
+
 	}
 }
 img {
@@ -102,9 +112,8 @@ footer {
 	padding: 10px;
 	text-align:center;
 	border-top:1px solid #ccc;
-	font-family:CooperUnion;
+	font-family:Avenir;
 	text-transform:uppercase;
-	color:#c12530;
 }
 
 #download {
@@ -112,15 +121,6 @@ footer {
 	padding:15px;
 	border-radius:10px;
 	text-align: center;
-}
-#read-online {
-	padding:10px;
-	border:1px solid #000;
-	margin:10px 0;
-}
-#read-online h2.read-online {
-	margin-bottom:10px;
-	padding-bottom: 10px;
 }
 
 footer img {
