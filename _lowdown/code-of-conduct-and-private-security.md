@@ -1,6 +1,6 @@
 ---
 title: Code of Conduct & Private Security
-order: 6
+order: 5
 layout: post
 ---
 Code of Conduct and Campus Militarization

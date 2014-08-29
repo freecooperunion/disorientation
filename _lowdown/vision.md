@@ -1,6 +1,6 @@
 ---
 title: Vision
-order: 7
+order: 6
 layout: post
 ---
 Cooper union should be a beacon
