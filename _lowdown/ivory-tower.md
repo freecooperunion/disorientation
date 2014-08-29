@@ -2,6 +2,7 @@
 title: Ivory Tower
 order: 2
 layout: post
+img: /img/ivorytower.png
 ---
 In Summer 2013, the students occupying President Bharucha's office were approached by a team of documentary filmmakers led by Andrew Rossi (director of _Page One: Inside the New York Times_) about participating in their upcoming project “Ivory Tower,” an exposé on higher education across the country. The filmmakers followed the campaign through the entire Summer and into the Fall, documenting meetings, actions, and ongoing student organizing.
 

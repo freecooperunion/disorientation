@@ -6,6 +6,10 @@ body_id: glossary
 <table>
 	<tr id="adjuncts"> <th>Adjuncts</th> <td>Adjunct professors are part-time, non-salaried, non-tenure track faculty members who are paid for each class they teach. Adjuncts have no office or materials or supplies, limited technology and administrative support, are not paid for office hours, and have no job security since they are often hired per class. Studies have also shown that sustained interaction with faculty members beyond the classroom directly correlates with measures of student success such as retention and progress toward degree. </td> </tr>
 	<tr id="administrators"> <th>Administrators</th> <td>College employees responsible for the maintenance and supervision of the institution separate from the faculty. Administrative responsibilities include academic affairs, school finances, fundraising, public affairs, and press. </td> </tr>
+	<tr id="alumni-pioneer"> <th>Alumni Pioneer</th> <td></td> </tr>
+	<tr id="alumni-pioneer"> <th>Associates of Cooper Union</th> <td></td> </tr>
+	<tr id="alumni-pioneer"> <th>MOOC</th> <td></td> </tr>
+	<tr id="alumni-pioneer"> <th>Public vs. Private College</th> <td></td> </tr>
 	<tr id="archsc"><th>ArchSC</th><td>Architecture Student Council</td></tr>
 	<tr id="asc"><th>ASC</th><td>Art Student Council</td></tr>
 	<tr id="bda"><th>BDA</th><td>Beau Dietl &amp; Associates. Private security firm hired by Cooper's administration in 2014.</td></tr>
@@ -32,6 +36,7 @@ body_id: glossary
 	<tr id="me"><th>ME</th><td>Mechanical Engineer</td></tr>
 	<tr id="moa"><th>MOA</th><td>Memorandum of agreement. <a href="http://www.cualumni.com/s/1289/images/editor_documents/cuaa_handbook.pdf">PDF</a></td></tr>
 	<tr id="nab"><th>NAB</th><td>New Academic Building</td></tr>
+	<tr id="pioneer"> <th>Pioneer</th> <td>School newspaper.</td> </tr>
 	<tr id="plt"><th>PLT</th><td>Presidential Leadership Team</td></tr>
 	<tr id="ra"><th>RA</th><td>Residential Advisor</td></tr>
 	<tr id="red-clock"><th>Red Clock</th><td>asdas</td></tr>
@@ -40,9 +45,4 @@ body_id: glossary
 	<tr id="unions"> <th>Unions</th> <td>Unions are an organization of workers that have banded together to achieve common goals such as protecting the integrity of their trade, achieving higher pay, increasing the number of employees and employer hires, and bettering working conditions. Unions in general are in decline in the United States, academic unions in particular are under attack, and a large majority of faculty members hold part-time, nontenurable jobs that benefit from collective bargaining power.<br><br>Some campuses have made it difficult for faculty and staff to organize and have a voice as decisions have become more centralized within institutions.</td> </tr>
 	<tr id="wg"><th>WG</th><td>Working Group</td></tr>
 	<tr id="yellow-clock"><th>Yellow Clock</th><td>asdas</td></tr>
-	<tr id="pioneer"> <th>Pioneer</th> <td>School newspaper.</td> </tr>
-	<tr id="alumni-pioneer"> <th>Alumni Pioneer</th> <td></td> </tr>
-	<tr id="alumni-pioneer"> <th>MOOC</th> <td></td> </tr>
-	<tr id="alumni-pioneer"> <th>Public vs. Private College</th> <td></td> </tr>
-	<tr id="alumni-pioneer"> <th>Associates of Cooper Union</th> <td></td> </tr>
 </table>
