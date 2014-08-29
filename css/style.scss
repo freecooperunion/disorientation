@@ -81,6 +81,20 @@ a:hover, a:active {
 	line-height:26px;
 }
 
+figure {
+	display:block;
+	width:100%;
+	margin:auto;
+	img {
+		display:block;
+		max-width:100%;
+		margin:auto;
+	}
+	figcaption {
+		font-size:16px;
+		padding:.5em 0 0 0;
+	}
+}
 
 article {
 	margin:0 auto;
@@ -106,20 +120,6 @@ article {
 	header {
 		h2 {
 			margin:0 0 10px 0;
-		}
-	}
-	figure {
-		display:block;
-		width:100%;
-		margin:auto;
-		img {
-			display:block;
-			max-width:100%;
-			margin:auto;
-		}
-		figcaption {
-			font-size:16px;
-			padding:.5em 0 0 0;
 		}
 	}
 	blockquote {

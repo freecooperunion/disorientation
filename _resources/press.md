@@ -1,4 +1,4 @@
 ---
 title: Press Log
-layout: default
+layout: press
 ---

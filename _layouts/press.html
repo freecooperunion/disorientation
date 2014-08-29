@@ -1,0 +1,40 @@
+---
+layout: default
+body_id: press
+---
+
+<h1>{{page.title}}</h1>
+
+<ul id="press" reversed></ul>
+
+{% raw %}
+<script id="press-template" type="text/x-handlebars-template">
+	<li class="entry">
+		<h2><a href="{{link}}">{{title}}</a></h2>
+		<span class="meta">{{source}}{{#if author}}, {{#if twitter}}<a href="http://twitter.com/{{twitter}}">{{/if}}{{author}}{{#if twitter}}</a>{{/if}}{{/if}}}, {{date}}</p>
+	</li>
+</script>
+{% endraw %}
+
+<script type="text/javascript" src="{{site.baseurl}}/js/handlebars.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/js/jquery.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/js/tabletop.js"></script>
+<script type="text/javascript">
+	var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?key=0Aq0GkCYw2nm6dFFqVTJobFp3WnBVMUZocXhmNG9Xc0E&output=html';
+
+	$(document).ready( function() {
+		Tabletop.init( { key: public_spreadsheet_url,
+										 callback: showInfo,
+										 parseNumbers: true } );
+	});
+		
+	function showInfo(data, tabletop) {
+		var source   = $("#press-template").html();
+		var template = Handlebars.compile(source);
+
+		$.each( tabletop.sheets("Students").all(), function(i, press) {
+			var html = template(press);
+			$("ul#press").append(html);
+		});
+	}
+</script>
