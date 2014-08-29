@@ -399,7 +399,7 @@ nav#main {
 	font-size:16px!important;
 	line-height:20px!important;
 	width:95%;
-	padding:10px 2.5% 20px 2.5%;
+	padding:10px 2.5% 10px 2.5%;
 	background:#eee;
 	color:gray;
 	li a:link, li a:visited {
@@ -419,6 +419,7 @@ nav#main {
 	}
 	section.mobile {
 		text-align: center;
+		select {max-width:100%;}
 	}
 	section.nav-wrapper {
 		max-width:960px;
