@@ -7,6 +7,8 @@ subtitle: Penned in response to lazy journalism declaring the "End of an Era" at
 link: https://nplusonemag.com/online-only/online-only/you-can-t-just-end-an-era/
 layout: post
 order: 11
+prev: save-cooper-union-by-sangu-iyer
+next: the-tragedy-of-cooper-union-by-felix-salmon
 ---
 On April 23, 2013, Cooper Union’s board of trustees announced that this 154-year-old institution with a pillar of free education would start charging tuition to incoming students in Fall 2014. Each student would be charged about $20,000 per year, which the board described as a reduction from a full-tuition to a half-tuition scholarship. Board Chairman Mark Epstein delivered the announcement, saying, “Although we appreciate that these decisions are difficult for everyone to accept, we look forward to working together with all of you to building a future that will ensure the preservation of Cooper Union as a great educational institution that remains true to Peter Cooper’s founding principles.” It was hard to imagine how a Cooper Union with a $20,000 price tag in service of a massive deficit remained true to Peter Cooper’s wishes that the school not only be free of charge but also free of debt.
 

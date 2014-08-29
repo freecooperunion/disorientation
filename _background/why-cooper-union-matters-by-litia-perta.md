@@ -7,6 +7,8 @@ publication: The Brooklyn Rail
 link: http://brooklynrail.org/2011/12/local/why-cooper-union-matters
 layout: post
 order: 6
+next: removing-barriers-mobilizes-resources-by-david-gersten
+prev: academy-fight-song-by-thomas-frank
 ---
 On a clear night in early November 2011, hundreds of people filed into the Great Hall at Cooper Union. By 7:00, the auditorium’s 900 seats were full and hundreds of people crammed into standing room at the back. The event was not open to the public and security guards in the lobby were checking everyone for some form of Cooper ID. The current student body is counted at 918, so it only took a quick glance around to see that the event had drawn far more than just current students. Both faculty and alumnae had also come out in great numbers for the emergency meeting that had been called with Cooper Union’s Chairperson of the Board of Trustees, Mark Epstein, and his much quieter fellow Board member Richard Lincer.
 

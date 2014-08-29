@@ -5,6 +5,8 @@ subtitle: An open letter to incoming freshmen about self-care and Cooper politic
 date: May 2013
 layout: post
 order: 9
+prev: whats-your-legacy-by-sam-rosner
+next: save-cooper-union-by-sangu-iyer
 ---
 It is often written that the crisis and scandal of Cooper Union is a crystallization of a national and global struggle in higher education, most recently in ArtInfo’s article by Ben Davis:
 

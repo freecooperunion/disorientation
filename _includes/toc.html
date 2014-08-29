@@ -9,7 +9,7 @@
 						{% for item in site.lowdown | sort: 'title' %}
 							{% if item.order == order %}
 							<li>
-								<a href="{{site.baseurl}}{{item.url}}#content" {% if item.url == page.url %}class="current"{% endif %}>{{item.title}}</a>
+								<a href="{{site.baseurl}}{{item.url}}" {% if item.url == page.url %}class="current"{% endif %}>{{item.title}}</a>
 							</li>
 							{% endif %}
 						{% endfor %}
@@ -25,7 +25,7 @@
 						{% for item in site.background %}
 							{% if item.order == order %}
 								<li>
-									<a href="{{site.baseurl}}{{item.url}}#content" {% if item.url == page.url %}class="current"{% endif %}>{{item.title}}</a>
+									<a href="{{site.baseurl}}{{item.url}}" {% if item.url == page.url %}class="current"{% endif %}>{{item.title}}</a>
 								</li>
 							{% endif %}
 						{% endfor %}
@@ -39,7 +39,7 @@
 				<ul>
 					{% for item in site.resources %}
 					<li>
-						<a href="{{site.baseurl}}{{item.url}}#content" {% if item.url == page.url %}class="current"{% endif %}>{{item.title}}</a>
+						<a href="{{site.baseurl}}{{item.url}}" {% if item.url == page.url %}class="current"{% endif %}>{{item.title}}</a>
 					</li>
 					{% endfor %}
 				</ul>

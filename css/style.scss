@@ -72,7 +72,6 @@ p, ul, ol, iframe, figure, .keep-reading, blockquote {
 }
 
 a:link, a:visited {
-	text-decoration: none;
 	color:blue;
 }
 
@@ -205,6 +204,7 @@ hr {
 	}
 	#sidebar section {
 		display:block!important;
+		section {display:inline-block!important;}
 	}
 }
 

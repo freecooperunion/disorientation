@@ -7,6 +7,8 @@ subtitle: Part one of School of Engineering alumna Sangu Iyer's exhaustive resea
 link: https://nplusonemag.com/online-only/online-only/save-cooper-union/
 layout: post
 order: 10
+prev: two-educations-for-the-price-of-none-by-jakob-biernat
+next: you-cant-just-end-an-era-by-sangu-iyer
 ---
 
 <figure>
