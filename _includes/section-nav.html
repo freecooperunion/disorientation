@@ -2,18 +2,18 @@
 {% assign next_url = page.next | prepend:"/" | append: "/" %}
 {% assign prev_url = page.prev | prepend:"/" | append: "/" %}
   {% if item.url == next_url %}
-    <a href="{{item.url}}#content" class="keep-reading">
+    <a href="{{site.baseurl}}{{item.url}}#content" class="keep-reading">
       <h2 class="section-heading">Read Next</h2>
       <h2>{{item.title}}</h2>
       {% if item.subtitle %}<p>{{ item.subtitle }}</p>{% endif %}
     </a>
 	<script>
 	function leftArrowPressed() {
-		location.href = "{{prev_url}}#content"
+		location.href = "{{site.baseurl}}{{prev_url}}#content"
 	}
 
 	function rightArrowPressed() {
-		location.href = "{{next_url}}#content"
+		location.href = "{{site.baseurl}}{{next_url}}#content"
 	}
 
 	document.onkeydown = function(evt) {
