@@ -41,5 +41,8 @@ body_id: glossary
 	<tr id="wg"><th>WG</th><td>Working Group</td></tr>
 	<tr id="yellow-clock"><th>Yellow Clock</th><td>asdas</td></tr>
 	<tr id="pioneer"> <th>Pioneer</th> <td>School newspaper.</td> </tr>
-	<tr id="alumni-pioneer"> <td>Alumni Pioneer</td> <td></td> </tr>
+	<tr id="alumni-pioneer"> <th>Alumni Pioneer</th> <td></td> </tr>
+	<tr id="alumni-pioneer"> <th>MOOC</th> <td></td> </tr>
+	<tr id="alumni-pioneer"> <th>Public vs. Private College</th> <td></td> </tr>
+	<tr id="alumni-pioneer"> <th>Associates of Cooper Union</th> <td></td> </tr>
 </table>

@@ -14,3 +14,12 @@ From 1870, “free” was added to the official title of the day school.
 
 By 1869 then, all courses that led to certificates, diplomas or, eventually, degrees were free.  The 1902/3 date floated by the Office of the President is designed, for legal and ideological purposes, to separate free tuition from the era and intent of the founder. The date refers to the new day school of technology that only started in 1902.  The school could not have been free before 1902 because it didn’t exist! The President is overly keen to establish a new history of free tuition at Cooper Union to make sure that the mission of the whole college is only a matter of Carnegie’s cash rather than 
 Cooper’s conviction.
+
+
+## I didn't know administration turned down Jeff's donation
+
+## Auction that got turnt down
+
+## One year fund got diverted and sabotaged
+
+## Free Since 1859
