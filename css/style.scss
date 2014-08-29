@@ -85,8 +85,8 @@ a:hover, a:active {
 
 
 article {
-	margin:40px auto;
-	padding:1em;
+	margin:0 auto;
+	padding:0 1em;
 	p, ul, ol, dl, blockquote {		
 		max-width:600px;
 		margin:auto;
@@ -150,13 +150,16 @@ hr {
 	/* all other code if its not mobile or tablet */
 	#content, nav#top, footer {
 		margin:auto;
-		max-width:800px;
+		max-width:960px;
 	}
 	.metadata {
 		display:inline-block;
 		width:200px;
 		float:right;
 		margin:0 0 10px 20px;
+	}
+	#sidebar {
+		display:block!important;
 	}
 }
 
@@ -300,26 +303,6 @@ body#timeline {
 
 	}
 }
-nav#main {
-	width:100%;
-	z-index:3;
-	margin:0;
-	text-align:center;
-	ul {
-		background:#fff;
-		padding:0;
-		margin:0;
-		width:100%;
-		list-style-type:none;
-		li {
-			display:inline-block;
-			padding:10px;
-			a {
-				color:gray;
-			}
-		}
-	}
-}
 body#glossary {
 	table {
 		width:100%;
@@ -363,4 +346,42 @@ dd p {
 	color:gray;
 	font-size:16px;
 	line-height:20px;
+}
+
+nav#sidebar {
+	font-size:16px!important;
+	line-height:20px!important;
+	width:95%;
+	padding:10px 2.5% 20px 2.5%;
+	background:#ccc;
+	display:none;
+	li a:link, li a:visited {
+		padding:0;
+	}
+	.current {
+		font-weight:bold!important;
+	}
+	h2 a:link, h2 a:visited {
+		color:#fff;
+		text-decoration:none;
+	}
+	section {
+		vertical-align:top;
+		display:inline-block;
+		margin:0;
+		padding:0;
+		ul, ol {
+			margin:0;
+			padding:0 0 0 1em;
+		}
+	}
+	section.lowdown {
+		width:42%
+	}
+	section.background {
+		width:42%
+	}
+	section.resources {
+		width:15%
+	}
 }

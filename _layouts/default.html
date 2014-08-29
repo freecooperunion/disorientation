@@ -6,14 +6,11 @@
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 </head>
 <body {% if page.body_id %}id="{{ page.body_id }}"{% endif %}>
-<nav id="main">
-	<ul>
-		<li><a href="{{site.baseurl}}/">Disorientation</a></li>
-		<li><a href="{{site.baseurl}}/">Lowdown</a></li>
-		<li><a href="{{site.baseurl}}/">Background</a></li>
-		<li><a href="{{site.baseurl}}/">Resources</a></li>
-	</ul>
-</nav>
+{% if page.layout == "post" %}
+	<nav id="sidebar" class="{{page.collection}}">
+	{% include toc.html %}
+	</nav>
+{% endif %}
 <section id="content">
  {{ content }}
  </section>
