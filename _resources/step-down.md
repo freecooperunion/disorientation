@@ -1,5 +1,5 @@
 ---
-title: Step Down
+title: Reasons Why Jamshed Bharucha Should Step Down
 order: 4
 subtitle: A look at Bharucha’s track record as President
 layout: post

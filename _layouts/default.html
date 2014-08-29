@@ -5,9 +5,14 @@
 	<meta name="viewport" content="width = device-width, initial-scale = 1.0,maximum-scale = 1.0" />
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 </head>
-<body {% if page.body_id %}id="{{ page.body_id }}"{% endif %}>
-<nav id="sidebar" class="{{page.collection}}">
-	{% include toc.html %}
+<body {% if page.body_id %}id="{{ page.body_id }}"{% endif %} class="{{page.collection}}">
+<nav id="main">
+	<section class="desktop">
+		{% include toc.html %}
+	</section>
+	<section class="mobile">
+	{% include toc-select.html %}
+	</section>
 </nav>
 <section id="content">
  {{ content }}

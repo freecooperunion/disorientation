@@ -5,6 +5,8 @@ publication: Reuters
 subtitle: In a series of six blog posts written for Reuters between 2011 and 2013, financial analyst Felix Salmon wrote what many consider to be the canonical account of a collapse in leadership at Cooper Union.
 layout: post
 order: 12
+prev: you-cant-just-end-an-era-by-sangu-iyer
+next: glossary
 ---
 <!--
    		  The Tragedy of Cooper Union

@@ -90,7 +90,12 @@ article {
 		max-width:600px;
 		margin:auto;
 	}
-
+	blockquote p {
+		margin: 0 2em;
+		font-size:16px;
+		line-height:20px;
+		font-style:italic;
+	}
 	ul li {
 		margin-bottom: 5px;
 	}
@@ -119,16 +124,18 @@ article {
 	}
 	blockquote {
 		&.pullquote {
-			background:gray;
 			padding:1em;
-			color:#fff;
+			margin: 1em;
+			color:gray;
 			font-weight:100;
 			font-size:20px;
 			line-height:30px;
+			letter-spacing: 1px;
+			border:1px solid gray;
 		}
 		&.short {font-size:30px;line-height:1.5em;}
 		&.medium {}
-		&.long {}
+		&.long {font-size:22px; line-height:1.15em;}
 	}
 	@media (min-width: 720px) {
 		.pull-right {
@@ -140,6 +147,13 @@ article {
 			float:left;
 			width:33%;
 			margin: 0 1em 1em 0;
+		}
+		.full {
+			width:100%;
+			max-width:none;
+			margin:1em 0!important;
+			padding:0;
+			border:none;
 		}
 	}
 }
@@ -170,25 +184,14 @@ hr {
 @media (max-width: 340px) {
 	/* code for iPhones only */
 }
-	nav#top li {
-		display:inline-block;
-		margin:0;
-	}
-	nav#top li a:link, nav#top li a:visited {
-		display: block;
-		margin:0;
-	}
 @media (min-width: 340px) {
 	/* code for tablets only */
 
-	nav#top .label {
-		display:inline;
-	}
 }
 
 @media (min-width: 720px) {
 	/* all other code if its not mobile or tablet */
-	#content, nav#top, footer {
+	#content, footer {
 		margin:auto;
 		max-width:960px;
 	}
@@ -198,9 +201,12 @@ hr {
 		float:right;
 		margin:0 0 10px 20px;
 	}
-	#sidebar section {
+	nav#main section.desktop {
 		display:block!important;
 		section {display:inline-block!important;}
+	}
+	nav#main section.mobile {
+		display:none;
 	}
 }
 
@@ -389,7 +395,7 @@ dd p, .keep-reading p {
 	line-height:20px;
 }
 
-nav#sidebar {
+nav#main {
 	font-size:16px!important;
 	line-height:20px!important;
 	width:95%;
@@ -411,13 +417,15 @@ nav#sidebar {
 		color:#fff;
 		text-decoration:none;
 	}
+	section.mobile {
+		text-align: center;
+	}
 	section.nav-wrapper {
 		max-width:960px;
 		margin:auto;
 	}
 	section {
 		vertical-align:top;
-		display:none;
 		margin:0;
 		padding:0;
 		section {display:inline-block;}
@@ -425,6 +433,9 @@ nav#sidebar {
 			margin:0;
 			padding:0 0 0 1em;
 		}
+	}
+	section.desktop {
+		display:none;
 	}
 	section.lowdown {
 		width:42%
@@ -441,6 +452,7 @@ nav#sidebar {
 	width:95%;
 	padding:0 2.5%;
 	border:1px solid #ccc;
+	text-decoration: none;
 	h2.section-heading {
 		font-size:12px;
 	}
