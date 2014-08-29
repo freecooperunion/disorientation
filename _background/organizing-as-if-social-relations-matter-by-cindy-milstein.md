@@ -7,6 +7,8 @@ publication: Outside the Circle
 link: http://cbmilstein.wordpress.com/2013/02/21/organizing-as-if-social-relations-matter/
 layout: post
 order: 4
+next: academy-fight-song-by-thomas-frank
+prev: why-cooper-unions-tuition-fight-matters-for-the-future-of-art-by-ben-davis
 ---
 This evening, February 20, 2013, several hours after standing around outdoors in chilly winter weather at a rally beneath the clock tower of Cooper Union and a giant “free education for all” red banner high above, a young Egyptian revolutionary, an active and articulate organizer these past couple years in Tahrir Square, said that freedom isn’t just a word; it’s how one practices it and tries to enact it.
 

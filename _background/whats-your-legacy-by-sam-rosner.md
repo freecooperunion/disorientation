@@ -8,6 +8,8 @@ order: 8
 ---
 Stop what you're doing. Take a good look around.  Look out the window and look out into the hallway.  Have you spoken to anybody outside of your school today?  If you're an engineer, have you talked to an artist today?  Artists, have you spoken to an engineer today?  Architects, have you left your studio today?  
 
+<blockquote class="pullquote pull-right short">“Can a school divided stand?”</blockquote>
+
 The school has been crumbling at our feet.  It's been slower in the past, albeit, but things seem to be deteriorating at an accelerating speed.  I feel as though relations between the schools are more estranged than ever.  In times of strife, it's easy to withdraw into our comfort zones.  It's easy to decide to focus on your work, to say “fuck the school I'm going to just do me and get the hell out.”  It can't possibly fail, it's been standing for 155 years, why not 155 more?  This passivity will be the death of the Cooper Union.
 
 What do you want to look back on in five years?  Will you be ready to look back?  How about 10 years? 20? 30? How about 50 years?  Let's look back. 

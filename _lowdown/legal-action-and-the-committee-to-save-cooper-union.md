@@ -2,6 +2,8 @@
 title: Legal Action & The Committee to Save Cooper Union
 order: 4
 layout: post
+next: code-of-conduct-and-private-security
+prev: working-group
 ---
 Throughout the duration of the Working Group, alumni and faculty met in parallel to develop a backup plan in case the Board voted in favor of tuition again. The Committee to Save Cooper Union is a not-for-profit organization founded to keep Cooper free through legal efforts and political outreach. The group is led by Engineering alumnus Adrian Jovanovic, along with Art professor Mike Essl and Engineering professor Toby Cumberbatch, and operates in conjunction with FCU, alumni, students, and many supporters. 
 

@@ -2,6 +2,8 @@
 title: Vision
 order: 6
 layout: post
+prev: code-of-conduct-and-private-security
+next: the-state-of-the-cooper-union-by-mike-borkowsky
 ---
 Cooper union should be a beacon
 Don't conflate us with nostalgia

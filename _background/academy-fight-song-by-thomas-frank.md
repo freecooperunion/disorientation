@@ -7,6 +7,8 @@ publication: The Baffler
 link: http://www.thebaffler.com/salvos/academy-fight-song
 layout: post
 order: 5
+next: why-cooper-union-matters-by-litia-perta
+prev: academy-fight-song-by-thomas-frank
 ---
 This essay starts with utopia—the utopia known as the American university. It is the finest educational institution in the world, everyone tells us. Indeed, to judge by the praise that is heaped upon it, the American university may be our best institution, period. With its peaceful quadrangles and prosperity-bringing innovation, the university is more spiritually satisfying than the church, more nurturing than the family, more productive than any industry.
 

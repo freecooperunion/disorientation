@@ -1,0 +1,32 @@
+{% for item in site.documents %}
+{% assign next_url = page.next | prepend:"/" | append: "/" %}
+{% assign prev_url = page.prev | prepend:"/" | append: "/" %}
+  {% if item.url == next_url %}
+    <a href="{{item.url}}#content" class="keep-reading">
+      <h2 class="section-heading">Read Next</h2>
+      <h2>{{item.title}}</h2>
+      {% if item.subtitle %}<p>{{ item.subtitle }}</p>{% endif %}
+    </a>
+	<script>
+	function leftArrowPressed() {
+		location.href = "{{prev_url}}#content"
+	}
+
+	function rightArrowPressed() {
+		location.href = "{{next_url}}#content"
+	}
+
+	document.onkeydown = function(evt) {
+	    evt = evt || window.event;
+	    switch (evt.keyCode) {
+	        case 37:
+	            leftArrowPressed();
+	            break;
+	        case 39:
+	            rightArrowPressed();
+	            break;
+	    }
+	};
+	</script>
+  {% endif %}
+{% endfor %}

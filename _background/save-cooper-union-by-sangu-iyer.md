@@ -7,8 +7,11 @@ subtitle: Part one of School of Engineering alumna Sangu Iyer's exhaustive resea
 link: https://nplusonemag.com/online-only/online-only/save-cooper-union/
 layout: post
 order: 10
-img: /img/freeschool.png
 ---
+
+<figure>
+	<img src="/img/freeschool.png">
+</figure>
 
 On November 17, 2011, at a student rally in Union Square organized by Occupy Wall Street, a young woman’s words echoed through the crowd via the people’s microphone: “Education should be as free as air and water.”
 

@@ -2,6 +2,8 @@
 title: Code of Conduct & Private Security
 order: 5
 layout: post
+next: vision
+prev: legal-action-and-the-committee-to-save-cooper-union
 ---
 Code of Conduct and Campus Militarization
 Major issue at Cooper and around the country

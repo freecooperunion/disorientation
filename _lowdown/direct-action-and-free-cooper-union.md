@@ -2,6 +2,8 @@
 title: Direct Action & Free Cooper Union
 order: 1
 layout: post
+prev: /
+next: ivory-tower
 ---
 
 Free Cooper Union, founded in Fall 2012, is a group of students and young alumni working towards free education to all. We affirm:

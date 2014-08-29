@@ -4,6 +4,8 @@ author: Mike Borkowsky, Engineering alumnus, Former Trustee, Working Group Chair
 subtitle: Former trustee, Working Group co-chair, and Engineering alumnus Mike Borkowsky debunks myths propogated by Board Chair Richard Lincer.
 layout: post
 order: 1
+next: the-loss-of-cooper-union-by-jordan-bowen
+prev: vision
 ---
 _Former Trustee Mike Borkowsky’s statement to the Board of Trustees in response to Board Chair Richard Lincer’s email dated July 18, 2014._
 
