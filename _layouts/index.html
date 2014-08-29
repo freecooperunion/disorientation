@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
-<header style='background: url({{site.baseurl}}/img/cover.jpg);background-size:cover;background-position:center;width:100%;height:500px;'>
+<header>
+	<img src="img/troubled.jpg" alt="">
 </header>
-{{page.intro}}
+{{ page.intro | markdownify }}
+<hr>
 <section>
 	<h2 class="section-heading">Lowdown</h2>
 	<p>Brief introductions to the things you need to know: recent developments, active groups, and ongoing issues.</p>

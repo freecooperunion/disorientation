@@ -3,7 +3,7 @@ title: Free Cooper Union
 subtitle: A Disorientation Reader
 layout: index
 body_id: index
-intro: <h2><span style="font-family:Avenir;text-transform:lowercase;font-weight:100;font-style:italic;">dis</span>Orientation</h2> <p>is a counter-orientation intended to introduce the incoming class to the real story of Cooper’s dense internal politics, as well as larger student issues. This is an effort to preserve institutional memory that is all too often expunged upon graduation.</p>
+intro: "**Disorientation** is a counter-orientation intended to introduce the incoming class to the real story of Cooper’s dense internal politics, as well as larger student issues. This is an effort to preserve institutional memory that is all too often expunged upon graduation."
 ---
 This is the second edition of disorientation published by Free Cooper Union.
 
