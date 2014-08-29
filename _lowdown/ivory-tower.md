@@ -10,7 +10,7 @@ prev: direct-action-and-free-cooper-union
 In Summer 2013, the students occupying President Bharucha's office were approached by a team of documentary filmmakers led by Andrew Rossi (director of _Page One: Inside the New York Times_) about participating in their upcoming project “Ivory Tower,” an exposé on higher education across the country. The filmmakers followed the campaign through the entire Summer and into the Fall, documenting meetings, actions, and ongoing student organizing.
 
 <figure class="pull-right">
-	<img src="/img/ivorytower-sundance.jpg" alt="">
+	<img src="{{site.baseurl}}/img/ivorytower-sundance.jpg" alt="">
 	<figcaption>Ivory Tower premiere at sundance</figcaption>
 </figure>
 

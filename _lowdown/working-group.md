@@ -14,7 +14,7 @@ The administration delayed the Working Group’s start for a month by deciding n
 
 <figure class="pull-right">
 	<a href="http://cooper.edu/sites/default/files/uploads/assets/site/files/2013/WrkingGrpRpt_1212.pdf">
-		<img src="/img/workinggroup-report.jpg" alt="Working Group Report" style="box-shadow:0 5px 5px rgba(0,0,0,.25)">
+		<img src="{{site.baseurl}}/img/workinggroup-report.jpg" alt="Working Group Report" style="box-shadow:0 5px 5px rgba(0,0,0,.25)">
 		<figcaption>Working Group Report (54 pp., 3.6 MB PDF)</figcaption>
 	</a>
 </figure>
