@@ -8,15 +8,11 @@ Free Cooper Union, founded in Fall 2012, is a group of students and young alumni
 
 - Tuition is not a sustainable financial model for Cooper Union, in addition to being a betrayal of the college's radical mission.
 - Higher education around the world is in dire need of a paradigm shift. 
-- The debate about “tuition” at Cooper must engage broader dialogues about social justice, educational reform, debt forgiveness, and alternative organizational models. 
+- The debate about “tuition” at Cooper must engage broader dialogues about social justice, student debt, educational reform, and alternative models of governance. 
 
-To this end, we have employed a wide range of tactics including but not limited to: drafting petitions; walking out; hosting summits; producing: memes, satirical websites, art exhibitions, music videos, parades, historical reenactments, and publications; poster bombing, canvassing, culture-jamming, breaking into meetings, leaking documents, dropping banners, talking to press, building barricades, occupying, and visioning.
+To this end, we have employed a wide range of tactics including but not limited to: drafting petitions; walking out; hosting summits; producing memes, satirical websites, art exhibitions, music videos, parades, historical reenactments, and publications; poster bombing, canvassing, culture-jamming, breaking into meetings, leaking documents, dropping banners, talking to press, building barricades, occupying, and visioning.
 
-
-
-_A proposal for an “exhibition” on the 6th floor to be followed by a performance elsewhere, 2013._
-
-Since Fall 2012, we have advocated for the following demands and principles.
+In December 2012 we issued the following demands:
 
 ## Demands
 
@@ -26,6 +22,9 @@ Since Fall 2012, we have advocated for the following demands and principles.
   - Appoint a student and faculty member from each school as voting members of the board.
   - Implement a process by which board members may be removed through a vote from the Cooper Union community, comprised of students, faculty, alumni, and administrators.
 3. President Bharucha steps down.
+
+
+Additionally, we drafted a set of principles expanding upon larger systems:
 
 ## Principles
 
@@ -40,3 +39,19 @@ The administrators who have grown us into this mess are trying to grow us out of
 ### Structures for Transparency and Integrity
 
 Bloated and visionless administrations have become an epidemic threatening institutions of higher education all across America. We must rebuild the governance of these institutions with open flows of information and democratic decision-making structures. Carrying a mission such as free education will require principled, rather than self-sustaining, leadership.
+
+## Direct Action
+
+- Students tired of going through Cooper’s circular bureaucracy
+- Tried bureaucracy for over a year
+- Whole thing was getting desperate
+- We were all losing agency
+- Revisionist history was happening while we were living it
+- To put a halt we began to organize under a campaign of direct actions
+- Why? Gets the goodz
+- Lock-In
+- Occupation
+- People will always want to tear down actions and paint protestors as an angry mob but
+- Creates a wormhole where anything becomes possible and the community and periphery are wholly engaged
+- The space of an action is like an infinite dream. ASSE.
+
