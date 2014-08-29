@@ -9,7 +9,6 @@ body {
 	line-height:1.25;
 	font-size:18px;
 	line-height:24px;
-	border-top:10px solid #000;
 	color:#222;
 }
 
@@ -28,10 +27,6 @@ h1 {
 	font-family: Avenir;
 	font-size:2.5em;
 	line-height: 1em;
-}
-
-h2, h3 {
-	font-family: Avenir, sans-serif;
 }
 h2 {
 	font-weight:100;
@@ -90,7 +85,8 @@ a:hover, a:active {
 article {
 	margin:0 auto;
 	padding:0;
-	p, ul, ol, dl, blockquote {		
+	p, ul, ol, dl, blockquote, h2, h3 {
+		display:block;
 		max-width:600px;
 		margin:auto;
 	}
@@ -99,7 +95,7 @@ article {
 		margin-bottom: 5px;
 	}
 	h2 {
-		margin:30px 0 20px 0;
+		margin:30px auto 20px auto;
 
 	}
 	header {
@@ -398,11 +394,15 @@ nav#sidebar {
 	line-height:20px!important;
 	width:95%;
 	padding:10px 2.5% 20px 2.5%;
-	background:#222;
+	background:#eee;
 	color:gray;
 	li a:link, li a:visited {
 		padding:0;
 		color:gray;
+		text-decoration:none;
+	}
+	li a:hover, li a:active {
+		text-decoration: underline;
 	}
 	.current {
 		font-weight:bold!important;
@@ -410,6 +410,10 @@ nav#sidebar {
 	h2 a:link, h2 a:visited {
 		color:#fff;
 		text-decoration:none;
+	}
+	section.nav-wrapper {
+		max-width:960px;
+		margin:auto;
 	}
 	section {
 		vertical-align:top;
