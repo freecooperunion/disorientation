@@ -202,7 +202,7 @@ hr {
 		float:right;
 		margin:0 0 10px 20px;
 	}
-	#sidebar {
+	#sidebar section {
 		display:block!important;
 	}
 }
@@ -398,7 +398,6 @@ nav#sidebar {
 	width:95%;
 	padding:10px 2.5% 20px 2.5%;
 	background:#222;
-	display:none;
 	color:gray;
 	li a:link, li a:visited {
 		padding:0;
@@ -412,6 +411,7 @@ nav#sidebar {
 		text-decoration:none;
 	}
 	section {
+		display:none;
 		vertical-align:top;
 		display:inline-block;
 		margin:0;
