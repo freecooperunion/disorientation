@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 </head>
 <body {% if page.body_id %}id="{{ page.body_id }}"{% endif %} class="{{page.collection}}">
+{% if page.body_id != "index" %}
 <nav id="main">
 	<section class="desktop">
 		{% include toc.html %}
@@ -14,6 +15,7 @@
 	{% include toc-select.html %}
 	</section>
 </nav>
+{% endif %}
 <section id="content">
  {{ content }}
  </section>
