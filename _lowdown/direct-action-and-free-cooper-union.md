@@ -6,6 +6,11 @@ prev: /
 next: ivory-tower
 ---
 
+<figure class="pull-right">
+	<img src="{{site.baseurl}}/img/logo.png" alt="">
+	<figcaption>The Foundation Building's clock, illuminated in red, in the logo of Free Cooper Union.</figcaption>
+</figure>
+
 Free Cooper Union, founded in Fall 2012, is a group of students and young alumni working towards free education to all. We affirm:
 
 - Tuition is not a sustainable financial model for Cooper Union, in addition to being a betrayal of the college's radical mission.
