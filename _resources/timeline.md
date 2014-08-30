@@ -5,7 +5,7 @@ permalink: timeline/
 body_id: timeline
 ---
 
-<div id="timeline-embed"></div>
+<div id="timeline-embed" style="width:100%;height:800px;"></div>
 <script type="text/javascript">
     var timeline_config = {
         width:              '100%',

@@ -1,97 +1,52 @@
+<!doctype html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title>{{ page.title }}</title>
 	<meta name="viewport" content="width = device-width, initial-scale = 1.0,maximum-scale = 1.0" />
-	<script type="text/javascript" src="//use.typekit.net/guj5das.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<style type="text/css">
-	/*! normalize.css v2.0.1 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
-
-@font-face {
-    font-family: 'CooperUnion';
-    src: url('http://freecooperunion.github.io/disorientation/fonts/cooper-union-webfont.eot');
-    src: url('http://freecooperunion.github.io/disorientation/fonts/cooper-union-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://freecooperunion.github.io/disorientation/fonts/cooper-union-webfont.woff') format('woff'),
-         url('http://freecooperunion.github.io/disorientation/fonts/cooper-union-webfont.ttf') format('truetype'),
-         url('http://freecooperunion.github.io/disorientation/fonts/cooper-union-webfont.svg#CooperUnionRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-	padding:0;
-	font-family:Helvetica Neue, sans-serif;
-	line-height:1.25;
-	font-size:16px;
-	border-top:10px solid #c12530;
-	color:#222;
-}
-a:link, a:visited {
-	text-decoration: none;
-	color:#c12530;
-	-webkit-transition:all .25s;
-}
-
-a:hover, a:active {
-	text-decoration: underline;
-}
-
-footer img {
-	padding:15px;
-}
-
-hr {
-	border:none;
-	border-top:1px solid #ccc;
-}
-#content {
-	max-width:none;
-	padding:0!important;
-}
-nav#main {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	z-index:3;
-	ul {
-		padding:0;
-		width:100%;
-		list-style-type:none;
-		li {
-			display:inline-block;
-			padding:10px;
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+	<style>
+		#content {
+			max-width:none;
 		}
-	}
-}
-footer {
-	margin:auto;
-	margin-top:10px;
-	padding: 10px;
-	text-align:center;
-	border-top:1px solid #ccc;
-	font-family:CooperUnion;
-	text-transform:uppercase;
-	color:#c12530;
-	max-width:800px;
-}
 	</style>
 </head>
-<body {% if page.body_id %}id="{{ page.body_id }}"{% endif %}>
+<body {% if page.body_id %}id="{{ page.body_id }}"{% endif %} class="{{page.collection}}">
+{% if page.body_id != "index" %}
 <nav id="main">
-	<ul>
-		<li><a href="{{site.baseurl}}/">Disorientation Reader</a></li>
-		<li><a href="{{site.baseurl}}/spectrum">Spectrum of Allies</a></li>
-		<li><a href="{{site.baseurl}}/timeline">Timeline</a></li>
-	</ul>
+	<section class="desktop">
+		{% include toc.html %}
+	</section>
+	<section class="mobile">
+	{% include toc-select.html %}
+	</section>
 </nav>
+{% endif %}
 <section id="content">
-{{ content }}
-</section>
+	<h1>{{page.title}}</h1>
+	{{ content }}
+ </section>
 <footer>
-<a href="{{site.baseurl}}"><img src="{{site.baseurl}}/img/logo.png" title="Free Cooper Union" /></a>
-<p>Stay Free or Die Tryin</p>
+{% if page.bg == "dark" %}
+<a href="/"><img src="{{site.baseurl}}/img/logo-bw-invert.png" width="100" title="Free Cooper Union" /></a>
+<style>
+	body{
+		background:#000;
+	}
+	h1 {
+		color:#fff;
+	}
+</style>
+{% else %}
+<a href="/"><img src="{{site.baseurl}}/img/logo-bw.png" width="100" title="Free Cooper Union" /></a>
+{% endif %}
+<p>Stay Free or Die Tryin&apos;</p>
 </footer>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.2/fastclick.min.js"></script>
+<script>
+	window.addEventListener('load', function() {
+		FastClick.attach(document.body);
+	}, false);
+</script>
 </body>
 </html>
