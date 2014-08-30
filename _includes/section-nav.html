@@ -5,7 +5,11 @@
     <a href="{{site.baseurl}}{{item.url}}#content" class="keep-reading">
       <h2 class="section-heading">Read Next</h2>
       <h2>{{item.title}}</h2>
-      {% if item.subtitle %}<p>{{ item.subtitle }}</p>{% endif %}
+      {% if item.subtitle %}
+      	<p>{{ item.subtitle }}</p>
+			{% else %}
+      	<p>{{ item.content | strip_html | truncatewords: 20 }}</p>
+      {% endif %}
     </a>
 	<script>
 	function leftArrowPressed() {
