@@ -1,5 +1,5 @@
 ---
-layout: timeline
+layout: interactive
 title: Timeline
 permalink: timeline/
 body_id: timeline
