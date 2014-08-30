@@ -203,7 +203,7 @@ hr {
 	}
 	nav#main section.desktop {
 		display:block!important;
-		section {display:inline-block!important;}
+		width:100%;
 	}
 	nav#main section.mobile {
 		display:none;
@@ -393,6 +393,7 @@ dd p, .keep-reading p {
 	color:gray;
 	font-size:16px;
 	line-height:20px;
+	padding-bottom:15px;
 }
 
 nav#main {
@@ -422,6 +423,7 @@ nav#main {
 		select {max-width:100%;}
 	}
 	section.nav-wrapper {
+		display:block;
 		max-width:960px;
 		margin:auto;
 	}
