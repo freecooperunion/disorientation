@@ -18,3 +18,29 @@ layout: default
 	{{content}}
 </article>
 {% include section-nav.html %}
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/js/okhover.js"></script>
+<script>
+  $(document).ready(function(){
+		$('span').okhover({
+			fadeIn: true,
+			fadeOut: true,
+			fadeInDuration: 200
+		});
+		$('.okhover').hover(function(){
+			$('span').toggleClass('hover');
+		});
+  });
+</script>
+<style>
+	p span {
+		cursor:zoom-in;
+		border-bottom:1px dotted gray;
+	}
+	p span.hover {
+		background:rgba(255,255,255,.5);
+	}
+	p span:hover {
+		background:rgba(255,255,255,1);
+	}
+</style>
