@@ -25,8 +25,8 @@ When the students started their occupation in May, they had no idea how long it 
 The administration finally backed down from this extreme approach. Dean of Student Services Linda Lemiesz and Vice President of Finance T. C. Westcott were two crucial voices within the administration advocating for more moderation. On the second day of the occupation, the administration asked the NYPD to stand down, and Westcott told the students that the earlier ultimatum to leave or lose their degrees was “paused.” The occupiers were allowed to stay as attempts were made at dialogue and mediation. The threats of arrest and disciplinary action, however, still loomed.
 
 In early June, the administration proposed hiring mediators to address the conflict with the students, but the students refused to enter “an inherently biased” mediation process where the terms would be set by the administration. They continued to maintain an open occupation, in which students and visitors (faculty, alumni, and guest presenters) could come and go, while a core group held the space. They transformed the floor into the “Free Cooper Union Salon,” where they held public discussions and art exhibitions. Because the occupation partly was a call for transparency, they broadcast and tweeted everything that happened, from conversations with trustees to all-night painting sessions to vacuuming and cleaning. Watching the occupation at times seemed like a cross between watching MTV’s “The Real World” and C-Span. Soon Free Cooper Union had more Twitter followers than Cooper Union itself.
----
 
+---
 
 The act of placing bodies in the highest office on campus brought what was happening in this tiny East Village institution to a national and international audience. And during the sixty-five days the occupation lasted, many truths came to light.
 
