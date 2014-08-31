@@ -244,7 +244,7 @@ body#spectrum {
 	a:link, a:visited {
 		color:darkblue;
 	}
-	header {
+	header.spectrum-header {
 		width:100%;
 		padding:10px 0;
 		margin:0;
@@ -269,79 +269,79 @@ body#spectrum {
 		width:100%;
 		margin:0;
 		padding:0;
-	}
-	ul {
-		list-style-type:none;
-		padding:10px 2.5%;
-		margin:10px auto;
-		width:95%;
-	}
-	li {
-		margin:10px 0;
-		display:block;
-		width:100%;
-		padding:0;
-	}
-	.group {
-		background:#efefef;
-		border-radius:5px;
-		text-align:center;
-		padding:10px 0;
-		.group {
-			background:#fff;
+		ul {
+			list-style-type:none;
+			padding:10px 2.5%;
+			margin:10px auto;
+			width:95%;
 		}
-	}
-	.tuition {color:red;}
-	.neutral {color:red;}
-	.free {color:lime;}
-	.span-tuition {
-		width:(100%/3);
-	}
-	.span-neutral {
-		width:(100%/3);
-		margin-left:(100%/3);
-	}
-	.span-free {
-		width:(100%/3);
-		margin-left:(100%/3*2);
-	}
-	.span-tuition-neutral {
-		width:(100%/3*2);
-	}
-	.span-neutral-free {
-		width:(100%/3*2);
-		margin-left:(100%/3);
-	}
-	.span-all {
-		width:100%;
-	}
-	li[title] {
-		cursor: help;
-	}
-	ul.members li {
-		display:inline-block;
-		width:auto;
-		padding:5px;
-	}
-	li[title].tuition:hover img {
-		box-shadow:0 0 15px rgba(255,0,0,.5);
-	}
-	li[title].free:hover img {
-		box-shadow:0 0 15px rgba(255,0,0,.5);
-	}
-	img {
-		width:75px;
-		height:75px;
-		border-radius:75px;
-	}
-	.tuition img {
-		border:2px solid red;
-	}
-	.neutral img {
-		border:2px solid gray;
-	}
-	.free img {
-		border:2px solid limegreen;
+		li {
+			margin:10px 0;
+			display:block;
+			width:100%;
+			padding:0;
+		}
+		.group {
+			background:#efefef;
+			border-radius:5px;
+			text-align:center;
+			padding:10px 0;
+			.group {
+				background:#fff;
+			}
+		}
+		.tuition {color:red;}
+		.neutral {color:red;}
+		.free {color:lime;}
+		.span-tuition {
+			width:(100%/3);
+		}
+		.span-neutral {
+			width:(100%/3);
+			margin-left:(100%/3);
+		}
+		.span-free {
+			width:(100%/3);
+			margin-left:(100%/3*2);
+		}
+		.span-tuition-neutral {
+			width:(100%/3*2);
+		}
+		.span-neutral-free {
+			width:(100%/3*2);
+			margin-left:(100%/3);
+		}
+		.span-all {
+			width:100%;
+		}
+		li[title] {
+			cursor: help;
+		}
+		ul.members li {
+			display:inline-block;
+			width:auto;
+			padding:5px;
+		}
+		li[title].tuition:hover img {
+			box-shadow:0 0 15px rgba(255,0,0,.5);
+		}
+		li[title].free:hover img {
+			box-shadow:0 0 15px rgba(255,0,0,.5);
+		}
+		img {
+			width:75px;
+			height:75px;
+			border-radius:75px;
+		}
+		.tuition img {
+			border:2px solid red;
+		}
+		.neutral img {
+			border:2px solid gray;
+		}
+		.free img {
+			border:2px solid limegreen;
+		}
 	}
 }
 body#timeline {

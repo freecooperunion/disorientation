@@ -6,7 +6,7 @@ layout: default
 	<h2 style="color:gray">&ldquo;Neutral&rdquo;<br><small><em>or </em>Undecided <em>or </em>Unknown</small></h2>
 	<h2 style="color:limegreen">For Free Education</h2>
 </header>
-<ul id="spectrum">
+<ul>
 {% for group in site.data.groups %}
   <li class="group {% if group.span %}span-{{group.span}}{% endif %}" {% if group.info %}title="<strong>{{ group.name }}</strong><br><br>{{group.info}}"{% endif %}>
 	{% if group.members or group.groups  %}
