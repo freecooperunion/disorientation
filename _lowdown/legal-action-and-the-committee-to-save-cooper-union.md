@@ -5,7 +5,17 @@ layout: post
 next: code-of-conduct-and-private-security
 prev: working-group
 ---
+<figure>
+	<img src="{{site.baseurl}}/img/cscu-press-conference.jpg" alt="">
+	<figcaption>CSCU attorney Richard Emery speaks at a press conference outside the New York State Supreme Court.</figcaption>
+</figure>
+
 Throughout the duration of the Working Group, alumni and faculty met in parallel to develop a backup plan in case the Board voted in favor of tuition again. The Committee to Save Cooper Union is a not-for-profit organization founded to keep Cooper free through legal efforts and political outreach. The group is led by Engineering alumnus Adrian Jovanovic, along with Art professor Mike Essl and Engineering professor Toby Cumberbatch, and operates in conjunction with FCU, alumni, students, and many supporters. 
+
+<figure class="pull-right">
+	<img src="{{site.baseurl}}/img/cscu-petition.jpg" alt="">
+	<figcaption><a href="http://savecooperunion.org/Cooper_Union_Petition_5-27-14.pdf">CSCU's petition (39 pp., 365 kb, PDF)</a></figcaption>
+</figure>
 
 At the 2014 commencement ceremony, CSCU announced their intention to file a lawsuit against Cooper’s Board in the New York State Supreme Court. The petition calls for five points of action: 
 

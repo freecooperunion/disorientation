@@ -13,7 +13,8 @@ body {
 }
 
 header img {
-	margin:20px 0;
+	display:block;
+	margin:20px auto;
 	max-width:100%;
 }
 
@@ -113,26 +114,32 @@ article {
 	ul li {
 		margin-bottom: 5px;
 	}
+	h1 {
+		margin-bottom:0!important;
+	}
 	h2 {
 		margin:30px auto 20px auto;
 
 	}
 	header {
+		margin-bottom:2em;
 		h2 {
 			margin:0 0 10px 0;
 		}
 	}
-	blockquote {
-		&.pullquote {
-			padding:1em;
-			margin: 1em;
+	blockquote, figure {
+			width:95%;
+			padding:2.5%;
+			border:1px solid #eee;
+			&.pullquote {
 			color:gray;
-			font-weight:100;
-			font-size:20px;
-			line-height:30px;
-			letter-spacing: 1px;
-			border:1px solid gray;
+				font-weight:100;
+				font-size:20px;
+				line-height:30px;
+				letter-spacing: 1px;
+			}
 		}
+	blockquote {
 		&.short {font-size:30px;line-height:1.5em;}
 		&.medium {}
 		&.long {font-size:22px; line-height:1.15em;}
