@@ -29,6 +29,19 @@ layout: default
 	</section>
 	<hr>
 	<section>
+		<h2 class="section-heading">Resources</h2>
+		<nav>
+			<ul>
+				{% for item in site.resources %}
+				<li>
+					<a href="{{site.baseurl}}{{item.url}}#content" class="title">{{item.title}}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</nav>
+	</section>
+	<hr>
+	<section>
 		<h2 class="section-heading">Background</h2>
 		<p>These selected essays dig into why Cooper matters, what's going wrong with education everywhere, and how we might fix it.</p>
 			<nav>
@@ -45,19 +58,6 @@ layout: default
 					{% endfor %}				
 				</dl>
 			</nav>
-	</section>
-	<hr>
-	<section>
-		<h2 class="section-heading">Resources</h2>
-		<nav>
-			<ul>
-				{% for item in site.resources %}
-				<li>
-					<a href="{{site.baseurl}}{{item.url}}#content" class="title">{{item.title}}</a>
-				</li>
-				{% endfor %}
-			</ul>
-		</nav>
 	</section>
 	<hr>
 	<section>
