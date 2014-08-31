@@ -1,8 +1,7 @@
 ---
 layout: default
-body_id: spectrum
 ---
-<header>
+<header class="spectrum-header">
 	<h2 style="color:red">Pro-Tuition</h2>
 	<h2 style="color:gray">&ldquo;Neutral&rdquo;<br><small><em>or </em>Undecided <em>or </em>Unknown</small></h2>
 	<h2 style="color:limegreen">For Free Education</h2>
@@ -58,6 +57,8 @@ body_id: spectrum
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
+<script src="{{site.baseurl}}/js/waypoints-sticky.min.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function() {
 	//toggle the componenet with class msg_body
@@ -77,6 +78,7 @@ jQuery(document).ready(function() {
 		}
       }
     });
+	$('.spectrum-header').waypoint('sticky');
 });
 </script>
 <style type="text/css">
@@ -88,4 +90,10 @@ jQuery(document).ready(function() {
 	border:none;
 	font-size: 1em;
 }
+.spectrum-header.stuck {
+	position:fixed;
+	top:0;
+	box-shadow:0 2px 4px rgba(0, 0, 0, .3);
+}
+
 </style>

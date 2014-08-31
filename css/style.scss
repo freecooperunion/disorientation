@@ -248,14 +248,11 @@ body#spectrum {
 		width:100%;
 		padding:10px 0;
 		margin:0;
-	    font-family: 'CooperUnion', sans-serif !important;
-		position:fixed;
-			top:0;
-			left:0;
 		background:#fff;
 		box-shadow:0 5px 10px rgba(0,0,0,.15);
 		h2 {
 			display:inline-block;
+			font-weight:bold;
 			width:(97%/3);
 			text-align:center;
 			margin:0;
@@ -272,9 +269,6 @@ body#spectrum {
 		width:100%;
 		margin:0;
 		padding:0;
-	}
-	#spectrum {
-		padding-top:100px;
 	}
 	ul {
 		list-style-type:none;
