@@ -21,7 +21,19 @@
  {{ content }}
  </section>
 <footer>
+{% if page.bg == "dark" %}
+<a href="/"><img src="{{site.baseurl}}/img/logo-bw-invert.png" width="100" title="Free Cooper Union" /></a>
+<style>
+	body{
+		background:#000;
+	}
+	h1 {
+		color:#fff;
+	}
+</style>
+{% else %}
 <a href="/"><img src="{{site.baseurl}}/img/logo-bw.png" width="100" title="Free Cooper Union" /></a>
+{% endif %}
 <p>Stay Free or Die Tryin&apos;</p>
 </footer>
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.2/fastclick.min.js"></script>

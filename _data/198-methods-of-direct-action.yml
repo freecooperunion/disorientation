@@ -1,0 +1,283 @@
+- category: FORMAL STATEMENTS
+  methods:
+    - name: Public speeches
+      image: public-speeches.jpg
+    - name: Letters of opposition or support
+    - name: Declarations by organizations and institutions
+    - name: Signed public declarations
+      image: signed-public-declarations.jpg
+    - name: Declarations of indictment and intention
+    - name: Group or mass petitions
+- category: COMMUNICATIONS WITH A WIDER AUDIENCE
+  methods:
+    - name: Slogans, caricatures, and symbols
+      image: slogans-chariactures-and-symbols.jpg
+    - name: Banners, posters, and displayed communications
+    - name: Leaflets, pamphlets, and books
+      image: leaflets-pamphlets-and-books.jpg
+    - name: Newspapers and journals
+      image: newspapers-and-journals.jpg
+    - name: Records, radio, and television
+    - name: Skywriting and earthwriting
+- category: GROUP REPRESENTATIONS
+  methods:
+    - name: Deputations
+    - name: Mock awards
+    - name: Group lobbying
+    - name: Picketing
+    - name: Mock elections
+- category: SYMBOLIC PUBLIC ACTS
+  methods:
+    - name: Displays of flags and symbolic colours
+    - name: Wearing of symbols
+    - name: Prayer and worship
+    - name: Delivering symbolic objects
+      image: delivering-symbolic-objects.jpg
+    - name: Protest disrobings
+    - name: Destruction of own property
+    - name: Symbolic lights
+    - name: Displays of portraits
+      image: displays-of-portraits.jpg
+    - name: Paint as protest
+      image: paint-as-protest.jpg
+    - name: New signs and names
+      image: new-signs-and-names.png
+    - name: Symbolic sounds
+    - name: Symbolic reclamations
+    - name: Rude gestures
+- category: PRESSURES ON INDIVIDUALS
+  methods:
+    - name: “Haunting” officials
+    - name: Taunting officials
+    - name: Fraternization
+    - name: Vigils
+- category: DRAMA AND MUSIC
+  methods:
+    - name: Humourous skits and pranks
+    - name: Performances of plays and music
+    - name: Singing
+- category: PROCESSIONS
+  methods:
+    - name: Marches
+    - name: Parades
+    - name: Religious processions
+    - name: Pilgrimages
+    - name: Motorcades
+- category: HONOURING THE DEAD
+  methods:
+    - name: Political mourning
+    - name: Mock funerals
+    - name: Demonstrative funerals
+    - name: Homage at burial places
+    - name: PUBLIC ASSEMBLIES
+    - name: Assemblies of protest or support
+    - name: Protest meetings
+    - name: Camouflaged meetings of protest
+    - name: Teach-ins
+- category: WITHDRAWAL AND RENUNCIATION
+  methods:
+    - name: Walk-outs
+      image: walk-outs.jpg
+    - name: Silence
+    - name: Renouncing honours
+      image: renouncing-honours.jpg
+    - name: Turning one’s back
+      image: turning-ones-back.jpg
+- category: OSTRACISM OF PERSONS
+  methods:
+    - name: Social boycott
+    - name: Selective social boycott
+    - name: Lysistratic nonaction
+    - name: Excommunication
+    - name: Interdict
+- category: SOCIAL NONCOOPERATION
+  methods:
+    - name: Suspension of social and sports activities
+    - name: Boycott of social affairs
+    - name: Student strike
+    - name: Social disobedience
+    - name: Withdrawal from social institutions
+- category: WITHDRAWAL FROM THE SOCIAL SYSTEM
+  methods:
+    - name: Stay-at-home
+    - name: Total personal noncooperation
+    - name: “Flight” of workers
+    - name: Sanctuary
+    - name: Collective disappearance
+    - name: Protest emigration (hijrat)
+- category: ACTION BY CONSUMERS
+  methods:
+    - name: Consumers’ boycott
+    - name: Nonconsumption of boycotted goods
+    - name: Policy of austerity
+    - name: Rent withholding
+    - name: Refusal to rent
+    - name: National consumers’ boycott
+    - name: International consumers’ boycott
+- category: ACTION BY WORKERS AND PRODUCERS
+  methods:
+    - name: Workers’ boycott
+    - name: Producers’ boycott
+- category: ACTION BY MIDDLEMEN
+  methods:
+    - name: Suppliers’ and handlers’ boycott
+- category: ACTION BY OWNERS AND MANAGEMENT
+  methods:
+    - name: Traders’ boycott
+    - name: Refusal to let or sell property
+    - name: Lockout
+    - name: Refusal of industrial assistance
+    - name: Merchants’ “general strike”
+- category: ACTION BY HOLDERS OF FINANCIAL RESOURCES
+  methods:
+    - name: Withdrawal of bank deposits
+    - name: Refusal to pay fees, dues, and assessments
+    - name: Refusal to pay debts or interest
+    - name: Severance of funds and credit
+    - name: Revenue refusal
+    - name: Refusal of a government’s money
+- category: ACTION BY GOVERNMENTS
+  methods:
+    - name: Domestic embargo
+    - name: Blacklisting of traders
+    - name: International sellers’ embargo
+    - name: International buyers’ embargo
+    - name: International trade embargo
+- category: SYMBOLIC STRIKES
+  methods:
+    - name: Protest strike
+    - name: Quickie walkout (lightning strike)
+- category: AGRICULTURAL STRIKES
+  methods:
+    - name: Peasant strike
+    - name: Farm workers’ strike
+- category: STRIKES BY SPECIAL GROUPS
+  methods:
+    - name: Refusal of impressed labour
+    - name: Prisoners’ strike
+    - name: Craft strike
+    - name: Professional strike
+- category: ORDINARY INDUSTRIAL STRIKES
+  methods:
+    - name: Establishment strike
+    - name: Industry strike
+    - name: Sympathy strike
+- category: RESTRICTED STRIKES
+  methods:
+    - name: Detailed strike
+    - name: Bumper strike
+    - name: Slowdown strike
+    - name: Working-to-rule strike
+    - name: Reporting “sick” (sick-in)
+    - name: Strike by resignation
+    - name: Limited strike
+    - name: Selective strike
+- category: MULTI-INDUSTRY STRIKES
+  methods:
+    - name: Generalised strike
+    - name: General strike
+- category: COMBINATION OF STRIKES AND ECONOMIC CLOSURES
+  methods:
+    - name: Hartal
+    - name: Economic shutdown
+- category: REJECTION OF AUTHORITY
+  methods:
+    - name: Withholding or withdrawal of allegiance
+    - name: Refusal of public support
+    - name: Literature and speeches advocating resistance
+- category: NONCOOPERATION WITH GOVERNMENT
+  methods:
+    - name: Boycott of legislative bodies
+    - name: Boycott of elections
+    - name: Boycott of government employment and positions
+    - name: Boycott of government departments, agencies, and other bodies
+    - name: Withdrawal from governmental educational institutions
+    - name: Boycott of government-supported institutions
+    - name: Refusal of assistance to enforcement agents
+    - name: Removal of own signs and placemarks
+    - name: Refusal to accept appointed officials
+    - name: Refusal to dissolve existing institutions
+- category: CITIZENS’ ALTERNATIVES TO OBEDIENCE
+  methods:
+    - name: Reluctant and slow compliance
+    - name: Nonobedience in absence of direct supervision
+    - name: Popular nonobedience
+    - name: Disguised disobedience
+    - name: Refusal of an assemblage or meeting to disperse
+    - name: Sitdown
+    - name: Noncooperation with conscription and deportation
+    - name: Hiding, escape, and false identities
+    - name: Civil disobedience of “illegitimate” laws
+- category: ACTION BY GOVERNMENT PERSONNEL
+  methods:
+    - name: Selective refusal of assistance by government aides
+    - name: Blocking of lines of command and information
+    - name: Stalling and obstruction
+    - name: General administrative noncooperation
+    - name: Judicial noncooperation
+    - name: Deliberate inefficiency and selective noncooperation by enforcement agents
+    - name: Mutiny
+- category: DOMESTIC GOVERNMENTAL ACTION
+  methods:
+    - name: Quasi-legal evasions and delays
+    - name: Noncooperation by constituent governmental units
+- category: INTERNATIONAL GOVERNMENTAL ACTION
+  methods:
+    - name: Changes in diplomatic and other representation
+    - name: Delay and cancellation of diplomatic events
+    - name: Withholding of diplomatic recognition
+    - name: Severance of diplomatic relations
+    - name: Withdrawal from international organisations
+    - name: Refusal of membership in international bodies
+    - name: Expulsion from international organisations
+- category: PSYCHOLOGICAL INTERVENTION
+  methods:
+    - name: Self-exposure to the elements
+    - name: The fast (A. Fast of moral pressure, B. Hunger strike, C. Satyagrahic fast)
+    - name: Reverse trial
+    - name: Nonviolent harassment
+- category: PHYSICAL INTERVENTION
+  methods:
+    - name: Sit-in
+    - name: Stand-in
+    - name: Ride-in
+    - name: Wade-in
+    - name: Mill-in
+    - name: Pray-in
+    - name: Nonviolent raids
+    - name: Nonviolent air raids
+    - name: Nonviolent invasion
+    - name: Nonviolent interjection
+    - name: Nonviolent obstruction
+    - name: Nonviolent occupation
+- category: SOCIAL INTERVENTION
+  methods:
+    - name: Establishing new social patterns
+    - name: Overloading of facilities
+    - name: Stall-in
+    - name: Speak-in
+    - name: Guerrilla theatre
+    - name: Alternative social institutions
+    - name: Alternative communication system
+- category: ECONOMIC INTERVENTION
+  methods:
+    - name: Reverse strike
+    - name: Stay-in strike
+    - name: Nonviolent land seizure
+    - name: Defiance of blockades
+    - name: Politically motivated counterfeiting
+    - name: Preclusive purchasing
+    - name: Seizure of assets
+    - name: Dumping
+    - name: Selective patronage
+    - name: Alternative markets
+    - name: Alternative transportation systems
+    - name: Alternative economic institutions
+- category: POLITICAL INTERVENTION
+  methods:
+    - name: Overloading of administrative systems
+    - name: Disclosing identities of secret agents
+    - name: Seeking imprisonment
+    - name: Civil disobedience of “neutral” laws
+    - name: Work-on without collaboration
+    - name: Dual sovereignty and parallel government​​​​​

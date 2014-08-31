@@ -1,0 +1,50 @@
+---
+layout: post
+---
+
+{{content}}
+
+{% for directaction in site.data.198-methods-of-direct-action %}
+	<h2>{{directaction.category}}</h2>
+	<ol class="actions continue">
+		{% for method in directaction.methods %}
+			{% if method.image %}
+				<li data-okimage="{{site.baseurl}}/img/198-methods-of-direct-action/{{ method.image}}" class="hoverable"><span>{{ method.name }}</span></li>
+			{% else %}
+				<li class="nothin"><span>{{ method.name }}</span></li>
+			{% endif %}
+		{% endfor %}
+	</ol>
+{% endfor %}
+
+<style>
+	body {background:#222;color:rgba(255,255,255,.5);}
+	h1, h2 {
+		color:rgba(255,255,255,.5);
+	}
+	li.hoverable {
+		cursor:pointer;
+		font-weight:bold;
+	}
+	li.nothin {
+		cursor:default;
+		color:rgba(255,255,255,.5);
+	}
+	ol:hover li.hoverable span {
+		display:inline-block;
+		background:rgba(255,255,255,.5);
+	}
+	li.hoverable:hover span {
+		background:rgba(255,255,255,1)!important;
+		color:#000;
+		box-shadow:0 0 10px rgba(0,0,0,.25);
+	}
+	li.nothin:hover {
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+</style>

@@ -61,5 +61,3 @@ Bloated and visionless administrations have become an epidemic threatening insti
 - People will always want to tear down actions and paint protestors as an angry mob but
 - Creates a wormhole where anything becomes possible and the community and periphery are wholly engaged
 - The space of an action is like an infinite dream. ASSE.
-
-198 Methods of direct action https://docs.google.com/document/d/1_g-cU97NXOxogy-IaMeDs6Cx1RsaGPrbZiA79R8FbVE/edit#heading=h.qy5hn5vuerda
