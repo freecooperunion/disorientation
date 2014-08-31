@@ -1,11 +1,11 @@
 ---
-title: Reasons Why Jamshed Bharucha Should Step Down
+title: Why Jamshed Bharucha Must Step Down
 order: 4
 subtitle: A look at Bharucha’s track record as President
 layout: post
 ---
 
-Is Bharucha still ‘salvageable’ as President? Could he conceivably change his course to save Cooper Union with its mission of “Free Education to All”? It’s worth looking back at Bharucha’s track record to assess whether or not he is fit to lead.
+These are a collection of incidents that lead us to believe that President Jamshed Bharucha is not fit to believe. He’s conned his way into leading and it’s 2014. He only has the next four semesters, but every moment he stays is costing the school money and time that we don’t have.
 
 ## Bharucha has never supported the mission.
 
