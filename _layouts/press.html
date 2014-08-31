@@ -3,9 +3,9 @@ layout: default
 body_id: press
 ---
 
-<h1>{{page.title}}</h1>
+<h1>{{page.title}} <span class="loading">(Loading…)</span></h1>
 
-<ul id="press" reversed></ul>
+<ul id="press" style="display:none;" reversed></ul>
 
 {% raw %}
 <script id="press-template" type="text/x-handlebars-template">
@@ -35,6 +35,9 @@ body_id: press
 		$.each( tabletop.sheets("Students").all(), function(i, press) {
 			var html = template(press);
 			$("ul#press").append(html);
+			console.log("append");
 		});
+		$("ul#press").fadeIn();
+		$(".loading").fadeOut();
 	}
 </script>
