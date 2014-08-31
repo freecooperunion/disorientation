@@ -32,7 +32,7 @@ body_id: glossary
 	<tr id="hbcu"><th>HBCU</th><td>dasd</td></tr>
 	<tr id="jac"><th>JAC</th><td>Joint Activities Committee</td></tr>
 	<tr id="jsc"><th>JSC</th><td>Joint Student Council</td></tr>
-	<tr id="lemon"><th>Lemon</th><td></td></tr>
+	<tr id="lemon"><th>Lemon</th><td>Anything you buy or get that turns out to be no good. (See also: <a href="#administrators">administrators</a>)</td></tr>
 	<tr id="me"><th>ME</th><td>Mechanical Engineer</td></tr>
 	<tr id="moa"><th>MOA</th><td>Memorandum of agreement. <a href="http://www.cualumni.com/s/1289/images/editor_documents/cuaa_handbook.pdf">PDF</a></td></tr>
 	<tr id="nab"><th>NAB</th><td>New Academic Building</td></tr>
@@ -47,4 +47,7 @@ body_id: glossary
 	<tr id="yellow-clock"><th>Yellow Clock</th><td>In Fall 2013, Free Cooper adoped a yellow clock.</td></tr>
 	<tr id="fcu"> <th>FCU</th> <td>Free Cooper Union. See <a href="{{site.baseurl}}/direct-action-and-free-cooper-union/#content">the lowdown</a> for more.</td></tr>
 	<tr id="fcu"> <th>CSCU</th> <td>Committee to Save Cooper Union. See <a href="{{site.baseurl}}/legal-action-and-the-committee-to-save-cooper-union/#content">the lowdown</a> for more.</td> </tr>
+	<tr id=""> <th>Governance</th> <td></td> </tr>
+	<tr id=""> <th>Shared governance</th> <td></td> </tr>
+	<tr id=""> <th>Sunset clause</th> <td></td> </tr>
 </table>
