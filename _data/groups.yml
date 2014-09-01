@@ -338,11 +338,11 @@
           img: dahlberg.jpg
         - name: Alan Wolf
           img: wolf.jpg
+          gone: yes
           title: Former Acting Dean, School of Engineering; Former Campus-Wide Safety Coordinator; Professor, School of Engineering; Chairman, Department of Physics
         - name: Mitchell Lipton
           img: lipton.jpg
-          gone: yes
-          title: Former Acting Dean, School of Engineering; Former Campus-Wide Safety Coordinator; Professor, School of Engineering; Chairman, Department of Physics
+          title: Dean of Admissions, Records, and Registar
       - stance: neutral
         members:        
         - name: William Germano
