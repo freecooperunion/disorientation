@@ -153,6 +153,10 @@
       - name: Jeremy Wertheimer
         img: wertheimer.jpg
         info: EE'82
+      - name: Francois de Menil
+        img: demenil.jpg
+        info: AR'87
+        title: Vice Chairman of the Board   
     - stance: neutral
       members:
       - name: Charles S. Cohen  
@@ -180,10 +184,6 @@
       - name: Richard S. Lincer
         img: lincer.jpg
         title: Chairman of the Board    
-      - name: Francois de Menil
-        img: demenil.jpg
-        info: AR'87
-        title: Vice Chairman of the Board   
       - name: Robert Bernhard
         img: bernhard.jpg
         title: Chairman Emeritus    
