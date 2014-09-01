@@ -285,18 +285,41 @@ body#spectrum {
 			width:100%;
 			padding:0;
 		}
+		li strong {
+			text-align:center;
+			margin:auto;
+			display:block;
+		}
 		.group {
 			background:#efefef;
 			border-radius:5px;
-			text-align:center;
-			padding:10px 0;
+			padding:10px;
 			.group {
 				background:#fff;
 			}
+			ul.members {
+				margin:0;
+				padding:0;
+				display:inline-block;
+				vertical-align:top;
+				text-align:center;
+			}
+			&.span-all {
+				ul.members {
+					width:(97%/3);
+					&.tuition{margin-right:1%}
+					&.free{margin-left:1%}
+				}
+			}
+			&.span-tuition-neutral, &.span-neutral-tuition {
+				ul.members {
+					width:(98%/2);
+				}
+			}
+			&.span-tuition-neutral {}
+			&.span-neutral-tuition {}
+			&.span-tuition, &.span-neutral, &.span-free {}
 		}
-		.tuition {color:red;}
-		.neutral {color:red;}
-		.free {color:lime;}
 		.span-tuition {
 			width:(100%/3);
 		}
@@ -336,15 +359,6 @@ body#spectrum {
 			width:75px;
 			height:75px;
 			border-radius:75px;
-		}
-		.tuition img {
-			border:2px solid red;
-		}
-		.neutral img {
-			border:2px solid gray;
-		}
-		.free img {
-			border:2px solid limegreen;
 		}
 	}
 }

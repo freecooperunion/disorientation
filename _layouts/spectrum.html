@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
+<article>{{content}}</article>
 <header class="spectrum-header">
-	<h2 style="color:red">Pro-Tuition</h2>
-	<h2 style="color:gray">&ldquo;Neutral&rdquo;<br><small><em>or </em>Undecided <em>or </em>Unknown</small></h2>
-	<h2 style="color:limegreen">For Free Education</h2>
+	<h2>Opponents</h2>
+	<h2>&ldquo;Neutral&rdquo;<br><small><em>or </em>Undecided <em>or </em>Unknown</small></h2>
+	<h2>Allies</h2>
 </header>
 <ul>
 {% for group in site.data.groups %}
@@ -16,17 +17,9 @@ layout: default
 	{% endif %}
 	<section>
 		{% if group.members %}
-		<ul class="members">
-			{% for member in group.members %}
-			<li class="{{member.type}} {{member.stance}} {% if member.span %}span-{{member.span}}{% endif %}" {% if member.info or member.title %}title="<strong>{{member.name}}</strong><br>{% if member.title %}<em>{{member.title}}</em><br>{% endif %}{% if member.info %}<br>{% endif %}{{member.info}}"{% endif %}>
-			{% if member.img %}
-				<img src="{{site.baseurl}}/img/spectrum/{{member.img}}">
-			{% else %}
-				{{ member.name }}
-			{% endif %}
-			</li>
+			{% for members in group.members %}
+				{% include member_ul.html %}
 			{% endfor %}
-		</ul>
 		{% endif %}
 		{% if group.groups %}
 			<ul>
@@ -34,17 +27,9 @@ layout: default
 				<li class="group {% if group.span %}span-{{group.span}}{% endif %}" {% if group.info %}title="<strong>{{ group.name }}</strong><br><br>{{group.info}}"{% endif %}>
 				<strong>{{ group.name }}</strong>
 				{% if group.members %}
-				<ul class="members">
-					{% for member in group.members %}
-					<li class="{{member.type}} {{member.stance}} {% if member.span %}span-{{member.span}}{% endif %}" {% if member.info or member.title %}title="<strong>{{member.name}}</strong><br>{% if member.title %}<em>{{member.title}}</em><br>{% endif %}{% if member.info %}<br>{% endif %}{{member.info}}"{% endif %}>
-					{% if member.img %}
-						<img src="{{site.baseurl}}/img/spectrum/{{member.img}}">
-					{% else %}
-						{{ member.name }}
-					{% endif %}
-					</li>
+					{% for members in group.members %}
+						{% include member_ul.html %}
 					{% endfor %}
-				</ul>
 				{% endif %}
 				</li>
 				{% endfor %}
@@ -69,6 +54,7 @@ jQuery(document).ready(function() {
     $( document ).tooltip({
 		track: true,
 		effect: "none",
+		duration: 0,
 		delay: 0,
 		items: "[title]",
 		content: function() {
@@ -89,6 +75,11 @@ jQuery(document).ready(function() {
 	box-shadow:0 0px 10px rgba(0,0,0,.25);
 	border:none;
 	font-size: 1em;
+}
+.ui-widget {
+	font-family:Avenir, sans-serif;
+	font-size:16px;
+	line-height:1.25em;
 }
 .spectrum-header.stuck {
 	position:fixed;

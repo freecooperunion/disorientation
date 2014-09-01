@@ -1,171 +1,314 @@
+# NOTE: members must be ordered by stance in 
+# the sequence: tuition, neutral, free to appear 
+# in the correct section of the chart
 - name: Free Cooper Union
-  membership: [Informal, Open]
   last_active: current
   span: free
+  info: FCU, founded in Fall 2012, is a group of students and young alumni working towards free education to all. The group employs a wide range of tactics from petitions, to lock-ins, to occupations, to communications.
 - name: Committee to Save Cooper Union
-  membership: [Formal, Closed]
   last_active: current
   span: free
+  info: CSCU is a not-for-profit organization founded to keep Cooper free through legal efforts and political outreach. In May 2014, CSCU filed a lawsuit against Cooper’s Board in the New York State Supreme Court.
+  members:
+    - stance: free
+      members:
+      - name: Adrian Jovanovic
+        title: Founding Director, Alumni B.S.E. '89
+        img: jovanovic.png
+      - name: Mike Essl
+        img: essl.png
+        title: Founding Director, Associate Professor of Art, CU ART 1996, M.F.A.
+      - name: Toby Cumberbatch
+        img: cumberbatch.jpg
+        title: Founding Director, Professor of Electrical Engineering, Ph.D.
+      - name: Claire Kleinman
+        img: kleinman.jpg
+        title: Incoming student, Plaintiff in CSCU litigation
+      - name: Isabella Pezzulo
+        img: pezzulo.jpg
+        title: Accepted student, Plaintiff in CSCU litigation
+      - name: Richard Emery
+        img: emery.jpg
+        title: Partner, Emery Celli Brinckerhoff & Abady LLP
+      - name: Zoe Salzman
+        img: salzman.jpg
+        title: Associate, Emery Celli Brinckerhoff & Abady LLP
 - name: Friends of Cooper Union
-  membership: [Informal, Closed]
   last_active: June 2014
   span: free
+  info: FOCU, founded 2011, is a coalition of students, faculty, staff, alumni and friends dedicated to Cooper's mission. The group is most widely known for publishing The Way Forward, hosting community summits, writing open letters, and launching an online Vote of No Confidence in Epstein and Bharucha with 2,300+ signatures.
 - name: Student Councils
   span: neutral-free
   groups:
     - name: Engineering Student Council
-      span: tuition-neutral
+      span: tuition-free
+      info: "The purpose of The Engineering Student Council is to bring voice to the students of the School of Engineering to inform students of issues which affect them, to manage standing committees and bring issues of constituency to resolution."
+      members:
+        - stance: free
+          members:
+            - name: Harry Cullen
+              img: cullen.jpg
+            - name: Hadar Cohen
+              img: cohen-hadar.jpg
     - name: Architecture Student Council
       span: neutral-free
     - name: Art Student Council
       span: free
+      info: "We’re a group of art students. (You can join too.) We get to go to faculty and administrative meetings within the existing bureaucratic structure at Cooper. We get to vote on behalf of students and take notes which we share. The school gives us money to throw parties. We’re whatever the student body needs their bureaucratic presence to be."
     - name: Joint Student Council
       span: all
-- name: Unions
-  info: Cooper Union has three unions, which must remain largely neutral due to complex internal politics.
-  span: neutral-free
-  groups:
-    - name: CUFCT
-      span: all
-    - name: U@CU
-      span: all
-    - name: CUOP
+    - name: Joint Activities Council
       span: all
 - name: Working Group
   last_active: January 2014
   span: all
+  members:
+  - stance: tuition
+    members:
+    - name: Teresa Dahlberg
+      title: Dean, School of Engineering
+      img: dahlberg.jpg
+    - name: Catharine Hill
+      title: Appointed Trustee Representative
+      img: hill.jpg
+    - name: Sue Mccoy
+      title: Senior Database Manager, Office of Alumni Affairs & Development
+      img: mccoy.jpg
+    - name: Lawrence Cacciatore
+      title: Chief of Staff and Secretary to the Board of Trustees
+      img: cacciatore.jpg
+  - stance: neutral
+    members:
+    - name: Rob Brumer
+      title: Elected Student Representative (School of Engineering)
+      img: brumer.jpg
+    - name: Diane Lewis, Chair
+      title: Professor, School of Architecture
+      img: lewis.jpg
+  - stance: free
+    members:
+    - name: Benjamin Davis, Chair
+      title: Assistant Professor, School of Engineering
+      img: davis.jpg
+    - name: Atina Grossmann
+      title: Professor, Faculty of Humanities & Social Sciences
+      img: grossman.jpg
+    - name: Alexander Tochilovsky
+      title: Curator, Herb Lubalin Study Center
+      img: tochilovsky.jpg
+    - name: Victoria Sobel
+      title: Alumna (School of Art)
+      img: sobel.jpeg
+    - name: Jakob Biernat
+      title: Elected Student Representative (School of Art)
+      img: biernat.jpg
+    - name: Robert Tan, Chair
+      title: Alumnus (School of Architecture), Secretary/Treasurer, Cooper Union Alumni Council
+      img: tan.jpg
+    - name: Christine Osinski
+      title: Professor, School of Art
+      img: osinski.jpg
+    - name: Barry Drogin
+      title: Alumnus (School of Engineering)
+      img: drogin.jpg
+    - name: Lawrence Mesich
+      title: Academic Support Specialist, Computer Studio/IT
+      img: mesich.jpg
+    - name: Arta Perezic
+      title: Elected Student Representative (School of Architecture)
+      img: perezic.jpg
+    - name: Robert Tan
+      title: Alumnus (School of Architecture), Vice President, Cooper Union Alumni Association
+      img: tan.jpg
+    - name: Michael Borkowsky
+      title: Trustee Representative, Working Group Co-Chair
+      img: borkowsky.jpg
+    - name: Jeffrey Gural
+      title: Trustee Representative, Working Group Co-Chair
+      img: gural.jpg
 - name: Faculties
   groups:
-    - name: Engineering
-      span: neutral-free
-    - name: Architecture
-      span: neutral-free
     - name: Art
       span: free
     - name: Humanities
       span: free
+    - name: Architecture
+      span: neutral-free
+    - name: Engineering
+      span: all
 - name: Staff
 - name: Board
+  span: all
   members:
-    - name: Devora Najjar
-      stance: free
-      span: free
-      info: ChE’16
-      img: najjar.jpg
-      title: Student Representative
-    - name: Jeff Gural
-      stance: free
-      span: free
-      img: gural.jpg
-    - name: John Leeper
-      stance: free
-      span: free
-      img: leeper.jpg
-      info: AR'85
-      title: Alumni Association President
-    - name: Kevin Slavin
-      img: slavin.jpg
-      stance: free
-      span: free
-      info: A’95
-      title: Alumni Trustee
-    - name: Charles S. Cohen  
-      img: cohen.jpg
-    - name: Daniel Okrent 
-      img: okrent.jpg
-    - name: Eric Hirschhorn
-      info: ME’89 
-      img: hirschhorn.jpg
-    - name: Jeffrey Hersch
-      info: EE’87 
-      img: hersch.jpg
-    - name: Johnny C. Taylor Jr.
-      img: taylor.jpg
-    - name: Malcolm King
-      info: EE’97 
-      img: king.jpg
-    - name: Monica Vachher  
-      img: vacher.jpg
-    - name: Rachel L. Warren  
-      img: warren.jpg
-    - name: Thomas Driscoll
-      img: driscoll.jpg
-      info: ME'77 
-    - name: Richard S. Lincer
-      img: lincer.jpg
-      title: Chairman of the Board    
-    - name: Francois de Menil
-      img: demenil.jpg
-      info: AR'87
-      title: Vice Chairman of the Board   
-    - name: Robert Bernhard
-      img: bernhard.jpg
-      title: Chairman Emeritus    
-    - name: Jamshed Bharucha    
-      img: bharucha.jpg
-    - name: Joseph B. Dobronyi Jr.    
-      img: dobronyi.jpg
-    - name: Mark Epstein
-      img: epstein.jpg
-      info: A'76
-      title: Chairman Emeritus    
-    - name: Raymond G. Falci
-      img: falci.jpg
-      info: ME'86
-      title: Alumni Trustee   
-    - name: Catharine Hill   
-      img: hill.jpg
-    - name: Edgar Mokuvos
-      img: mokuvos.jpg
-      info: EE'78
-      title: Alumni Trustee   
-    - name: Bruce Pasternack
-      img: pasternack.jpg
-      info: ME'68   
-    - name: Lee H. Skolnick
-      img: skolnick.jpg
-      info: AR'79
-      title: Alumni Trustee   
-    - name: Jeremy Wertheimer
-      img: wertheimer.jpg
-      info: EE'82   
+    - stance: tuition
+      members:
+      - name: Jamshed Bharucha    
+        img: bharucha.jpg
+      - name: Mark Epstein
+        img: epstein.jpg
+        info: A'76
+        title: Chairman Emeritus    
+      - name: Catharine Hill   
+        img: hill.jpg
+      - name: Jeremy Wertheimer
+        img: wertheimer.jpg
+        info: EE'82
+    - stance: neutral
+      members:
+      - name: Charles S. Cohen  
+        img: cohen.jpg
+      - name: Daniel Okrent 
+        img: okrent.jpg
+      - name: Eric Hirschhorn
+        info: ME’89 
+        img: hirschhorn.jpg
+      - name: Jeffrey Hersch
+        info: EE’87 
+        img: hersch.jpg
+      - name: Johnny C. Taylor Jr.
+        img: taylor.jpg
+      - name: Malcolm King
+        info: EE’97 
+        img: king.jpg
+      - name: Monica Vachher  
+        img: vachher.jpg
+      - name: Rachel L. Warren  
+        img: warren.jpg
+      - name: Thomas Driscoll
+        img: driscoll.jpg
+        info: ME'77 
+      - name: Richard S. Lincer
+        img: lincer.jpg
+        title: Chairman of the Board    
+      - name: Francois de Menil
+        img: demenil.jpg
+        info: AR'87
+        title: Vice Chairman of the Board   
+      - name: Robert Bernhard
+        img: bernhard.jpg
+        title: Chairman Emeritus    
+      - name: Joseph B. Dobronyi Jr.    
+        img: dobronyi.jpg
+      - name: Raymond G. Falci
+        img: falci.jpg
+        info: ME'86
+        title: Alumni Trustee   
+      - name: Edgar Mokuvos
+        img: mokuvos.jpg
+        info: EE'78
+        title: Alumni Trustee   
+      - name: Bruce Pasternack
+        img: pasternack.jpg
+        info: ME'68   
+      - name: Lee H. Skolnick
+        img: skolnick.jpg
+        info: AR'79
+        title: Alumni Trustee   
+    - stance: free
+      members:
+      - name: Devora Najjar
+        info: ChE’16
+        img: najjar.jpg
+        title: Student Representative
+      - name: Jeff Gural
+        img: gural.jpg
+      - name: John Leeper
+        img: leeper.jpg
+        info: AR'85
+        title: Alumni Association President
+      - name: Kevin Slavin
+        img: slavin.jpg
+        info: A’95
+        title: Alumni Trustee
 - name: CU Alumni Association
+- name: Unions
+  info: Cooper Union has three unions, which must remain largely neutral due to complex internal politics.
+  span: neutral
+  groups:
+    - name: CUFCT
+      span: all
+      info: Cooper Union Federation of College Teachers. (Full-time faculty union.)
+    - name: U@CU
+      span: all
+      info: Union @ Cooper Union is a union of full-time and part-time clerical, administrative, technical and buildings and grounds maintenance staff.
+    - name: CUOP
+      span: all
+      info: Cooper Union Organization of Part-Time Faculty (CUOP), representing adjunct and proportional faculty members.
 - name: Administrators
   info: "Administrators are college employees responsible for the maintenance and supervision of the institution separate from the faculty. Administrative responsibilities include academic affairs, school finances, fundraising, public affairs, and press. Administrative bloat is a term used for the inflated administrative ratios in recent years. Between 1993 and 2007, spending on administration rose twice as fast as funding for research and teaching at 198 leading U.S. universities.<br><br> At a time where college budgets are tight, students are amassing record debt, and tuition is skyrocketing, the ratio of administrators to faculty has jumped up in the past decade: across universities nationwide employment of administrators has risen 60 percent from 1993 to 2009, 10 times the growth rate for tenured faculty."
   span: tuition-neutral
   members:
-    - name: Jamshed Bharucha
-      img: bharucha.jpg
-      span: tuition
-      stance: tuition
-      title: President; Trustee
-    - name: Lawrence Cacciatore
-      span: tuition
-      stance: tuition
-      img: cacciatore.jpg
-      title: Chief of Staff and Secretary to the Board of Trustees
+    - stance: tuition
+      members:
+      - name: Jamshed Bharucha
+        img: bharucha.jpg
+        title: President; Trustee
+      - name: Lawrence Cacciatore
+        img: cacciatore.jpg
+        title: Chief of Staff and Secretary to the Board of Trustees
   groups:
     - name: Vice Presidents
       info: In the span of a year, the college went from having no Vice Presidents to nearly ten.
       members:
-        - name: Stephen Baker
-          stance: tuition
-          img: baker.jpg
-          title: Vice President of Student Affairs
-          info: Started off as an athletics coach and in less than a year is a Vice President.
-        - name: Justin Harmon
-          stance: tuition
-          title: Vice President for Communications
+        - stance: tuition
+          members:
+          - name: Stephen Baker
+            img: baker.jpg
+            title: Vice President of Student Affairs
+            info: Started off as an athletics coach and in less than a year is a Vice President.
+          - name: Justin Harmon
+            title: Vice President for Communications
+            img: harmon.jpg
+          - name: William Mea
+            title: Vice President of Finance and Administration
+            img: mea.jpeg
+        - stance: neutral
+          members:
+          - name: T.C. Westcott
+            img: westcott.jpg
+            title: Former Vice President of Finance and Administration
+            gone: yes
     - name: Admissions
       info: A ton of new admissions people have been hired.
+      members:
+      - stance: tuition
+        members:
+        - name: Abby Davis
+          title: Assistant Director of Admissions
+          img: davis.jpg
     - name: Deans
       span: all
       members:
-        - name: Saskia Bos
-        - name: William Germano
-        - name: Elizabeth O'Donnell
+      - stance: tuition
+        members:
         - name: Teresa Dahlberg
+          title: Dean, School of Engineering; Chief Academic Officer
+          img: dahlberg.jpg
         - name: Alan Wolf
+          img: wolf.jpg
+          title: Former Acting Dean, School of Engineering; Former Campus-Wide Safety Coordinator; Professor, School of Engineering; Chairman, Department of Physics
+        - name: Mitchell Lipton
+          img: lipton.jpg
+          gone: yes
+          title: Former Acting Dean, School of Engineering; Former Campus-Wide Safety Coordinator; Professor, School of Engineering; Chairman, Department of Physics
+      - stance: neutral
+        members:        
+        - name: William Germano
+          img: germano.jpg
         - name: Anthony Vidler
+          img: vidler.jpg
+          gone: yes
+        - name: Saskia Bos
+          img: bos.jpg
+        - name: Elizabeth O'Donnell
+          img: odonnell.jpg
+        - name: Chris Chamberlin
+          img: chamberlin.jpg
+        - name: Linda Lemiesz
+          img: lemiesz.png
+        - name: Simon Ben-Avi
+          img: benavi.jpg
+          title: Former Acting Dean, School of Engineering
+          gone: yes
     - name: Development
     - name: Alumni Affairs
