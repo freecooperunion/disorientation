@@ -203,7 +203,59 @@
       - name: Lee H. Skolnick
         img: skolnick.jpg
         info: AR'79
-        title: Alumni Trustee   
+        title: Alumni Trustee  
+      - name: Marc Appleton
+        title: Former Trustee
+        gone: yes
+        img: appleton.jpg
+      - name: Robert Aquilina
+        title: Former Trustee
+        gone: yes
+        img: aquilina.jpg
+      - name: Judith Rodin
+        title: Former Trustee
+        gone: yes
+        img: rodin.jpg
+      - name: Moshe Safdie
+        title: Former Trustee
+        gone: yes
+        img: safdie.jpg
+      - name: William Sandholm
+        title: Former Trustee
+        gone: yes
+        img: sandholm.jpg
+      - name: Philip Trahanas
+        title: Former Trustee
+        gone: yes
+        img: trahanas.jpg
+      - name: Douglas Hamilton
+        title: Former Trustee
+        gone: yes
+        img: hamilton.jpg
+      - name: Vikas Kapoor
+        title: Former Trustee
+        gone: yes
+        img: kapoor.jpg
+      - name: Audrey Flack
+        title: Former Trustee
+        gone: yes
+        img: flack.jpg
+      - name: Stanley Lapidus
+        title: Former Trustee
+        gone: yes
+        img: lapidus.jpg
+      - name: Giorgiana Slade
+        title: Former Trustee
+        gone: yes
+        img: slade.gif
+      - name: Cynthia Weiler
+        title: Former Trustee
+        gone: yes
+        img: weiler.jpg
+      - name: Ronald Weiner
+        title: Former Trustee
+        gone: yes
+        img: weiner.jpg 
     - stance: free
       members:
       - name: Devora Najjar

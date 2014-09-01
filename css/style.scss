@@ -254,6 +254,7 @@ body#spectrum {
 		margin:0;
 		background:#fff;
 		box-shadow:0 5px 10px rgba(0,0,0,.15);
+		z-index:5;
 		h2 {
 			display:inline-block;
 			font-weight:bold;
@@ -319,6 +320,12 @@ body#spectrum {
 			&.span-tuition-neutral {}
 			&.span-neutral-tuition {}
 			&.span-tuition, &.span-neutral, &.span-free {}
+			.gone {
+				opacity:.5;
+			}
+			.gone:hover {
+				opacity:1;
+			}
 		}
 		.span-tuition {
 			width:(100%/3);

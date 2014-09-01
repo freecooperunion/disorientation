@@ -1,6 +1,6 @@
 <ul class="members {{ members.stance }} cf">
 	{% for member in members.members %}
-		<li {% if member.info or member.title %}title="<strong>{{member.name}}</strong><br>{% if member.title %}<em>{{member.title}}</em><br>{% endif %}{% if member.info %}<br>{% endif %}{{member.info}}"{% endif %}>
+		<li {% if member.info or member.title %}title="<strong>{{member.name}}</strong><br>{% if member.title %}<em>{{member.title}}</em><br>{% endif %}{% if member.info %}<br>{% endif %}{{member.info}}"{% endif %}{% if member.gone %}class="gone"{% endif %}>
 		{% if member.img %}
 			<img src="{{site.baseurl}}/img/spectrum/{{member.img}}">
 		{% else %}
