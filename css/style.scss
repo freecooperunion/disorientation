@@ -377,21 +377,28 @@ body#timeline {
 	}
 }
 body#glossary {
-	table {
+	#content dl {
+		max-width:none;
 		width:100%;
-		tr {
-			border-bottom:1px dotted #ccc;
+		dt,dd {
+			border-bottom:1px solid #eee;
+			display:inline-block;
+			vertical-align: top;
 		}
-		tr:target {
+		dt:target {
 			background:lightyellow;
 		}
-		th {
+		dt {
 			font-weight:bold;
-			text-align:left;
-			padding-right:15px;
+			width:15%;
+			padding:.5em 0;
 		}
-		th, td {
-			padding:10px 5px;
+		dd {
+			width:80%;
+			padding:.5em 2%;
+			margin:0;
+		}
+		dt, dd {
 		}
 	}
 }
