@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-<article>{{content}}</article>
+<article class="fade-intro">{{content}}</article>
 <header class="spectrum-header">
 	<h2>Opponents</h2>
-	<h2>&ldquo;Neutral&rdquo;<br><small><em>or </em>Undecided <em>or </em>Unknown</small></h2>
+	<h2>&ldquo;Neutral&rdquo;</h2>
 	<h2>Allies</h2>
 </header>
 <ul>
 {% for group in site.data.groups %}
-  <li class="group {% if group.span %}span-{{group.span}}{% endif %}" {% if group.info %}title="<strong>{{ group.name }}</strong><br><br>{{group.info}}"{% endif %}>
+  <li id="{{ group.name | replace: ' ', '-' | downcase }}" class="group {% if group.span %}span-{{group.span}}{% endif %}" {% if group.info %}title="<strong>{{ group.name }}</strong><br><br>{{group.info}}"{% endif %}>
 	{% if group.members or group.groups  %}
 		<a class="toggle" href="#" onclick="return false"><strong>{{ group.name }}</strong></a>
 	{% else %}
@@ -65,6 +65,10 @@ jQuery(document).ready(function() {
       }
     });
 	$('.spectrum-header').waypoint('sticky');
+	var url = self.document.location.hash.substring(1);
+	// expand id via url hash
+	$('#' + url + ' a').next('section').slideDown();
+
 });
 </script>
 <style type="text/css">
@@ -86,5 +90,13 @@ jQuery(document).ready(function() {
 	top:0;
 	box-shadow:0 2px 4px rgba(0, 0, 0, .3);
 }
-
+.fade-intro {
+	position:absolute;
+	top:110px;
+	left:20px;
+	color:gray;
+}
+#content {
+	position:relative;
+}
 </style>
