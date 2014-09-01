@@ -82,14 +82,14 @@
     - name: Rob Brumer
       title: Elected Student Representative (School of Engineering)
       img: brumer.jpg
-    - name: Diane Lewis, Chair
+    - name: Diane Lewis
       title: Professor, School of Architecture
       img: lewis.jpg
   - stance: free
     members:
-    - name: Benjamin Davis, Chair
+    - name: Benjamin Davis
       title: Assistant Professor, School of Engineering
-      img: davis.jpg
+      img: davis-ben.jpg
     - name: Atina Grossmann
       title: Professor, Faculty of Humanities & Social Sciences
       img: grossman.jpg
@@ -102,7 +102,7 @@
     - name: Jakob Biernat
       title: Elected Student Representative (School of Art)
       img: biernat.jpg
-    - name: Robert Tan, Chair
+    - name: Robert Tan
       title: Alumnus (School of Architecture), Secretary/Treasurer, Cooper Union Alumni Council
       img: tan.jpg
     - name: Christine Osinski
