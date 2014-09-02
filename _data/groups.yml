@@ -54,10 +54,15 @@
       span: neutral-free
     - name: Art Student Council
       span: free
+      members: 
+        - stance: free
+          members:
+            - name: Andy Overton
+              img: overton.jpg
+            - name: Hunter Mayton
+              img: mayton.jpg
       info: "We’re a group of art students. (You can join too.) We get to go to faculty and administrative meetings within the existing bureaucratic structure at Cooper. We get to vote on behalf of students and take notes which we share. The school gives us money to throw parties. We’re whatever the student body needs their bureaucratic presence to be."
     - name: Joint Student Council
-      span: all
-    - name: Joint Activities Council
       span: all
 - name: Working Group
   last_active: January 2014
@@ -92,10 +97,10 @@
       img: davis-ben.jpg
     - name: Atina Grossmann
       title: Professor, Faculty of Humanities & Social Sciences
-      img: grossman.jpg
+      img: grossman.png
     - name: Alexander Tochilovsky
       title: Curator, Herb Lubalin Study Center
-      img: tochilovsky.jpg
+      img: tochilovsky.png
     - name: Victoria Sobel
       title: Alumna (School of Art)
       img: sobel.jpeg
@@ -125,7 +130,7 @@
       img: borkowsky.jpg
     - name: Jeffrey Gural
       title: Trustee Representative, Working Group Co-Chair
-      img: gural.jpg
+      img: gural.png
 - name: Faculties
   groups:
     - name: Art
@@ -264,7 +269,7 @@
         img: najjar.jpg
         title: Student Representative
       - name: Jeff Gural
-        img: gural.jpg
+        img: gural.png
       - name: John Leeper
         img: leeper.jpg
         info: AR'85
@@ -273,6 +278,10 @@
         img: slavin.jpg
         info: A’95
         title: Alumni Trustee
+      - name: Michael Borkowsky
+        title: Trustee Representative, Working Group Co-Chair
+        img: borkowsky.jpg
+        gone: yes
 - name: CU Alumni Association
 - name: Unions
   info: Cooper Union has three unions, which must remain largely neutral due to complex internal politics.
@@ -311,7 +320,7 @@
             info: Started off as an athletics coach and in less than a year is a Vice President.
           - name: Justin Harmon
             title: Vice President for Communications
-            img: harmon.jpg
+            img: harmon.png
           - name: William Mea
             title: Vice President of Finance and Administration
             img: mea.jpeg
