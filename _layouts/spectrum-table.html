@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<table>
+<tr>
+	<th>Group</th>
+	<th>Subgroup</th>
+	<th>Stance</th>
+	<th>Name</th>
+	<th>Title</th>
+	<th>Info</th>
+</tr>
+{% for group in site.data.groups %}
+<tr>
+	<td>{{group.name}}</td>
+	<td></td>
+	<td>{{group.span}}</td>
+	<td></td>
+	<td></td>
+	<td>{{group.info}}</td>
+</tr>
+	{% for members in group.members %}
+		{% for member in members.members %}
+			<tr>
+				<td>{{group.name}}</td>
+				<td></td>
+				<td>{{members.stance}}</td>
+				<td>{{member.name}}</td>
+				<td>{{member.title}}</td>
+				<td>{{member.info}}</td>
+			</tr>
+		{% endfor %}
+	{% endfor %}
+	{% for groups in group.groups %}
+		<tr>
+			<td>{{group.name}}</td>
+			<td>{{groups.name}}</td>
+			<td>{{groups.stance}}</td>
+			<td></td>
+			<td></td>
+			<td>{{groups.info}}</td>
+		</tr>
+		{% for members in groups.members %}
+			{% for member in members.members %}
+				<tr>
+					<td>{{group.name}}</td>
+					<td>{{groups.name}}</td>
+					<td>{{members.stance}}</td>
+					<td>{{member.name}}</td>
+					<td>{{member.title}}</td>
+					<td>{{member.info}}</td>
+				</tr>
+			{% endfor %}
+		{% endfor %}
+	{% endfor %}
+{% endfor %}	
+</table>
