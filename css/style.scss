@@ -373,7 +373,12 @@ body#timeline {
 	#content {
 		max-width:none;
 		padding:0!important;
-
+		.container h3 {
+			font-size:28px!important;
+		}
+		.flag-content h3 {
+			font-size:11px!important;
+		}
 	}
 }
 body#glossary {
