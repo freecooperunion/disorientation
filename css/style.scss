@@ -529,9 +529,6 @@ body#index {
 		margin:0;
 		max-width:none;
 	}
-	header {
-		background:#000;
-	}
 	h1 {
 		font-size:18px;
 		font-family: cth, Avenir;
@@ -540,9 +537,16 @@ body#index {
 		text-transform: capitalize;
 		span{text-decoration: underline;}
 		width:100%;
+		background:#fff;
+		color:#000;
+	}
+	h2.section-heading {
+		color:#000;
+		text-align:center!important;
+		width:100%;
+		margin:auto!important;
 	}
 	header#collage {
-		background:#f00 !important;
 		padding:20px 0;
 		img {
 			margin:0 auto;
