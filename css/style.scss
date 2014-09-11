@@ -6,21 +6,21 @@
 @font-face {
 	font-family: 'cth';
 	src: url('http://freecooperunion.org/disorientation/fonts/cth.eot');
-	src: local('â˜º'), url('http://freecooperunion.org/disorientation/fonts/cth.woff') format('woff'), url('http://freecooperunion.org/disorientation/fonts/cth.ttf') format('/truetype'), url('http://freecooperunion.org/disorientation/fonts/cth.svg') format('svg');
+	src: url('http://freecooperunion.org/disorientation/fonts/cth.woff') format('woff'), url('http://freecooperunion.org/disorientation/fonts/cth.ttf') format('/truetype'), url('http://freecooperunion.org/disorientation/fonts/cth.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'cbo';
 	src: url('http://freecooperunion.org/disorientation/fonts/cbo.eot');
-	src: local('â˜º'), url('http://freecooperunion.org/disorientation/fonts/cbo.woff') format('woff'), url('http://freecooperunion.org/disorientation/fonts/cbo.ttf') format('/truetype'), url('http://freecooperunion.org/disorientation/fonts/cbo.svg') format('svg');
+	src: url('http://freecooperunion.org/disorientation/fonts/cbo.woff') format('woff'), url('http://freecooperunion.org/disorientation/fonts/cbo.ttf') format('/truetype'), url('http://freecooperunion.org/disorientation/fonts/cbo.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'cbl';
 	src: url('http://freecooperunion.org/disorientation/fonts/cth.eot');
-	src: local('â˜º'), url('http://freecooperunion.org/disorientation/fonts/cbl.woff') format('woff'), url('http://freecooperunion.org/disorientation/fonts/cbl.ttf') format('/truetype'), url('http://freecooperunion.org/disorientation/fonts/cbl.svg') format('svg');
+	src: url('http://freecooperunion.org/disorientation/fonts/cbl.woff') format('woff'), url('http://freecooperunion.org/disorientation/fonts/cbl.ttf') format('/truetype'), url('http://freecooperunion.org/disorientation/fonts/cbl.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -529,7 +529,26 @@ body#index {
 		margin:0;
 		max-width:none;
 	}
-	section header {
+	header {
 		background:#000;
+	}
+	h1 {
+		font-size:18px;
+		font-family: cth, Avenir;
+		font-weight:100;
+		text-align: center;
+		text-transform: capitalize;
+		span{text-decoration: underline;}
+		width:100%;
+	}
+	header#collage {
+		background:#f00 !important;
+		padding:20px 0;
+		img {
+			margin:0 auto;
+		}
+		span {
+			margin-right:20px;
+		}
 	}
 }
