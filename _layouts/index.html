@@ -3,15 +3,15 @@ layout: default
 ---
 <article>
 	<header>
-		<p>This is a live <strong>DRAFT</strong> — to be released for real in mid-September. Pardon falling pixels.</p>
-		<hr>
-		<h2 class="section-heading">Free Cooper Union: <strong>Disorientation 2014</strong></h1>
-		<img src="{{site.baseurl}}/img/freeschool.png">
+		<h1 class="section-heading">Free Cooper Union: <strong>Disorientation 2014</strong></h1>
 	</header>
 	{{ page.intro | markdownify }}
 	<hr>
 	<section>
-		<h2 class="section-heading">Lowdown</h2>
+		<header>
+			<img src="{{site.baseurl}}/img/collage/foundation.png" alt="">
+			<h2 class="section-heading">Lowdown</h2>
+		</header>
 		<p>Brief introductions to the things you need to know: recent developments, active groups, and ongoing issues.</p>
 			<nav>
 				<ol>
@@ -27,9 +27,10 @@ layout: default
 				</ol>
 			</nav>
 	</section>
-	<hr>
 	<section>
+	<header>
 		<h2 class="section-heading">Resources</h2>
+		</header>
 		<nav>
 			<ul>
 				{% for item in site.resources %}
@@ -40,7 +41,6 @@ layout: default
 			</ul>
 		</nav>
 	</section>
-	<hr>
 	<section>
 		<h2 class="section-heading">Background</h2>
 		<p>These selected essays dig into why Cooper matters, what's going wrong with education everywhere, and how we might fix it.</p>
@@ -59,7 +59,6 @@ layout: default
 				</dl>
 			</nav>
 	</section>
-	<hr>
 	<section>
 		<h2 class="section-heading">Colophon</h2>
 	</section>
