@@ -4,6 +4,7 @@ order: 1
 layout: post
 prev: /
 next: ivory-tower
+background: banner.png
 ---
 
 <figure class="pull-right">
