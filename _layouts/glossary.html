@@ -1,0 +1,40 @@
+---
+layout: default
+body_id: glossary
+---
+<article>
+	<h1>{{page.title}} <span class="loading">(Loading…)</span></h1>
+
+	<table id="glossary" style="display:none;"></table>
+</article>
+{% raw %}
+<script id="glossary-template" type="text/x-handlebars-template">
+	<tr><th>{{term}}</th><td>{{{definition}}}</td></tr>
+</script>
+{% endraw %}
+
+<script type="text/javascript" src="{{site.baseurl}}/js/handlebars.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/js/jquery.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/js/tabletop.js"></script>
+<script type="text/javascript">
+	var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1-OKVd-CRAkfGWdxLEvjN_kJmUdegO6ugn1uQTeQM42Y/pubhtml';
+
+	$(document).ready( function() {
+		Tabletop.init( { key: public_spreadsheet_url,
+										 callback: showInfo,
+										 parseNumbers: true } );
+	});
+		
+	function showInfo(data, tabletop) {
+		var source   = $("#glossary-template").html();
+		var template = Handlebars.compile(source);
+
+		$.each( tabletop.sheets("Glossary").all(), function(i, glossary) {
+			var html = template(glossary);
+			$("table#glossary").append(html);
+			console.log("append");
+		});
+		$("table#glossary").fadeIn();
+		$(".loading").fadeOut();
+	}
+</script>

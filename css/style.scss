@@ -401,30 +401,23 @@ body#timeline {
 	}
 }
 body#glossary {
-	#content dl {
-		max-width:none;
-		width:100%;
-		dt,dd {
-			border-bottom:1px solid #eee;
-			display:inline-block;
-			vertical-align: top;
-		}
-		dt:target {
-			background:lightyellow;
-		}
-		dt {
-			font-weight:bold;
-			width:15%;
-			padding:.5em 0;
-		}
-		dd {
-			width:80%;
-			padding:.5em 2%;
-			margin:0;
-		}
-		dt, dd {
-		}
+	table {
+		max-width:960px;
+		margin:auto;
+		text-align:left;
+		border-collapse: collapse;
 	}
+	tr {
+		border-bottom:1px solid #ccc;
+	}
+	th, td {
+		padding:10px 0;
+	}
+	th {
+		padding-right:10px;
+		vertical-align: top;
+	}
+
 }
 nav {
 	a:link, a:visited {
