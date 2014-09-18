@@ -401,24 +401,17 @@ body#timeline {
 	}
 }
 body#glossary {
-	table {
-		max-width:960px;
-		margin:auto;
-		text-align:left;
-		border-collapse: collapse;
-		padding:0 20px;
+	dl {
+		padding:0 10px;
 	}
-	tr {
-		border-bottom:1px solid #ccc;
+	dt {
+		font-weight:bold;
+		padding-top:10px;
+		padding-bottom:5px;
 	}
-	th, td {
-		padding:10px 0;
+	dd {
+		padding-bottom:10px;
 	}
-	th {
-		padding-right:10px;
-		vertical-align: top;
-	}
-
 }
 nav {
 	a:link, a:visited {
