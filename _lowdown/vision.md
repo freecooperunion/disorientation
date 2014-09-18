@@ -1,57 +1,41 @@
 ---
-title: Vision
+title: Vision Platter Deluxe
 order: 6
 layout: post
 prev: code-of-conduct-and-private-security
 next: the-state-of-the-cooper-union-by-mike-borkowsky
 ---
-Cooper union should be a beacon
-Don't conflate us with nostalgia
-We've been bettering the college for 150 years, let's keep bettering it
-Debunk Myths
-Antioch
-Closing
-Accreditation
-- Short/middle/long term
-governance
-no tuition
-no debt
-the associates
-active community/ community remediation
-Governance Structures & actors
-- Patterns of structures across institutions
-- Mechanisms (checks & balances)
-- Existing structures
-- Mapping Cooper’s admin (pic org chart)
-- Board of Trustees
-- Problems:
-- Cronyism
-- No artists, architects, engineers
-- Proposals:
-- Require structurally that board composition be different
-- Lots of Middle Managemen
-- Alternature structures
-Sunset Clause
-Horizontality
-Management by walking around
-Open source programmers
-Cooperative
-Small Schools (e.g. Kitchen Table Coders)
-- Case studies
-Cornell
-Valve
-Mondragoon
-IWW Co-ops
-Summer Hill
-Deep Springs
-Black Mountain
-ASSE, Quebec federation of student unions (uses direct democracy)
-Democratic K-12, or K-8 schools:The Brooklyn Free School, http://www.brooklynfreeschool.org/about/index.html; Mission Hill in Boston, http://www.missionhillschool.org/a-year-at-mission-hill/; Sudbury Valley in Massachusets, http://www.sudval.com/01_abou_05.html
-Broadly critique Expertise & accreditation->academia
-Money & debt-
-Missions
-Institutions
-Community
-Map/territory relation (looks good on paper, chart is not the patient)
-Designing new schools vs. reforming/preserving existing schools
-Student organizing/Free Cooper Campaign
+
+Free Cooper’s first communiques, introduced in the previous section, came out of a series of conversations on student debt, administrative bloat, and free education. A lot has happened since, and our conversations have expanded to match. Some want to call this a debate about “tuition” but to us its a practice of building resistance, dismantling oppression, and fostering shared principles.
+
+Anyway, here are a bunch of topics we’ve talked about.
+
+- INSTITUTIONS: Institutions are full of shit. Are we the Drain-O? Is there Drain-O strong enough? Is education like washing our hands in a sink? Is the sink the absence of a pipe? Is water money?
+- SYSTEMS: Trustees want to talk about finances in terms of two columns in a ledger: money in, money out. Things are less like simple arithmetic and more like algebra, where a bunch of secret functions are being applied to each transaction. But no function exists in a vacuum. All different kinds of interests and disinterests are pushing against each other, changing everything’s logic. This is the most basic way to bridge between people who insist that things are simple, and people who engage a full spectrum of systems analysis. This is chaos, in which, most famously, a butterfly flapping its wings starts a tornado on the other side of the planet.
+- INTERSECTIONALITY: Systems don’t just touch, they are wickedly entangled. Dan Hill, Chaos. All of the change is driving us. It’s perpetupating itself. We as humans continue to maintain that we’re in control. We’re deciding the burn all this stuff! No. It’s the systems. We’re too stupid to see it. Intersectionality is invisible and we’re struggling to make it visible. Systems we’ve created don’t need our sensitivity to human issues. See also:
+- PATHOLOGY OF MODERNITY: DELICATE SENSIBILITIES: Friction. Rubbing. Discomfort. He’s choosing to focus on one small thing. For people looking at that whole spectrum the friction is like a fire and its burning and it hurts and makes it impossible to ignore. You’re compelled to act. The masking of the intersectionality of things and the privileging of invisible systemic forms of violence on indigenous groups, people of color, minorities. And what of the violence imposed by the state? All of these organizations propose that we care about human rights when in reality all of the systems in the capitalist framework infringe on human rights in order to provide some people with a comfortable lifestyle.
+- FAILURES OF LANGUAGE: We’ve bumped up against the limits of language.  Prefixes and suffixes denote oppositional things, but really they’re not opposites. Sometimes a non-violent action can be more violent than a violent one. The idea of a position as a coordinate in a grid system is like a statistic. You can make it appear to be anything you want by putting words around it. People need to deconstruct their idea of anything being certifiable, there’s no essential grid, the grid is a concept that can be applied to any position. There’s no moral high ground. There’s no objectivity. How have we come to understand scarcity and abundance? Though a capital prism. It’s a failure of language. The language only allows us to perceive of things in their financialized form. There’s no concrete experience. We’re adding words like Snapchat to the dictionary, but we’re not adding words to describe compounding complexities. We’re not creating words as fast as we used to. Archaic language is failing us. In the past they probably would’ve just created new words. Abundance/scarcity, success/failure.
+- POSITIONALITY: Delicate modern sensitivities.
+- POSITIONAL ETHICS: When we ask to be a part of the committee to find a security firm, that doesn’t meant that we’re not also trying to demand that there not be a president. If you think about people on an axis from liberal to conservatives one moment then choose an axis of insurrectionists to institutionalists the next,  Rush limbaugh will suddenly be next to obama and tea partiers will be next to anarchists. You can attribute the ethics to the position, but ultimately there is no position because the grid is a concept in relation to any position.
+- FALSE DICHOTOMIES: It behooves them to financialize us. Some want to call this a debate about “tuition”. That locks you into tuition or not, when we’d rather be talking about a practice of building resistance, dismantling oppression, and fostering shared principles.
+- DELUSIONAL REALISM: the only way to oppose a system of financial realities is to stop making sense. Tuition may have been the answer but what was the question?
+- CONSTITUTIONALISM: There is a lot of boring conventional history around Cooper that people fight over. Get inspired by the weird history but don’t be a stupid constitutionalist. We don’t actually know what dead guys wanted? [Really? There is a big difference between respecting the still radical ideas of Peter Cooper and feeling like we have to hold a seance to consult him on every action. Keep in mind that the legal fight is based on the principles of Trust law, where the intention of the boring dead guy actually determines what can be done without the approval of the NYState Supreme Court…]
+- VISION NOT NOSTALGIA, LOOK FORWARD NOT BACKWARD. There’s a lot of people who want Cooper to be what it was 20 years ago 10 years from now. We’re not advocating for nostalgia, but or what a university should be like now and 100 years from now. Propethic > nostalgic.
+- TIME SCALES: short, middle, long: there are opportunities to enact all this kind of stuff. now is always the time for principled action.
+- WHAT UNION: The admin wanted to close the art school. We need to think about what the schools could be in their best form, not their most corporatized form, and all of those who give a shit need to stick together. The administration wants it to appear that people working different angles are against each other, and different groups cancel each other out by seeing their visions as mutually exclusive when really they could work together.
+- RUBBERBAND. A form of organization. If an immediate response is needed we’re on the ground, other times we’re circling back to archive recent history, and other times we’re imagining the far future.
+- PARADIGMS: paradigms are paradigms, you have to laugh at how comical everything is, transcend paradigms, overthrow empires, fuckers
+- WHAT WAS THE COMMUNITY? This is not even a fight with the community, the community has been erased, destroyed, disarmed, dissolved if there ever was one. Could a community with no say have ever been one? The main project of our board is destruction of our community's bond by absorbing and centralizing agency over time. A campaign against memory and flexibility.
+- REMEDIATION: Cooper’s Relations with Broader Community, CHARAS, Ferguson/Dietl, Bowery Alliance of Neighbors, everyone we’ve fucked like fucking fucks. Long term: being actively good instead of having to circle back and make amends.
+- GOVERNANCE: we talked about structures in the demands & princ but we’ve got some shit to share: Problems:  Cronyism, No artists, Token diversity,  Lots of Middle ManageMENt (sic)t; Proposals: Require structurally that board composition be different, self-governance, Sunset Clause, horizontality, Team of leadership, We’re not afraid to not have a president, Open source, Cooperative, Small/within our means, The Associates, a  part of Peter Cooper’s vision. Shout out to an idea that was different from other people’s. literally the only school that should have tuition is a school that is self-governing and decides to charge itself.
+- RISK MANAGEMENT: no tuition, no debt, take risks no problem. the admin’s approach to risk is capitalist, the minimization of risk, the entire mindset of the board. we sidestep risk, we integrate it. rRsk is the link between a growth ideology and faithfulness to profit, they’re structurally integrated. if you want to minimize risk the only way is to balloon everything around you infinitely. it’s sometimes hard to understand how things can keep worse and worse, but risk aversion provides a lens through which all the bad things that happen here have to happen to keep minimizing risk, hiring bo dietl. risk and noise in a signal, all of information technology is about minimizing noise in transmission, transmission of goods, location of profit, based on minimization of risk, queerness is same thing
+- AUSTERITY: Recontextualize the public perception post-recession that individuals and institutions in financial straits are solely responsible for getting themselves into their problems. In reality the problems are systemic and are the result of an intersectional complex of issues (corporate, public/private, race, class, gender, etc.)
+- ACCREDITATION: Broadly critique Expertise & accreditation->academia. Antioch lost it and regained it. Why should we care? Tied to financial aid right now which sucks, but really your degree means nothing in a world completely saturated with degrees, and you got the education so they can’t lord a certificate over you, accreditation is another factor that slows the risk, it prevents failure but ensures mediocrity
+- ADMISSIONS: fl fetishjk
+- MERITOCRACY: The practice of a meritocracy are, in most cases, a thin guise for the perpetuation of privilege. Access to education is not neutral. The more spent on tutors and special schools, on extra curricular activities and educational trips, on satisfying every need outside study, the more appealing a student becomes to a meritocratic institution. Merit has a high price, and it comes as no surprise that so many high achieving students in our education system come from society’s upper echelons. The School of Art, for its part, showed a way through this mire in the form of its Hometest, which served, like    for its fucked, the home test in the art school was a method to control the most dangerous parts of meritocratic ideals, egalitarianism is less scary, tech industry has shown us how fgucking scary it is, silicon valley secessionists, the fountainhead
+- PEDAGOGY: education beyond accreditation, standardization, letter grades, legibility. what happens here already makes no sense, but it’s the least stupid thing to do.
+- SOCIAL JUSTICE: built in, no division where peopl play dumb, allowing for bystander apathy
+- PHILANTHROPY: sux, divestment
+- FINANCIAL AID/ educational industrial complex: access, elizabeth warren reform, debt forgiveness doesnt address the fac tthat more students still have to take out the same size debt, need to do debt forgiveness and prevent schools from charging to much! the education industrial complex at work, test prep industry, common app, kaplan college board, college ratings, funnel high schools, fake scholarships taken away second year bait and switch,
+- NICE IS NOT RIGHT:
+- GERSTEN: Instruments of finance concentrate resources and create inequity. If the instrument is a prism that focuses a laser of the spectrum of humanity what wavelengths of that spectrum do not fit through the prism?

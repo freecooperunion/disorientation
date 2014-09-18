@@ -14,13 +14,13 @@ background: banner.png
 
 Free Cooper Union, founded in Fall 2012, is a group of students and young alumni working towards free education to all. We affirm:
 
-- Tuition is not a sustainable financial model for Cooper Union, in addition to being a betrayal of the college's radical mission.
-- Higher education around the world is in dire need of a paradigm shift. 
-- The debate about “tuition” at Cooper must engage broader dialogues about social justice, student debt, educational reform, and alternative models of governance. 
+- Tuition is a betrayal of Cooper Union’s radical mission, in addition to the fact that it isn’t a sustainable financial model.
+- Higher education around the world is in dire need of a paradigm shift.
+- The debate about “tuition” at Cooper must engage broader dialogues about student debt, educational reform, alternative models of governance, and social justice.
 
-<p class="okhover">To this end, we have employed a wide range of tactics including but not limited to: <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/drafting-petitions.jpg">drafting petitions</span>; <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/walking-out.jpg">walking out</span>; <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/hosting-summits.jpg">hosting summits</span>; producing: <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/memes.jpg">memes</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/satirical-websites.png">satirical websites</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/art-exhibitions.jpg">art exhibitions</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/music-videos.jpg">music videos</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/parades.png">parades</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/historical-reenactments.jpg">historical reenactments</span>, and <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/publications.jpg">publications</span>; <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/poster-bombing.jpg">poster bombing</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/canvassing.jpg">canvassing</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/culture-jamming.jpg">culture-jamming</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/breaking-into-meetings.jpg">breaking into meetings</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/leaking-documents.jpg">leaking documents</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/dropping-banners.jpg">dropping banners</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/talking-to-press.jpg">talking to press</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/building-barricades.jpg">building barricades</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/occupying.jpg">occupying</span>, and <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/visioning.jpg">visioning</span>.</p>
+<p class="okhover">To this end, we have employed a wide range of tactics including but not limited to: <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/drafting-petitions.jpg">drafting petitions</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/walking-out.jpg">holding walk outs</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/hosting-summits.jpg">hosting summits</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/memes.jpg">igniting memes</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/satirical-websites.png">building satirical websites</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/art-exhibitions.jpg">mounting art exhibitions</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/music-videos.jpg">creating music videos</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/parades.png">leading parades</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/historical-reenactments.jpg">staging historical reenactments</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/publications.jpg">authoring publications</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/poster-bombing.jpg">poster bombing</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/culture-jamming.jpg">culture-jamming</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/breaking-into-meetings.jpg">breaking into meetings</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/leaking-documents.jpg">leaking documents</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/dropping-banners.jpg">dropping banners</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/talking-to-press.jpg">talking to press</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/building-barricades.jpg">building barricades</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/occupying.jpg">occupying</span>, and <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/visioning.jpg">envisioning futures and possibilities</span>.</p>
 
-In December 2012 we issued the following demands:
+In December 2012, twelve students barricaded themselves inside the clocktower of the Foundation Building, dropped a gigantic banner reading “Free Education to All,” and issued the following demands:
 
 ## Demands
 
@@ -31,8 +31,7 @@ In December 2012 we issued the following demands:
   - Implement a process by which board members may be removed through a vote from the Cooper Union community, comprised of students, faculty, alumni, and administrators.
 3. President Bharucha steps down.
 
-
-Additionally, we drafted a set of principles expanding upon larger systems:
+A set of principles were also issued, expanding upon larger systems:
 
 ## Principles
 
@@ -50,15 +49,60 @@ Bloated and visionless administrations have become an epidemic threatening insti
 
 ## Direct Action
 
-- Students tired of going through Cooper’s circular bureaucracy
-- Tried bureaucracy for over a year
-- Whole thing was getting desperate
-- We were all losing agency
-- Revisionist history was happening while we were living it
-- To put a halt we began to organize under a campaign of direct actions
-- Why? Gets the goodz
-- Lock-In
-- Occupation
-- People will always want to tear down actions and paint protestors as an angry mob but
-- Creates a wormhole where anything becomes possible and the community and periphery are wholly engaged
-- The space of an action is like an infinite dream. ASSE.
+There are different ways to approach a social issue: expose an existing problem, highlight an alternative, or demonstrate a possible solution, among others. These can be divided primarily into two forms of action: direct and indirect.
+
+<table>
+	<tr>
+		<th>Indirect Action</th>
+		<th>Direct Action</th>
+	</tr>
+	<tr>
+		<td><strong>Asking</strong> somebody to make the change you wish to see.</td>
+		<td><strong>Acting</strong> to create the change you wish to see.</td>
+	</tr>
+	<tr>
+		<td>
+			<ul>
+				<li><strong>sharing</strong> an important news article with friends</li>
+				<li><strong>signing</strong> a petition for a cause you support</li>
+				<li><strong>voting</strong> for a representative</li>
+				<li><strong>writing</strong> a letter to your elected official</li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+				<li><strong>teaching</strong> a “Know Your Rights” workshop to high-schoolers</li>
+				<li><strong>breaking</strong> ground on a garden to remediate local soil</li>
+				<li><strong>blockading</strong> a road to prevent work on a gas pipeline</li>
+			</ul>
+		</td>
+	</tr>
+</table>
+
+Many are raised to view indirect action as the ceiling of possibilities for change. However, direct action offers a massive — and highly effective — breadth of tactics to create the change you wish to see.
+
+## The Futility of Bureaucracy
+
+Bureaucratic institutions, such as Cooper, are so internally complex and inefficient  that they defy change from within. This is why working primarily within the structures of an institution is often less effective than the tamest actions taken outside of them. If you look deeply into almost any type of institution, you will find hidden histories of direct action being used by communities to take control of their own fate.
+
+Following the announcement of Cooper’s financial crisis in October 2011, the community spent an entire year attempting to work with the administration. It soon became apparent that the administration had no real intention of listening to community concerns. The community had no real agency, rather Bharucha’s approach turned out to be a way of manufacturing community buy-in for tuition and Q&A forums with Trustees created a false dialog that left tough questions unanswered.
+
+The community moved in a direction of indirect action. However, petitions and walk-outs failed to garner attention beyond local blogs, and community summits produced brilliant talk but few results.
+
+The decision to take direct action against the administration was complicated by the fact that up through April 2013 the entire administration repeated over and over that, “tuition will be implemented only as a last resort”. The plausible deniability of tuition created an air amongst the student body that things might work out for the better if everyone attended enough Q&A sessions and emailed the administration with creative money-making schemes.
+
+Nearly three years after Bharucha’s announcement of financial troubles, documents were  leaked revealing that the administration’s messages of hope and inclusion had been crafted by consultants to minimize conflict, and plans for tuition had been in the works even before Bharucha was hired by the Board to implement their “reinvention.”
+
+## Direct Action Gets the Goods
+
+In November 2012, operating on what was still only a hunch that tuition was steamrolling forward, students began quietly organizing action planning meetings. 14 late-night meetings were held on campus, in secret, attended by a rotating crew of about 50 students. Discussion ranged from the big picture of educational and financial systems, to logistics about "food, water, and shit" in an action scenario. These meetings resulted in the founding of Free Cooper Union, and the first major direct action known as the Lock-In.
+
+The Lock-In catalyzed the community, leading to a barrage of actions in a single jam-packed week: an early set of tuition models leaked to the public; students on the ground broke into a Board meeting and livestreamed it as they disrupted a discussion about implementing tuition; a city-wide rally on education culminated outside the Foundation Building; and the Cooper community’s struggle received national and then global mainstream media attention.
+
+On April 23, 2013, the Board finally announced that they intended to charge tuition, implementing a “half-scholarship” model starting with the incoming class of 2018. The announcement underscored to the entire community how severely out of touch and deceitful the Board actually was (and is.)
+
+After The New York Times reported that the announcement of tuition marked the “End of an Era,” students sought to prove that Cooper’s future isn’t up to the Times or even the Board to decide. In May 2013, a group of over one hundred students took the office of President Bharucha to deliver a Vote of No Confidence. Bharucha refused to meet with the students to discuss their concerns. Having caught wind of the action, Bharucha fled campus. Having abdicated his office and his responsibilities as president the students took over his office and continued to draw attention to Cooper's problems through a diversity of tactics. In the space of the action, the Times changed their tune, reporting that students had incited, “a running debate about how to alter history." In total, the occupation lasted for 65 days, placing it among the longest student occupations in US history.
+
+## Le Rêve Infini
+
+During 2012’s large-scale student strikes in Quebec, a play on words emerged in which the “general strike” (greve infini) was crossed with the idea of an infinite dream (reve infini). The space of an action is not unlike an infinite dream: realities based on limitation are transformed — in an instant — into a boundlessness of time, space, and possibility. The action itself ends, but everyone in its path remains changed, retaining a boundlessness within themselves.

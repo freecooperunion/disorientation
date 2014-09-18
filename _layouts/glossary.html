@@ -5,12 +5,12 @@ body_id: glossary
 <article>
 	<h1>{{page.title}} <span class="loading">(Loading…)</span></h1>
 
-	<dl id="glossary" style="display:none;"></dl>
+	<table id="glossary" style="display:none;"></table>
 
 </article>
 {% raw %}
 <script id="glossary-template" type="text/x-handlebars-template">
-	<dt>{{term}}</dt><dd>{{{definition}}}</dd>
+	<tr><th>{{term}}</th><td>{{{definition}}}</td></tr>
 </script>
 {% endraw %}
 
@@ -32,10 +32,10 @@ body_id: glossary
 
 		$.each( tabletop.sheets("Glossary").all(), function(i, glossary) {
 			var html = template(glossary);
-			$("dl#glossary").append(html);
+			$("table#glossary").append(html);
 			console.log("append");
 		});
-		$("dl#glossary").fadeIn();
+		$("table#glossary").fadeIn();
 		$(".loading").fadeOut();
 	}
 </script>
