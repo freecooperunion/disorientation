@@ -1,0 +1,41 @@
+---
+layout: default
+body_id: timeline-print
+---
+<article>
+	<h1>{{page.title}} <span class="loading">(Loading…)</span></h1>
+
+	<table id="timeline" style="display:none;"></table>
+
+</article>
+{% raw %}
+<script id="timeline-template" type="text/x-handlebars-template">
+	<tr><td>{{startdate}}</td><td style="max-width:200px;overflow:hidden;"><img src="{{media}}" width="200"><br /> {{media}}</td><th>{{headline}}</th><td>{{{text}}}</td></tr>
+</script>
+{% endraw %}
+
+<script type="text/javascript" src="{{site.baseurl}}/js/handlebars.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/js/jquery.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/js/tabletop.js"></script>
+<script type="text/javascript">
+	var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?key=0ApTTgpc7dScadElnbzVGaTR1X3pTYThoWkpxSEZrbWc&output=html';
+
+	$(document).ready( function() {
+		Tabletop.init( { key: public_spreadsheet_url,
+										 callback: showInfo,
+										 parseNumbers: true } );
+	});
+		
+	function showInfo(data, tabletop) {
+		var source   = $("#timeline-template").html();
+		var template = Handlebars.compile(source);
+
+		$.each( tabletop.sheets("od1").all(), function(i, timeline) {
+			var html = template(timeline);
+			$("table#timeline").append(html);
+			console.log("append");
+		});
+		$("table#timeline").fadeIn();
+		$(".loading").fadeOut();
+	}
+</script>
