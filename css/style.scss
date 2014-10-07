@@ -131,10 +131,6 @@ article {
 		margin:auto;
 	}
 	blockquote p {
-		margin: 0 2em;
-		font-size:16px;
-		line-height:20px;
-		font-style:italic;
 	}
 	ul li {
 		margin-bottom: 5px;
@@ -152,41 +148,7 @@ article {
 			margin:0 0 10px 0;
 		}
 	}
-	blockquote, figure {
-			width:95%;
-			padding:2.5%;
-			border:1px solid #eee;
-			&.pullquote {
-			color:gray;
-				font-weight:100;
-				font-size:20px;
-				line-height:30px;
-				letter-spacing: 1px;
-			}
-		}
-	blockquote {
-		&.short {font-size:30px;line-height:1.5em;}
-		&.medium {}
-		&.long {font-size:22px; line-height:1.15em;}
-	}
 	@media (min-width: 720px) {
-		.pull-right {
-			float:right;
-			width:33%;
-			margin: 0 0 1em 1em;
-		}
-		.pull-left {
-			float:left;
-			width:33%;
-			margin: 0 1em 1em 0;
-		}
-		.full {
-			width:100%;
-			max-width:none;
-			margin:1em 0!important;
-			padding:0;
-			border:none;
-		}
 	}
 }
 
