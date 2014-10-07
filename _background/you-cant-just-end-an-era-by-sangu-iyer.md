@@ -1,12 +1,9 @@
 ---
 title: You Can’t Just End an Era
-author: Sangu Iyer
-publication: n+1
-date: October 2013
 subtitle: Penned in response to lazy journalism declaring the "End of an Era" at Cooper Union, Sangu Iyer's second installment refutes the inevitablity of the Board's decision-making. 
 link: https://nplusonemag.com/online-only/online-only/you-can-t-just-end-an-era/
 layout: post
-order: 11
+order: 12
 prev: save-cooper-union-by-sangu-iyer
 next: the-tragedy-of-cooper-union-by-felix-salmon
 ---

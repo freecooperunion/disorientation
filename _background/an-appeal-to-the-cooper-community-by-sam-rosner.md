@@ -1,16 +1,13 @@
 ---
-title: What’s Your Legacy?
-author: Sam Rosner, Art ‘17
-subtitle: In an editorial published in the school newspaper, then Freshmen Sam Rosner addressed the danger of willful ignorance amongst the student body.
-date: December 2013
+title: An Appeal to the Cooper Community
+subtitle: In an editorial published in the school newspaper in Fall 2013, then freshmen **Sam Rosner** addressed the danger of willful ignorance amongst the student body.
+source: Originally published by _The Cooper Pioneer_ in December 2013
 layout: post
-order: 8
+order: 9
 prev: removing-barriers-mobilizes-resources-by-david-gersten
 next: two-educations-for-the-price-of-none-by-jakob-biernat
 ---
 Stop what you're doing. Take a good look around.  Look out the window and look out into the hallway.  Have you spoken to anybody outside of your school today?  If you're an engineer, have you talked to an artist today?  Artists, have you spoken to an engineer today?  Architects, have you left your studio today?  
-
-<blockquote class="pullquote pull-right short">“Can a school divided stand?”</blockquote>
 
 The school has been crumbling at our feet.  It's been slower in the past, albeit, but things seem to be deteriorating at an accelerating speed.  I feel as though relations between the schools are more estranged than ever.  In times of strife, it's easy to withdraw into our comfort zones.  It's easy to decide to focus on your work, to say “fuck the school I'm going to just do me and get the hell out.”  It can't possibly fail, it's been standing for 155 years, why not 155 more?  This passivity will be the death of the Cooper Union.
 
@@ -22,7 +19,9 @@ But how do you fix a school?  Do you know how to do that? How would you even sta
 
 What will this school be like once we have a paying class?  We will no longer be the Free School.  There's the New School down the street, but somehow the Free School has a better ring.  Now we will be the "School That Was Once Free".  The melodrama of our situation will resound in the nomenclature.
 
-So come next year, assuming that indeed, we are charging tuition, Cooper will be caught in a divide.  It will be both the Free School, and The School That Was Once Free.  Two schools.  Can a school divided stand?
+So come next year, assuming that indeed, we are charging tuition, Cooper will be caught in a divide.  It will be both the Free School, and The School That Was Once Free.  Two schools.  
+
+<strong class="pull">Can a school divided stand?</strong>
 
 But you go to the Free School, so it's all cool.  Those kids who go to the School that was Once Free won't be here till next year and that's practically a lifetime away.  
 

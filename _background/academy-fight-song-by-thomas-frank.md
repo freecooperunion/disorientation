@@ -1,12 +1,10 @@
 ---
 title: Academy Fight Song
-author: Thomas Frank, Political Analyst, Historian, Founding Editor of The Baffler
-subtitle: Thomas Frank, political analyst, historian, and founding editor of The Baffler, desmystifies the dream of American higher education.
-date: January 2014
-publication: The Baffler
+subtitle: "**Thomas Frank**, political analyst, historian, and founding editor of The Baffler, desmystifies the dream of American higher education."
+source: Originally published by _The Baffler_ in January 2014
 link: http://www.thebaffler.com/salvos/academy-fight-song
 layout: post
-order: 5
+order: 6
 next: why-cooper-union-matters-by-litia-perta
 prev: organizing-as-if-social-relations-matter-by-cindy-milstein
 ---
@@ -20,11 +18,9 @@ Go to college, or else your destiny will be written by someone else. The bachelo
 
 The higher education mantra is possibly the greatest cliché in American public life.
 
-<blockquote class="pullquote medium pull-right">"Better to be known for “vibrant” architecture, I guess, than for some old-fashioned nonsense about uplifting the non-wealthy."</blockquote>
-
 And so the dreams proliferate. Education is what explains income inequality, chime the economists, and more education is what will roll it back. In fact, education is just about the only way we can justify being paid for our work at all; it is the only quantifiable input that makes us valuable or gives us “skills.”
 
-No one really knows the particular contents of the education that is supposed to save us. It is, again, a dream, a secret formula, a black box into which we pour money and out of which comes uplift or enrichment or wish-fulfillment.
+<strong class="pull">No one really knows the particular contents of the education that is supposed to save us. It is, again, a dream, a secret formula, a black box into which we pour money and out of which comes uplift or enrichment or wish-fulfillment.</strong>
 
 Maybe college is able to work its magic because college grads hire only college grads, and after decades of “networking”—which everyone knows is more important than book-learning—they have managed to colonize the entire economy. No one knows for sure how it works, but everyone can see that it does work, and that’s good enough.
 
@@ -32,15 +28,13 @@ We don’t pause to consider that maybe we’ve got the whole thing backwards—
 
 Another fact: This same industry, despite its legal status as a public charity, is today driven by motives indistinguishable from the profit-maximizing entities traded on the New York Stock Exchange.
 
-<blockquote class="pullquote short pull-left">"There is zero solidarity in a meritocracy, even a fake one."</blockquote>
-
 The coming of “academic capitalism” has been anticipated and praised for years; today it is here. Colleges and universities clamor greedily these days for pharmaceutical patents and ownership chunks of high-tech startups; they boast of being “entrepreneurial”; they have rationalized and outsourced countless aspects of their operations in the search for cash; they fight their workers nearly as ferociously as a nineteenth-century railroad baron; and the richest among them have turned their endowments into in-house hedge funds.
 
 Now, consider the seventeen-year-old customer against whom this predatory institution squares off. Either he goes to college like the rest of his friends, or he goes to work.
 
 All he needs to do is sign a student loan application, binding himself forever and inescapably with a financial instrument that he only dimly understands and that, thanks to the optimism of adolescence, he has not yet learned to fear.
 
-Grant to an industry control over access to the good things in life; insist that it transform itself into a throat-cutting, market-minded mercenary; get thought leaders to declare it to be the answer to every problem; mute any reservations the nation might have about it—and, lastly, send it your unsuspecting kids, armed with a blank check drawn on their own futures.
+<strong class="pull">Grant to an industry control over access to the good things in life; insist that it transform itself into a throat-cutting, market-minded mercenary; get thought leaders to declare it to be the answer to every problem; mute any reservations the nation might have about it—and, lastly, send it your unsuspecting kids, armed with a blank check drawn on their own futures.</strong>
 
 It is the same lesson taught us by so many other disastrous privatizations: in our passion for entrepreneurship and meritocracy, we forgot that maybe the market wasn’t the solution to all things.
 
@@ -50,8 +44,6 @@ The truth is that rip-offs like [textbook publishing] abound in academia—that 
 
 Consider the standardized testing industry and its shadow, the test-prep industry. One of them is supposedly charitable, the other ebulliently profit-minded, but both of them have raked it in for years by stoking a pointless arms race among the anxious youngsters of the nation, each one fearful lest her dream be cancelled out by someone else’s. The testing companies, each of which holds a monopoly over some aspect of the business, charge students hefty registration fees, pay their executives fantastic salaries, and scheme endlessly to enlarge the empire of the standardized test.
 
-<blockquote class="pullquote medium pull-left">"No one really knows the particular contents of the education that is supposed to save us. It is, again, a dream, a secret formula, a black box into which we pour money and out of which comes uplift or enrichment or wish-fulfillment."</blockquote>
-
 Consider the “enrollment management” industry, which helps colleges and universities acquire the student body they desire. Since what this means in many cases is students who can pay—the opposite of the “inclusiveness” most universities say they treasure—enrollment management is a job best left to quiet consultancies, who use the various tools of marketing to discover a student’s “price sensitivity.”
 
 Consider the sweetheart deals that are so commonplace between university administrations and the businessmen who happen to sit on the university’s board of directors. Consider universities’ real estate operations, which are often thuggish and nearly always tax-free. Consider their army of Washington lobbyists, angling for earmarks and fighting accountability measures. Consider their massive investments in sports. Or their sleazy arrangements with tobacco companies and Big Pharma and high-tech startups.
@@ -60,7 +52,9 @@ And lastly, consider the many universities that have raised their tuition to ext
 
 ## Where the Money Goes
 
-The most poignant educational scandal of the moment concerns Cooper Union. The reason everything had to change is that Cooper Union, like...well, like every other institution of higher ed in America, decided a few years back that it needed to think big and embrace change and build the brand. The first step in that process: erecting a fantastically expensive bit of trophy architecture across the street from its main building. (There was also a growing corps of administrators, and a departing president who needed to be paid close to $1.1 million, but we won’t go into that now.) Unfortunately, Cooper Union couldn’t pay for this glamorous new tower, and so it had to borrow an enormous sum, like other corporations do. The “free education” thing was collateral damage. Better to be known for “vibrant” architecture, I guess, than for some old-fashioned nonsense about uplifting the non-wealthy.
+The most poignant educational scandal of the moment concerns Cooper Union. The reason everything had to change is that Cooper Union, like...well, like every other institution of higher ed in America, decided a few years back that it needed to think big and embrace change and build the brand. The first step in that process: erecting a fantastically expensive bit of trophy architecture across the street from its main building. (There was also a growing corps of administrators, and a departing president who needed to be paid close to $1.1 million, but we won’t go into that now.) Unfortunately, Cooper Union couldn’t pay for this glamorous new tower, and so it had to borrow an enormous sum, like other corporations do. The “free education” thing was collateral damage. 
+
+<strong class="pull">Better to be known for “vibrant” architecture, I guess, than for some old-fashioned nonsense about uplifting the non-wealthy.</strong>
 
 The story of Cooper Union is a typical anecdote of the age of collegiate capitalism, and it’s easy to come up with other examples of the lavish, unnecessary spending that characterizes American academia nowadays, that makes it “the best in the world.” It’s not just the showy new buildings, but the sports teams that give the alumni such a thrill, the fancy gymnasiums and elaborate food courts that everyone thinks you have to have if you want the cool kids to choose your diploma mill over all the others. It’s the celebrity professors everyone has decided they must furnish sinecures for regardless of whether those celebrities know anything about the subject they are hired to profess.
 
@@ -70,8 +64,6 @@ Political scientist Benjamin Ginsberg tells the sorry tale in his 2011 book, [Th
 
 Administrators: Their salaries are generous, their ranks expand year after year, and their work requires no peer review and not even much effort. As Ginsberg reminds us, most of them don’t teach courses, they don’t squabble like English professors at the MLA, and no one ever suggests replacing them with adjuncts or temps. As tuition balloons, it is administrators who prosper. In fact, their fortunes are an almost exact reverse image of the tuition-indebtedness of the young.
 
-<blockquote class="pullquote pull-right long">"Grant to an industry control over access to the good things in life; insist that it transform itself into a throat-cutting, market-minded mercenary; get thought leaders to declare it to be the answer to every problem; mute any reservations the nation might have about it—and, lastly, send it your unsuspecting kids, armed with a blank check drawn on their own futures."</blockquote>
-
 Naturally, an ugly new class conflict has begun to play out amidst the leafy groves. Administrators, it seems, have understood that the fortunes of their cohort are directly opposed to those of the faculty. One group’s well-being comes at the expense of the other, and vice versa. And so, according to Ginsberg, the administrators work constantly to expand their own numbers, to replace professors with adjuncts, to subject professors to petty humiliations, to interfere in faculty hiring, to distill the professors’ expertise down to something that can be measured by a standardized test.
 
 That the people who hold the ultimate authority at our institutions of higher learning are dedicated to a notorious form of pseudo-knowledge is richly ironic, and it is also telling. The point of management theory, after all, is to establish the legitimacy of a social order and a social class who are, in fact, little more than drones. The grotesque top-heaviness of the American corporation is an old story: we have more supervisors per worker than any other industrialized nation, and quite naturally we have developed an extensive literature of bogus social theory assuring those supervisors of the rightfulness of their place in the world—a literature that also counsels everyone else to acquiesce to their subordinate station in the Great Chain of Free-Market Being.
@@ -80,7 +72,7 @@ That the people who hold the ultimate authority at our institutions of higher le
 
 The de-professionalization of the faculty is another long-running tragedy that gets a little sadder every year, as teaching college students steadily becomes an occupation for people with no tenure, no benefits, and no job security. These lumpen-profs, who have spent many years earning advanced degrees but sometimes make less than minimum wage, now account for more than three-quarters of the teaching that is done at our insanely expensive, oh-so-excellent American universities. Their numbers increase constantly as universities continue to produce far more PhDs than they do full-time, tenure-track job openings, and every time cutbacks are necessary—which is to say, all the time—it is those same full-time, tenure-track job openings that get pruned.
 
-There is zero solidarity in a meritocracy, even a fake one.
+<strong class="pull">There is zero solidarity in a meritocracy, even a fake one.</strong>
 
 ## We Have Only Words Against
 
@@ -90,4 +82,6 @@ What ought to happen is that everything I’ve described so far should be put in
 
 And so we end with dystopia, with a race to the free-market bottom. 
 
-The only way out is for students themselves to interrupt the cycle. Maybe we should demand the nationalization of a few struggling universities, putting them on the opposite of a market-based footing, just as public ownership reformed the utilities in the last century. Maybe the college-aged should forgo the annual rituals and turn their eyes to German or Argentinian universities, in the same way that their grandparents use Canadian pharmaceuticals to hitchhike on a welfare state that hasn’t yet been completely compromised. Maybe it’s time for another Free Speech Movement, a nationwide student strike for tuition reform and debt relief. Whatever we do, it’s time to wake up from the dream.
+<strong class="pull">The only way out is for students themselves to interrupt the cycle.</strong>
+
+Maybe we should demand the nationalization of a few struggling universities, putting them on the opposite of a market-based footing, just as public ownership reformed the utilities in the last century. Maybe the college-aged should forgo the annual rituals and turn their eyes to German or Argentinian universities, in the same way that their grandparents use Canadian pharmaceuticals to hitchhike on a welfare state that hasn’t yet been completely compromised. Maybe it’s time for another Free Speech Movement, a nationwide student strike for tuition reform and debt relief. Whatever we do, it’s time to wake up from the dream.

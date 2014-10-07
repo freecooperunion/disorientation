@@ -1,14 +1,12 @@
 ---
 title: The Loss of Cooper Union
-author: Jordan Bowen
-subtitle: Jordan Bowen reflects on the role Cooper plays in the changing face of New York. 
-date: April 2013
-publication: Kinja
+subtitle: "**Jordan Bowen** reflects on the role Cooper plays in the changing face of New York."
+source: Originally published on Kinja in April 2013
 link: http://jordanbowen.kinja.com/the-loss-of-cooper-union-478333312
 layout: post
-order: 2
+order: 3
 next: why-cooper-unions-tuition-fight-matters-for-the-future-of-art-by-ben-davis
-prev: the-state-of-the-cooper-union-by-mike-borkowsky
+prev: open-letter-to-president-bharucha-by-walid-raad
 ---
 This was a long time coming, and like the [destruction of the Chelsea Hotel](http://www.chelseahotelblog.com/living_with_legends_the_h/2012/05/chelseahoteldestruction.html), marks the end of a certain kind of city, one that can sustain a viable, non-commercial creative culture. We live now in a city of unpaid internships and backbreaking rent and tuition, where hopeful young settlers must one after the other face the hard reality of a real estate and job market that has been sealed up in advance by those who got here first. As Patti Smith answered, when asked her advice to young people: [don't come to New York](http://vanishingnewyork.blogspot.com/2010/05/find-new-city.html). They took it from you. It's over. Manhattan is turning into Geneva, a city of great poverty and great wealth, without a middle class. A homogenous, crowded, tourist-infested, expensive, and rather dull capital of the world.
 

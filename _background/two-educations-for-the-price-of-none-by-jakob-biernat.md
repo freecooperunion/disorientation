@@ -1,10 +1,9 @@
 ---
 title: Two Educations for the Price of None
-author: Jakob Biernat, Art ‘16
-subtitle: An open letter to incoming freshmen about self-care and Cooper politics from School of Art transfer student Jakob Biernat.
-date: May 2013
+subtitle: An open letter to incoming freshmen about self-care and Cooper politics from School of Art transfer student **Jakob Biernat**.
+source: Originally published in May 2013
 layout: post
-order: 9
+order: 10
 prev: whats-your-legacy-by-sam-rosner
 next: save-cooper-union-by-sangu-iyer
 ---
@@ -14,9 +13,9 @@ It is often written that the crisis and scandal of Cooper Union is a crystalliza
 
 I firmly believe this to be the case. If you’ve ever yearned to be an actor in history rather than just a member of its audience, there is hardly a more exhilarating place to be as a college student than here at Cooper, here in a small, swiftly-beating heart of something much larger and more long lasting than each of our singular educations, whatever that means for each of us. This is an opportunity to act, to do excellent things, to serve and protect a tremendously worthy and fragile ideal.
 
-<blockquote class="pullquote long pull-right">"Cooper's gift must be repaid in citizenship, in contribution to our small community. It will be difficult, extraordinarily so, to juggle your work and your participation in the politics of the school and your personal growth, but you have to try."</blockquote>
+It is also a responsibility...you all know you’ve been given an amazing gift, an unbelievable chance. Your lives will be changed forever, I guarantee it. 
 
-It is also a responsibility...you all know you’ve been given an amazing gift, an unbelievable chance. Your lives will be changed forever, I guarantee it. But that gift must be repaid in citizenship, in contribution to our small community. It will be difficult, extraordinarily so, to juggle your work and your participation in the politics of the school and your personal growth, but you have to try.
+<strong class="pull">Cooper's gift must be repaid in citizenship, in contribution to our small community. It will be difficult, extraordinarily so, to juggle your work and your participation in the politics of the school and your personal growth, but you have to try.</strong>
 
 By responsibility and citizenship, I mean a responsibility to try to confront that anxiety head-on rather than avoiding it, to do the research, to look at the history of the school and particularly the history of the last two years, the problems facing the school, the divisions, the range of possible solutions, the actions, the words, the politics, all of it.
 
