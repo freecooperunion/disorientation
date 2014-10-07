@@ -2,6 +2,7 @@
 title: 198 Methods of Direct Action
 layout: 198-methods-of-direct-action
 bg: dark
+permalink: /198/
 ---
 
 These methods were compiled by Dr. Gene Sharp and first published in his 1973 book, _The Politics of Nonviolent Action_. The book outlines each method and gives information about its historical use.
