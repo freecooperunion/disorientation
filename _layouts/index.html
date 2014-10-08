@@ -2,16 +2,14 @@
 layout: default
 ---
 <article>
-	<header>
-		<img src="{{site.baseurl}}/img/cover.gif" style="max-width:2500px;">
-	</header>
+	<h2 class="title">Free Cooper Union</h2>
+	<figure style="padding:0 5vw;width:90vw;">
+		<img src="/img/titles/disorientation.svg" alt="Disorientation">
+	</figure>
 	{{ page.intro | markdownify }}
 	<section>
-		<header class="section-heading">
-			<img src="{{site.baseurl}}/img/collage/foundation.png" alt="">
-			<h2>Lowdown</h2>
-		</header>
-		<p>Brief introductions to the things you need to know: recent developments, active groups, and ongoing issues.</p>
+		<h2 class="section">Lowdown</h2>
+		<p class="intro">Brief introductions to the things you need to know: recent developments, active groups, and ongoing issues.</p>
 			<nav>
 				<ol>
 					{% for order in (1..7) %}
@@ -27,10 +25,7 @@ layout: default
 			</nav>
 	</section>
 	<section>
-		<header class="section-heading">
-			<img src="{{site.baseurl}}/img/section-heading/flip-your-umbrella.png">
-			<h2>Resources</h2>
-		</header>
+		<h2 class="section">Resources</h2>
 		<nav>
 			<ul>
 				{% for item in site.resources %}
@@ -42,37 +37,32 @@ layout: default
 		</nav>
 	</section>
 	<section>
-		<header class="section-heading">
-			<img src="{{site.baseurl}}/img/section-heading/the-best-cards.png" alt="">
-			<h2>Background</h2>
-			<p>These selected essays dig into why Cooper matters, what’s going wrong with education everywhere, and how we might fix it.</p>
-		</header>
-			<nav>
-				<dl>
-					{% for order in (1..15) %}
-						{% for item in site.background %}
-							{% if item.order == order %}
-								<dt>
-									<a href="{{site.baseurl}}{{item.url}}#content" class="title">{{item.title}}</a>
-								</dt>
-								{% if item.subtitle %}<dd>{{ item.subtitle | markdownify }}</dd>{% endif %}
-							{% endif %}
-						{% endfor %}
-					{% endfor %}				
-				</dl>
-			</nav>
+		<h2 class="section">Background</h2>
+		<p class="intro">These selected essays dig into why Cooper matters, what’s going wrong with education everywhere, and how we might fix it.</p>
+		<nav>
+			<ul>
+				{% for order in (1..15) %}
+					{% for item in site.background %}
+						{% if item.order == order %}
+							<li>
+								<a href="{{site.baseurl}}{{item.url}}#content" class="title">
+									<h3>{{item.title}}</h3>
+									{% if item.subtitle %}{{ item.subtitle | markdownify }}{% endif %}
+								</a>
+							</li>
+						{% endif %}
+					{% endfor %}
+				{% endfor %}				
+			</dl>
+		</nav>
 	</section>
 	<section>
-		<header class="section-heading">
-			<h2>Colophon</h2>
-		</header>
+		<h2 class="section">Colophon</h2>
 	</section>
 	{{content}}
 	<hr>
 	<section>
-		<header class="section-heading">
-			<h2>Download + Print</h2>
-		</header>
+		<h2 class="section">Download + Print</h2>
 		<p>
 			<a href="{{site.baseurl}}/download/disorientation-reader-pages.pdf">Sequential pages PDF (good for reading on screen).</a><br><br>
 			<a href="{{site.baseurl}}/download/disorientation-reader-booklet.pdf">Imposed PDF (good for double-sided printing and stapling).</a>

@@ -1,8 +1,7 @@
 ---
 title: Organizing As If Social Relations Matter
-author: Cindy Milstein
-subtitle: Lifelong activist and organizer Cindy Milstein writes about the merit of patient organizing and community-building.
-source: Lifelong activist and organizer **Cindy Milstein** writes about the merit of patient organizing and community-building.
+subtitle: Lifelong activist and organizer **Cindy Milstein** writes about the merit of patient organizing and community-building.
+source: Originally published on Outside the Circle in February 2013
 link: http://cbmilstein.wordpress.com/2013/02/21/organizing-as-if-social-relations-matter/
 layout: post
 order: 5
@@ -18,6 +17,10 @@ There’s an aspirational quality — or “hope,” as one prospective student 
 <strong class="pull">When people, students or otherwise, are freed up from the burden of struggling to survive, it creates space for a different kind of human being, with time to pursue one’s dreams alongside others.</strong>
 
 It supplies a sense of already-there promise and possibility. Fighting for lower or no tuition is — or at least could be — a path toward opening up minds to critical and creative thought, which is essential in moving us humans toward forms of social goodness, thwarted as that is by a commodifying structure/system that does its best to inculcate uncritical and uncreative thought at every turn, or just make us so damned tired and dispirited that we don’t have the energy for envisioning and organizing toward better communities and better tomorrows. That Cooper Union is one of the last remaining “free schools” in the United States also underscores how pivotal this battle is in terms of siding with increasing public goodness or squashing it still further.
+
+<figure class="pull-left">
+	<img src="{{site.baseurl}}/img/background/yardstick.jpg">
+</figure>
 
 Aspirations, however, aren’t enough. What is noteworthy and compelling about the Cooper Union resistance beyond the already-extraordinary sense of a common good embedded in all its slogans is how, when you take freed-up art students and give them a cause they are personally and collectively passionate about, well: watch out! They will unleash their imaginations, in the same way that a plethora of upward-spiraling imaginative interventions marked the Quebec spring and summer. Yet there also seem to be twists in the cultural production for this rebellious campaign to keep education free, such as transparent banners asking for transparency from administrators even as they reveal how transparent the student, alumni, allied teachers, and community supporters are being in this contestation. Or an oversize Cooper Union student ID for one of the now-defered prospective early admissions, with a cutout indicating their potential absence come fall 2013 (happily filled in, for a photo-op moment, by a probable current Cooper Union student).
 

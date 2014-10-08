@@ -20,6 +20,10 @@ I think we all recognize that our Cooper Union faces an existential crisis.
 
 It is not that: The Cooper Union holds up free education, but that free education holds up The Cooper Union.
 
+<figure class="pull-left">
+	<img src="{{site.baseurl}}/img/background/labor.jpg">
+</figure>
+
 It is not that: we can no longer afford to: freely educate, but that we cannot afford to break the promise of Free Education
 
 The largest single financial asset that the Cooper Union currently holds is its promise of free education: TO ALL. The value contained within this promise far exceeds our current endowment as well as the physical properties held by the institution including the land under the Chrysler Building.

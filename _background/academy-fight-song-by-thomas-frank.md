@@ -44,6 +44,10 @@ The truth is that rip-offs like [textbook publishing] abound in academia—that 
 
 Consider the standardized testing industry and its shadow, the test-prep industry. One of them is supposedly charitable, the other ebulliently profit-minded, but both of them have raked it in for years by stoking a pointless arms race among the anxious youngsters of the nation, each one fearful lest her dream be cancelled out by someone else’s. The testing companies, each of which holds a monopoly over some aspect of the business, charge students hefty registration fees, pay their executives fantastic salaries, and scheme endlessly to enlarge the empire of the standardized test.
 
+<figure>
+	<img src="{{site.baseurl}}/img/background/kaplan.jpg">
+</figure>
+
 Consider the “enrollment management” industry, which helps colleges and universities acquire the student body they desire. Since what this means in many cases is students who can pay—the opposite of the “inclusiveness” most universities say they treasure—enrollment management is a job best left to quiet consultancies, who use the various tools of marketing to discover a student’s “price sensitivity.”
 
 Consider the sweetheart deals that are so commonplace between university administrations and the businessmen who happen to sit on the university’s board of directors. Consider universities’ real estate operations, which are often thuggish and nearly always tax-free. Consider their army of Washington lobbyists, angling for earmarks and fighting accountability measures. Consider their massive investments in sports. Or their sleazy arrangements with tobacco companies and Big Pharma and high-tech startups.
@@ -61,6 +65,10 @@ The story of Cooper Union is a typical anecdote of the age of collegiate capital
 But what has really fueled the student’s ever-growing indebtedness, as anyone with a connection to academia can tell you, is the insane proliferation of university administrators.
 
 Political scientist Benjamin Ginsberg tells the sorry tale in his 2011 book, [The Fall of the Faculty](http://shop.harvard.com/book/9780199975433). Back in the day, Ginsberg tells us, American universities were governed by professors, who would take time out from their academic careers to manage the institution’s business affairs. Today, however, the business side of the university has been captured by a class of professionals who have nothing to do with the pedagogical enterprise itself.
+
+<figure class="pull-right">
+	<img src="{{site.baseurl}}/img/background/streetcar.jpg">
+</figure>
 
 Administrators: Their salaries are generous, their ranks expand year after year, and their work requires no peer review and not even much effort. As Ginsberg reminds us, most of them don’t teach courses, they don’t squabble like English professors at the MLA, and no one ever suggests replacing them with adjuncts or temps. As tuition balloons, it is administrators who prosper. In fact, their fortunes are an almost exact reverse image of the tuition-indebtedness of the young.
 

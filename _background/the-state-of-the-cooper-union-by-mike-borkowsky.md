@@ -37,6 +37,10 @@ The letter states, “…the new plan retains the basic principle of admissions 
 
 The promise of increased access for the economically disadvantaged was a unique and important one when Peter Cooper founded Cooper Union. It is still important but certainly no longer unique. Cooper Union evolved to a pure meritocracy as other colleges began increasing access to the economically disadvantaged. It is both the full scholarship and the pure meritocracy together that created and sustained Cooper Union as a unique and extraordinary institution. Now one of those pivotal characteristics has been lost and the other is doomed to follow.
 
+<figure>
+	<img src="{{site.baseurl}}/img/background/thieving-hands.jpg">
+</figure>
+
 ## The Cooper Union’s Financial Challenges Are Not New
 
 They certainly are not. But they do not go back 50 years as the letter states. They go back 150 years. There were deficit years and surplus years. Revenue varied depending on donations, bequests and market fluctuations which are difficult to project with certainty. In fact, in the Autumn, 1964 edition of “At Cooper Union” (page 15) then president Dr. Richard Humphreys discussed the financial issues. I quote him: “It is a startling fact that in the 67 years between 1859 and 1926 there were 35 deficit years—in effect, in one year out of every two the income was insufficient to meet the expenses.” So, while deficits were a consistent historical problem, they were of short-term duration until the early 1990’s when a drop in revenue from the Chrysler building created a chronic operating deficit gap. The gap needed to be filled each year by pulling funds from the endowment, a disastrous issue if done year in and year out The failure of the administrations and boards of the past 20+ years to respond adequately to the lost revenue by reducing costs has been the fundamental cause of the financial crisis. That was compounded by the failure of an unrealistically ambitious $250 million capital campaign and the impending failure of a heritage-destroying imposition of tuition.

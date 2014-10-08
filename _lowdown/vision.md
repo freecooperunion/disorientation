@@ -10,6 +10,10 @@ next: the-state-of-the-cooper-union-by-mike-borkowsky
 
 In the beginning there was debt, bloat, and free education. The Demands and Principles in an earlier section were a distillation of these things but could be infinitely expanded. Since we began, years ago, we’ve come to zest many interconnected systems. This is not a debate about tuition, it’s a practice of building resistance, dismantling oppression, and fostering shared principles. Anyway, here are loose ends we talk about. These things will always change.
 
+<figure>
+	<img src="{{site.baseurl}}/img/lowdown/student-control.jpg">
+</figure>
+
 - INSTITUTIONS: Institutions are full of shit. Are we the Drain-O? Is there Drain-O strong enough? Is education like washing our hands in a sink? Is the sink the absence of a pipe? Is water money?
 - FALSE DICHOTOMIES: It behooves them to financialize us. Beware of false choices. Being for and being against both reinforce the terms of a debate. Are you sure you don’t want to switch tabs?
 - TIME SCALES: Don’t forget: short, middle, and long. But now is always the time for principled action. Organize as if social relations matter.
@@ -34,3 +38,7 @@ In the beginning there was debt, bloat, and free education. The Demands and Prin
 - ACCREDITATION: People flip a shit about losing accreditation but why should we care? Except that it’s tied to financial aid. A degree means nothing in a world completely saturated with degrees. If you get your education for free, nobody can lord a certificate over you.
 - SOCIAL JUSTICE: How can we have a section called Social Justice? And yet we must. If only as a reminder that we too often opt-out, and that shouldn’t be an option.
 - PHILANTHROPY: You can’t have philanthropy without a system that relies on charity to make amends for incredible disparity. Reinforces the gap between the rich and the poor. We don’t want the end of philanthropy but the beginning of a society that it would make no sense to.
+
+<figure>
+	<img src="{{site.baseurl}}/img/lowdown/okay-whatever.jpg">
+</figure>

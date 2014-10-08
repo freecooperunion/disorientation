@@ -4,12 +4,10 @@ order: 1
 layout: post
 prev: /
 next: ivory-tower
-background: banner.png
 ---
 
-<figure class="pull-right">
-	<img src="{{site.baseurl}}/img/logo.png" alt="">
-	<figcaption>The Foundation Building's clock, illuminated in red, in the logo of Free Cooper Union.</figcaption>
+<figure>
+	<img src="{{site.baseurl}}/img/lowdown/banner.png">
 </figure>
 
 Free Cooper Union, founded in Fall 2012, is a group of students and young alumni working towards free education to all. 
@@ -20,27 +18,30 @@ We affirm:
 - Higher education around the world is in dire need of a paradigm shift.
 - The debate about “tuition” at Cooper must engage broader dialogues about student debt, educational reform, alternative models of governance, and social justice.
 
-<p class="okhover">To this end, we have employed a wide range of tactics including but not limited to: <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/drafting-petitions.jpg">drafting petitions</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/walking-out.jpg">holding walk outs</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/hosting-summits.jpg">hosting summits</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/memes.jpg">igniting memes</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/satirical-websites.png">building satirical websites</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/art-exhibitions.jpg">mounting art exhibitions</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/music-videos.jpg">creating music videos</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/parades.png">leading parades</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/historical-reenactments.jpg">staging historical reenactments</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/publications.jpg">authoring publications</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/poster-bombing.jpg">poster bombing</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/culture-jamming.jpg">culture-jamming</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/breaking-into-meetings.jpg">breaking into meetings</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/leaking-documents.jpg">leaking documents</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/dropping-banners.jpg">dropping banners</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/talking-to-press.jpg">talking to press</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/building-barricades.jpg">building barricades</span>, <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/occupying.jpg">occupying</span>, and <span class="hoverable" data-okimage="{{site.baseurl}}/img/da-fcu-hover/visioning.jpg">envisioning futures and possibilities</span>.</p>
+To this end, we have employed a wide range of tactics including but not limited to: _drafting petitions, holding walk outs, hosting summits, igniting memes, building satirical websites, mounting art exhibitions, creating music videos, leading parades, staging historical reenactments, authoring publications, posterbombing, culture-jamming, breaking into meetings, leaking documents, dropping banners, talking to press, building barricades, 
+occupying, and envisioning futures and possibilities_.
 
 In December 2012, twelve students barricaded themselves inside the clocktower of the Foundation Building, dropped a gigantic banner reading “Free Education to All,” and issued the following statement:
 
-![Students for a Free Cooper Union Statement, Monday, December 3rd, 2012](/img/background/statement.jpg)
+<figure>
+	<img src="{{site.baseurl}}/img/lowdown/lock-in-statement.jpg" alt="Students for a Free Cooper Union Statement, Monday, December 3rd, 2012">
+</figure>
 
 A set of principles was also issued, expanding upon larger systems:
 
-## Principles
-
-### Higher Education Bubble
-
-The over-inflated costs of higher education have placed more than a trillion dollars of debt onto the backs of students. Higher education should be a means of social mobility and intellectual liberation, but it has devolved into an industry that exploits students for profit. Inevitably this bubble will burst and what appears to be a healthy and growing educational system will be revealed as a model that was always doomed to fail.
-
-### Grow Down
-
-The administrators who have grown us into this mess are trying to grow us out of it. Investing in the higher education bubble is short-sighted and uncreative. Playing a larger role in one’s community provides strong roots. If we refuse to invest in a growth model and reaffirm our mission, we stand to see the principles of free education bring life back to our own community and other institutions as well.
-
-### Structures for Transparency and Integrity
-
-Bloated and visionless administrations have become an epidemic threatening institutions of higher education all across America. We must rebuild the governance of these institutions with open flows of information and democratic decision-making structures. Carrying a mission such as free education will require principled, rather than self-sustaining, leadership.
+> ## Principles
+> 
+> ### Higher Education Bubble
+> 
+> The over-inflated costs of higher education have placed more than a trillion dollars of debt onto the backs of students. Higher education should be a means of social mobility and intellectual liberation, but it has devolved into an industry that exploits students for profit. Inevitably this bubble will burst and what appears to be a healthy and growing educational system will be revealed as a model that was always doomed to fail.
+> 
+> ### Grow Down
+> 
+> The administrators who have grown us into this mess are trying to grow us out of it. Investing in the higher education bubble is short-sighted and uncreative. Playing a larger role in one’s community provides strong roots. If we refuse to invest in a growth model and reaffirm our mission, we stand to see the principles of free education bring life back to our own community and other institutions as well.
+> 
+> ### Structures for Transparency and Integrity
+> 
+> Bloated and visionless administrations have become an epidemic threatening institutions of higher education all across America. We must rebuild the governance of these institutions with open flows of information and democratic decision-making structures. Carrying a mission such as free education will require principled, rather than self-sustaining, leadership.
 
 ## Direct Action
 
@@ -57,24 +58,24 @@ There are different ways to approach a social issue: expose an existing problem,
 	</tr>
 	<tr>
 		<td>
-			<ul>
-				<li><strong>Sharing</strong> an important news article with friends</li>
-				<li><strong>Signing</strong> a petition for a cause you support</li>
-				<li><strong>Voting</strong> for a representative</li>
-				<li><strong>Writing</strong> a letter to your elected official</li>
-			</ul>
+				<strong>Sharing</strong> an important news article with friends<br><br>
+				<strong>Signing</strong> a petition for a cause you support<br><br>
+				<strong>Voting</strong> for a representative<br><br>
+				<strong>Writing</strong> a letter to your elected official
 		</td>
 		<td>
-			<ul>
-				<li><strong>Teaching</strong> a “Know Your Rights” workshop to high-schoolers</li>
-				<li><strong>Planting</strong> a garden to remediate local soil</li>
-				<li><strong>Blockading</strong> a road to prevent work on a gas pipeline</li>
-			</ul>
+				<strong>Teaching</strong> a “Know Your Rights” workshop to high-schoolers<br><br>
+				<strong>Planting</strong> a garden to remediate local soil<br><br>
+				<strong>Blockading</strong> a road to prevent work on a gas pipeline
 		</td>
 	</tr>
 </table>
 
 Many are raised to view indirect action as the ceiling of possibilities for change. However, direct action offers a massive—and highly effective—breadth of tactics to create change.
+
+<figure>
+	<img src="{{site.baseurl}}/img/lowdown/actions.jpg" alt="Student Actions">
+</figure>
 
 ## The Futility of Bureaucracy
 
@@ -101,3 +102,7 @@ After _The New York Times_ reported that the announcement of tuition marked the 
 ## Le Rêve Infini
 
 During 2012’s large-scale student strikes in Quebec, a play on words emerged in which the “general strike” (grève infini) was crossed with the idea of an infinite dream (rêve infini). The space of an action is not unlike an infinite dream: realities based on limitation are transformed—in an instant—into a boundlessness of time, space, and possibility. The action itself ends, but everyone in its path remains changed, retaining a boundlessness within themselves.
+
+<figure>
+	<img src="{{site.baseurl}}/img/lowdown/rose-quebec.jpg" alt="A Rose for Democracy">
+</figure>

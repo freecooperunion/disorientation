@@ -3,7 +3,7 @@ title: Free Cooper Union
 subtitle: A Disorientation Reader
 layout: index
 body_id: index
-intro: | 
+intro: |  
   This is the second edition of Disorientation published by Free Cooper Union.
 
   Disorientation is a counter-orientation conventionally intended to introduce the incoming class to the real story of Cooper’s dense internal politics, as well as larger student issues. However, institutional memory is so short that we must constantly be disorienting ourselves and the communities around us. 
@@ -14,7 +14,7 @@ intro: |
   a brick,  
   a ping-pong ball,  
   a barricade,  
-  a vote of no confidence, 
+  a vote of no confidence,  
   an infinite dream.
 
   We would also like to recognize that what’s in this booklet is a very focused history of what’s happening at Cooper, and can in no way adequately address all of the broader intersectional struggles that continue to shape and support this movement. We’d like to acknowledge all of the historical and contemporary groundwork, in hopes that we can achieve paradigm shifts together through our continued campaign building.

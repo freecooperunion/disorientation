@@ -6,6 +6,10 @@ next: vision
 prev: legal-action-and-the-committee-to-save-cooper-union
 ---
 
+<figure class="pull-right">
+	<img src="{{site.baseurl}}/img/lowdown/bodietl.png">
+</figure>
+
 Every time a direct action occurs, it demonstrates a gap in the administration’s ability to control the “official” narrative about Cooper. With every action that has occurred, the administration has tried harder-and-harder to consolidate power and discourage the community from acting again. While it’s still very much possible to take action, one of the best defenses is to have a thorough understanding of how the administration has dealt with previous incidents, and changed Cooper policies to crack down on everything from impromptu meetings to planned demonstrations.
 
 ## Due Process
@@ -23,6 +27,14 @@ Satisfying both the formal complaint as well the students’ plea, SJC issued a 
 
 The first week of the Occupation of Bharucha’s office turned tumultuous when the administration attempted to intimidate students out of occupying with a poorly choreographed escalation of private security on campus. In a sudden, unannounced lockdown ordered by the administration, armed private security who refused to identify themselves, held elevators, obstructed all stairwells (including fire stairs), boarded up bathrooms and water fountains, using their bodies to prevent students from reaching their peers on the 7th floor.
 
+<figure>
+	<img src="{{site.baseurl}}/img/lowdown/firestairs.jpg">
+</figure>
+
+<figure class="pull-right">
+	<img src="{{site.baseurl}}/img/lowdown/boarded-bathroom-tweet.png">
+</figure>
+
 The community and media responded in outrage to the administration’s willingness to endanger students, faculty, and staff who were actively communicating their intent to non-violently uphold the college’s mission. The backlash forced the administration to concede to the students, who occupied for the next sixty-three days, despite being constantly monitored by additional security personnel, who at times outnumbered the students in the office. 
 
 It remains unclear how the administration, while asserting that the school is running an unsustainable deficit, can justify such excessive and costly security—including round-the-clock guards at Bharucha’s residence.  With no oversight of the power of the administration and Board, there is no official forum to effectively challenge their assertion that these expenditures are for the benefit of the community.
@@ -37,11 +49,19 @@ Longtime Dean of Students Linda Lemiesz had visited the Occupation on several oc
 
 With Lemiesz gone, Bharucha could begin to dismantle the SJC process entirely by fast-tracking the promotions of two complicit replacements from the college’s lower administration. Like many other administrative roles Bharucha was to fill in the coming months, these job listings would never officially be posted. Stephen Baker, formerly Dean of Athletics—at a college with almost no athletics—was awarded Lemiesz’s title and immense, complex responsibilities. Baker subsequently promoted Chris Chamberlin, Director of Residence Life, to Acting Associate Dean of Student Affairs.
 
+<figure>
+	<img src="{{site.baseurl}}/img/lowdown/evil.jpg">
+</figure>
+
 Chamberlin’s first act appeared in the form of an email to the Student Council Administrative Chairs on November 19th, 2013 titled “Code of Conduct Review.” He had taken the liberty of revising the Code of Conduct in consultation with “professionals” to “reflect the modern era in which we live.” The Ad Chairs were asked to submit comments on his revision—which they soon realized was an entirely new document—within two weeks. In a single email, Chamberlin had revised not only the Code of Conduct, but also the history of the Student Judicial Committee at Cooper. The role of students had gone from authoring a code, to an administrator “considering” students’ comments on a document they had not authored.
 
 Among Chamberlin’s most egregious changes to the Code of Conduct were adding more administrative representatives to SJC (effectively undermining the previous student majority), giving himself the right to choose which complaints would or would not be handled by SJC, introducing several random policies (e.g. no “beer bongs”) that would purportedly govern life on and off campus, and tripling the document in length. Even _The New York Times_ criticized Cooper and CUNY, where similar changes were being pushed through, for what was widely viewed as an attempt to restrict students’ right to demonstrate.
 
 The Student Councils of all three schools launched petitions which soon amounted to unilateral opposition as a student body to Chamberlin’s revised Code of Conduct. The Student-Faculty Senate was convened for an emergency meeting where all the petitions were entered into its record, faculty and students spoke against the proposed changes, and newly hired Vice President of Communications Justin Harmon embarrassed himself with a milquetoast defense of the revision. The Student-Faculty Senate passed a resolution stating that they advised the Board not to adopt the changes to the Code of Conduct. At the December Board meeting, student representative Devora Najjar reiterated the faculty and student body’s opposition, and the Board officially backed down, stating that they still believed things had to change but would undertake the process in consultation with JSC after the winter break. Over the course of 2014, there were no substantive advances made by the administration to develop a new Code of Conduct with students. This was a demonstration both of the power of indirect action and the limits of student governance.
+
+<figure>
+	<img src="{{site.baseurl}}/img/lowdown/school-safety.jpg">
+</figure>
 
 In May 2014, Vincent Hui, a student instructor with the Saturday Program, refused to shake Bharucha’s hand at a public event. Within several days, Hui was informed that he had been kicked off his sports team and barred from teaching in the Saturday Program going forward, over a vague and unspecified recent allegation of incivility. When Hui tried to bring his case before SJC, Baker responded that it was a private matter between himself, the Director of the Saturday Program, and Hui — effectively denying Hui due process under the existing Code of Conduct.
 
@@ -60,5 +80,9 @@ In addition to these factors, the community took issue with the firm’s ethics.
 This concern was quickly communicated to Board Chair Richard Lincer by Student Council representatives. Lincer claimed that the major reason BDA was hired was because it was an easy transition, as Cooper had previously used BDA for security. Soon, a campus-wide email arrived from newly hired Vice President of Finance and Administration, William Mea, defending the decision. His argument was that Bo Dietl’s politics don’t extend to his employees, who would be mandated to treat everyone in the Cooper community with respect.
 
 However, by hiring BDA, Cooper’s administration chose to endorse a company whose brand is built on incendiary, prejudicial remarks. It shows the extent to which Cooper’s administration has lost touch with the progressive history of the institution, which hosted the founding of the National Association for the Advancement of Colored People in 1909, only to hire BDA in 2014.
+
+<figure class="pull-right">
+	<img src="{{site.baseurl}}/img/lowdown/bye-bye-bo.png">
+</figure>
 
 On September 20th, another campus-notice from Mea announced that Cooper had “not anticipated the sensitivities” of the community and would be “transitioning” to another security firm. Despite Joint Student Council’s demands to reinstate Owen Solomon and form a collaborative process for the hiring of a new security firm, the administration committed only to working together with BDA to select a new firm. In an article published in _The Wall Street Journal_, Dietl himself commented that, students “have no right” to be involved in the school president’s hiring decisions.
