@@ -7,6 +7,6 @@ collections:
   background:
     output: true
     permalink: /:path/
-  resources:
+  footnotes:
     output: true
     permalink: /:path/
