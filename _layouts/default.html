@@ -9,12 +9,55 @@
 <body id="{{page.url | replace: "/", ""}}" class="{{page.collection}}">
 {% if page.body_id != "index" %}
 <nav id="main">
-	<section class="desktop">
-		{% include toc.html %}
+<section class="desktop">
+	<section class="nav-wrapper">
+		<h2 class="title"><a href="/disorientation/" class="section-heading">Disorentiation</a></h2>
+		<section class="lowdown">
+			<h2 class="section">Lowdown</h2>
+			<ol>
+				<li><a href="{{ site.baseurl }}/direct-action-and-free-cooper-union/">Direct Action &amp; Free Cooper Union</a></li>
+				<li><a href="{{ site.baseurl }}/ivory-tower/">Ivory Tower</a></li>
+				<li><a href="{{ site.baseurl }}/working-group/">Working Group</a></li>
+				<li><a href="{{ site.baseurl }}/legal-action-and-the-committee-to-save-cooper-union/">Legal Action &amp; The Committee to Save Cooper Union</a></li>
+				<li><a href="{{ site.baseurl }}/code-of-conduct-and-campus-militarization/">Code of Conduct &amp; Campus Militarization</a></li>
+				<li><a href="{{ site.baseurl }}/vision/">Vision Platter Deluxe</a></li>
+			</ol>
+		</section>
+		<section class="background">
+			<h2 class="section">Background</h2>
+			<nav></nav>
+			<ul>
+				<li><a href="{{ site.baseurl }}/the-state-of-the-cooper-union-by-mike-borkowsky/">The State of the Cooper Union</a></li>
+				<li><a href="{{ site.baseurl }}/open-letter-to-president-bharucha-by-walid-raad/">Open Letter to President Bharucha</a></li>
+				<li><a href="{{ site.baseurl }}/the-loss-of-cooper-union-by-jordan-bowen/">The Loss of Cooper Union</a></li>
+				<li><a href="{{ site.baseurl }}/why-cooper-unions-tuition-fight-matters-for-the-future-of-art-by-ben-davis/">Why Cooper Union’s Tuition Fight Matters for the Future of Art</a></li>
+				<li><a href="{{ site.baseurl }}/organizing-as-if-social-relations-matter-by-cindy-milstein/">Organizing As If Social Relations Matter</a></li>
+				<li><a href="{{ site.baseurl }}/academy-fight-song-by-thomas-frank/">Academy Fight Song</a></li>
+				<li><a href="{{ site.baseurl }}/why-cooper-union-matters-by-litia-perta/">Why Cooper Union Matters</a></li>
+				<li><a href="{{ site.baseurl }}/removing-barriers-mobilizes-resources-by-david-gersten/">Removing Barriers Mobilizes Resources</a></li>
+				<li><a href="{{ site.baseurl }}/an-appeal-to-the-cooper-community-by-sam-rosner/">An Appeal to the Cooper Community</a></li>
+				<li><a href="{{ site.baseurl }}/two-educations-for-the-price-of-none-by-jakob-biernat/">Two Educations for the Price of None</a></li>
+				<li><a href="{{ site.baseurl }}/save-cooper-union-by-sangu-iyer/">Save Cooper Union</a></li>
+				<li><a href="{{ site.baseurl }}/you-cant-just-end-an-era-by-sangu-iyer/">You Can’t Just End an Era</a></li>
+				<li><a href="{{ site.baseurl }}/the-tragedy-of-cooper-union-by-felix-salmon/">The Tragedy of Cooper Union (A Six-Part Series)</a></li>
+			</ul>
+		</section>
+		<section class="footnotes">
+			<h2 class="section">Footnotes</h2>
+			<ul>
+				<li><a href="{{ site.baseurl }}/198/#content" class="title">198 Methods of Direct Action</a></li>
+				<li><a href="{{ site.baseurl }}/ask/#content" class="title">Ask a Question</a></li>
+				<li><a href="{{ site.baseurl }}/further-reading/#content" class="title">Further Reading</a></li>
+				<li><a href="{{ site.baseurl }}/glossary/#content" class="title">Glossary</a></li>
+				<li><a href="{{ site.baseurl }}/press/#content" class="title">Press Log</a></li>
+				<li><a href="{{ site.baseurl }}/solidarity/#content" class="title">Solidarity Map</a></li>
+				<li><a href="{{ site.baseurl }}/spectrum/#content" class="title">Spectrum of Allies</a></li>
+				<li><a href="{{ site.baseurl }}/timeline/#content" class="title">Timeline</a></li>
+				<li><a href="{{ site.baseurl }}/why-jamshed-bharucha-must-step-down/#content" class="title">Why Jamshed Bharucha Must Step Down</a></li>
+			</ul>
+		</section>
 	</section>
-	<section class="mobile">
-	{% include toc-select.html %}
-	</section>
+</section>
 </nav>
 {% endif %}
 <section id="content" style="background-image:url('{{site.baseurl}}/img/section-heading-background/{{page.background}}');">
@@ -36,11 +79,18 @@
 {% endif %}
 <p>Stay Free or Die Tryin&apos;</p>
 </footer>
+<footer id="donate">
+	<h2>Order Printed Reader</h2>
+	<p>Support Free Cooper Union by ordering a printed copy of our Disorientation reader.</p>
+	<a href='https://mkt.com/freecooperunion' class='sq-embed-menu' data-menu-item-images='large' data-menu-accent-color='ff412e' data-menu-template='row' data-menu-border='show' data-menu-item-descriptions='show' >Order Online</a>
+<script src="https://cdn.sq-api.com/market/embed.js" charset="utf-8"></script>
+</footer>
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.2/fastclick.min.js"></script>
 <script>
 	window.addEventListener('load', function() {
 		FastClick.attach(document.body);
 	}, false);
 </script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>

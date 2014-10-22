@@ -10,6 +10,15 @@ body {
 	color:#222;
 }
 
+section#donate {
+	background: #000;
+	color:#ff;
+	figure, p {
+		max-height:200px;
+		float:left;
+	}
+}
+
 header img {
 	display:block;
 	margin:0;
@@ -425,7 +434,7 @@ nav#main {
 	section.background {
 		width:26vw
 	}
-	section.resources {
+	section.footnotes {
 		width:16vw
 	}
 }
