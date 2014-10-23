@@ -2,12 +2,17 @@
 layout: default
 ---
 <article>
-	<h2 class="title">Free Cooper Union</h2>
-	<figure style="padding:0 5vw;width:90vw;">
-		<img src="{{site.baseurl}}/img/titles/disorientation.svg" alt="Disorientation">
+	<figure>
+		<img src="{{site.baseurl}}/img/cover.gif" alt="Disorientation">
 	</figure>
+	<section class="intro">
+		<h2 class="title">Free Cooper Union</h2>
+		<figure style="padding:0 5vw;width:90vw;">
+			<img src="{{site.baseurl}}/img/titles/disorientation.svg" alt="Disorientation">
+		</figure>
 
-	{{ page.intro | markdownify }}
+		{{ page.intro | markdownify }}
+	</section>
 	<section>
 		<h2 class="section">Lowdown</h2>
 		<p class="intro">Brief introductions to the things you need to know: recent developments, active groups, and ongoing issues.</p>

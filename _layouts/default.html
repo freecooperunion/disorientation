@@ -6,12 +6,11 @@
 	<meta name="viewport" content="width = device-width, initial-scale = 1.0,maximum-scale = 1.0" />
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 </head>
-<body id="{{page.url | replace: "/", ""}}" class="{{page.collection}}">
+<body id="{{page.url | replace: "/", "" | replace: ".html", ""}}" class="{{page.collection}}">
 {% if page.body_id != "index" %}
 <nav id="main">
-<section class="desktop">
+	<h2 class="title"><a href="{{ site.baseurl }}" class="section-heading">Disorientation</a></h2>
 	<section class="nav-wrapper">
-		<h2 class="title"><a href="/disorientation/" class="section-heading">Disorentiation</a></h2>
 		<section class="lowdown">
 			<h2 class="section">Lowdown</h2>
 			<ol>
@@ -57,7 +56,6 @@
 			</ul>
 		</section>
 	</section>
-</section>
 </nav>
 {% endif %}
 <section id="content" style="background-image:url('{{site.baseurl}}/img/section-heading-background/{{page.background}}');">
@@ -82,7 +80,7 @@
 <footer id="donate">
 	<h2>Order Printed Reader</h2>
 	<p>Support Free Cooper Union by ordering a printed copy of our Disorientation reader.</p>
-	<a href='https://mkt.com/freecooperunion' class='sq-embed-menu' data-menu-item-images='large' data-menu-accent-color='ff412e' data-menu-template='row' data-menu-border='show' data-menu-item-descriptions='show' >Order Online</a>
+	<a href='https://mkt.com/freecooperunion' class='sq-embed-menu' data-menu-item-images='large' data-menu-accent-color='ff0000' data-menu-template='row' data-menu-border='show' data-menu-item-descriptions='show' >Order Online</a>
 <script src="https://cdn.sq-api.com/market/embed.js" charset="utf-8"></script>
 </footer>
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.2/fastclick.min.js"></script>
