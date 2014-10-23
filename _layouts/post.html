@@ -10,7 +10,7 @@ layout: default
 			<img src="{{site.baseurl}}/img/titles/{{page.url | replace: "/", ""}}.svg" alt="{{ page.title }}" style="width:80%;">
 		</figure>
 		{% if page.source %}
-		<p class="source">{{page.source}}</p>
+		<p class="source">{{{page.source}}}</p>
 		{% endif %}
 	</header>
 	{{content}}

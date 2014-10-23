@@ -13,7 +13,7 @@ This was a long time coming, and like the [destruction of the Chelsea Hotel](htt
 Cooper Union's flagship is the Foundation Building, an Italianate brownstone that was once the crown of the wide expanse of Astor Place. Abraham Lincoln gave a famous speech in its Great Hall. The school was founded to offer free classes to the illiterate masses boiling up from the slums of the Bowery; Peter Cooper was himself illiterate. 
 
 <figure>
-	<img src="{{site.baseurl}}/img/background/great-hall.jpg">
+	<img srcset="{{site.baseurl}}/img/background/great-hall.jpg 1000w, {{site.baseurl}}/img/background/great-hall@2x.jpg 2000w" sizes="100vw">
 </figure>
 
 <strong class="pull">Change has been tearing apart and rebuilding New York since it was a Dutch colony. There's no point crying about it.</strong>

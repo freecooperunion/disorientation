@@ -5,14 +5,20 @@
 	<title>{{ page.title }}</title>
 	<meta name="viewport" content="width = device-width, initial-scale = 1.0,maximum-scale = 1.0" />
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+	<script>
+		// Picture element HTML5 shiv
+		document.createElement( "picture" );
+	</script>
+	<script src="{{ site.baseurl }}/js/picturefill.min.js" async></script>
 </head>
 <body id="{{page.url | replace: "/", "" | replace: ".html", ""}}" class="{{page.collection}}">
 {% if page.body_id != "index" %}
 <nav id="main">
-	<h2 class="title"><a href="{{ site.baseurl }}" class="section-heading">Disorientation</a></h2>
-	<section class="nav-wrapper">
+	<span class="heading"><h2 class="title"><a href="{{ site.baseurl }}" class="section-heading">Disorientation</a></h2></span>
+	<a href="#" id="menu-toggle" alt="Menu"><span></span></a>
+	<section style="display:none;" class="nav-wrapper">
 		<section class="lowdown">
-			<h2 class="section">Lowdown</h2>
+			<span class="heading"><h2 class="section">Lowdown</h2></span>
 			<ol>
 				<li><a href="{{ site.baseurl }}/direct-action-and-free-cooper-union/">Direct Action &amp; Free Cooper Union</a></li>
 				<li><a href="{{ site.baseurl }}/ivory-tower/">Ivory Tower</a></li>
@@ -23,7 +29,7 @@
 			</ol>
 		</section>
 		<section class="background">
-			<h2 class="section">Background</h2>
+			<span class="heading"><h2 class="section">Background</h2></span>
 			<nav></nav>
 			<ul>
 				<li><a href="{{ site.baseurl }}/the-state-of-the-cooper-union-by-mike-borkowsky/">The State of the Cooper Union</a></li>
@@ -42,7 +48,7 @@
 			</ul>
 		</section>
 		<section class="footnotes">
-			<h2 class="section">Footnotes</h2>
+			<span class="heading"><h2 class="section">Footnotes</h2></span>
 			<ul>
 				<li><a href="{{ site.baseurl }}/198/#content" class="title">198 Methods of Direct Action</a></li>
 				<li><a href="{{ site.baseurl }}/ask/#content" class="title">Ask a Question</a></li>
@@ -77,12 +83,12 @@
 {% endif %}
 <p>STAY FREE OR DIE TRYIN&apos;</p>
 </footer>
-<footer id="donate">
+<!-- <footer id="donate">
 	<h2>Order Printed Reader</h2>
 	<p>Support Free Cooper's ongoing organizing by ordering a printed copy of our Disorientation reader.</p>
 	<a href='https://mkt.com/freecooperunion' class='sq-embed-menu' data-menu-item-images='large' data-menu-accent-color='ff0000' data-menu-template='row' data-menu-border='show' data-menu-item-descriptions='show' >Order Online</a>
-<script src="https://cdn.sq-api.com/market/embed.js" charset="utf-8"></script>
-</footer>
+	<script src="https://cdn.sq-api.com/market/embed.js" charset="utf-8"></script>
+</footer> -->
 <!-- start popup -->
 <div id="CoverPop-cover" class="splash CoverPop-close">
 	<div class="CoverPop-content splash-center">
@@ -114,6 +120,7 @@
 <script src="{{site.baseurl}}/js/CoverPop.min.js"></script>
 <script>
 	CoverPop.start();
+
 	$(document).ready( function () {
 	    // I only have one form on the page but you can be more specific if need be.
 	    var $form = $('form');
@@ -147,6 +154,13 @@
 	        }
 	    });
 	}
+
+	$( "#menu-toggle" ).click(function() {
+		this.classList.toggle( "active" );
+		$( ".nav-wrapper" ).slideToggle( "slow", function() {
+			// Animation complete.
+		});
+	});
 
 	window.addEventListener('load', function() {
 		FastClick.attach(document.body);
