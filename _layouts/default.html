@@ -157,9 +157,8 @@
 
 	$( "#menu-toggle" ).click(function() {
 		this.classList.toggle( "active" );
-		$( ".nav-wrapper" ).slideToggle( "slow", function() {
-			// Animation complete.
-		});
+		$("nav#main").toggleClass("active");
+		$( ".nav-wrapper" ).slideToggle( "slow");
 	});
 
 	window.addEventListener('load', function() {
