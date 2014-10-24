@@ -541,10 +541,14 @@ body#index {
 		color: #fff;
 		display:block;
 		padding:.15em 0;
+		h2 {
+			color:#fff;
+			border-bottom-color:#fff;
+		}
 	}
 	.heading {
 		display:block;
-		max-width:650px;
+		max-width:600px;
 		margin:auto;
 	}
 	h2 {
