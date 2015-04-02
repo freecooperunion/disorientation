@@ -21,7 +21,7 @@ intro: |
 ---
 
 **A note on abridgement.**  
-Much of the content in this reader has been <strike>hacked and slashed</strike> edited to fit within these pages. You can access unabridged versions of the works — and other content like videos and an interactive timeline — at our website.
+Much of the content in this reader has been <strike>hacked and slashed</strike> edited for brevity. Where we have abridged content, we will provide links to unabridged versions.
 
 **Correct us if we’re wrong.**  
 We’ve been compiling information for three years, but we’re still learning. We did our best to fact-check before printing, but we’ll do our best to amend inaccuracies.
