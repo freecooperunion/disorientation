@@ -11,26 +11,5 @@
       	<p>{{ item.content | strip_html | truncatewords: 20 }}</p>
       {% endif %}
     </a>
-	<script>
-	function leftArrowPressed() {
-		location.href = "{{site.baseurl}}{{prev_url}}#content"
-	}
-
-	function rightArrowPressed() {
-		location.href = "{{site.baseurl}}{{next_url}}#content"
-	}
-
-	document.onkeydown = function(evt) {
-	    evt = evt || window.event;
-	    switch (evt.keyCode) {
-	        case 37:
-	            leftArrowPressed();
-	            break;
-	        case 39:
-	            rightArrowPressed();
-	            break;
-	    }
-	};
-	</script>
   {% endif %}
 {% endfor %}
