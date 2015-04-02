@@ -68,7 +68,7 @@
 	</section>
 </nav>
 {% endif %}
-<section id="content" style="background-image:url('{{site.baseurl}}/img/section-heading-background/{{page.background}}');">
+<section id="content" {% if page.background %}style="background-image:url('{{site.baseurl}}/img/section-heading-background/{{page.background}}');"{% endif %}>
  {{ content }}
  </section>
 <footer>
