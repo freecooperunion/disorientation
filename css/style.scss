@@ -247,7 +247,6 @@ hr {
 }
 
 body#spectrum {
-	background:#ddd;
 	a:link, a:visited {
 		color:darkblue;
 	}
@@ -280,7 +279,7 @@ body#spectrum {
 			list-style-type:none;
 			padding:10px 2.5%;
 			margin:10px auto;
-			width:95%;
+			width:90%;
 		}
 		li {
 			margin:10px 0;
@@ -294,9 +293,9 @@ body#spectrum {
 			display:block;
 		}
 		.group {
-			background:#efefef;
-			border-radius:5px;
+			background:#fff;
 			padding:10px;
+			border:5px solid #000;
 			.group {
 				background:#fff;
 			}
@@ -364,10 +363,12 @@ body#spectrum {
 		li[title].free:hover img {
 			box-shadow:0 0 15px rgba(255,0,0,.5);
 		}
-		img {
-			width:75px;
-			height:75px;
-			border-radius:75px;
+		ul {
+			img {
+				width:75px;
+				height:75px;
+				border-radius:75px;
+			}
 		}
 	}
 }
