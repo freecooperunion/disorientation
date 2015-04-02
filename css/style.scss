@@ -447,46 +447,8 @@ nav#main {
 	vertical-align:baseline;
 	z-index: 2147483647!important;
 	-webkit-transition: all .75s;
-	#menu-toggle { 
-		cursor: pointer; padding: 10px 35px 16px 0px; 
-		position:absolute;
-		top:1em;
-		right:.5em;
-	}
-	#menu-toggle span, #menu-toggle span:before, #menu-toggle span:after {
-	  cursor: pointer;
-	  border-radius: 1px;
-	  height: 1px;
-	  width: 35px;
-	  background: #ff0000;
-	  position: absolute;
-	  display: block;
-	  content: '';
-	}
-	#menu-toggle span:before {
-	  top: -10px; 
-	}
-	#menu-toggle span:after {
-	  bottom: -10px;
-	}
+	text-align:center;
 
-	#menu-toggle span, #menu-toggle span:before, #menu-toggle span:after {
-	  transition: all 500ms ease-in-out;
-	}
-	#menu-toggle.active span {
-	  background-color: transparent;
-	}
-	#menu-toggle.active span:before, #menu-toggle.active span:after {
-	  top: 0;
-	}
-	#menu-toggle.active span:before {
-	  -webkit-transform: rotate(45deg);
-	  transform: rotate(45deg);
-	}
-	#menu-toggle.active span:after {
-	  -webkit-transform: rotate(-45deg);
-	  transform: rotate(-45deg);
-	}
 	li a:link, li a:visited {
 		padding:0;
 		text-decoration:none;

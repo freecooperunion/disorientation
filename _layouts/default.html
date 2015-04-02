@@ -14,9 +14,13 @@
 <body id="{{page.url | replace: "/", "" | replace: ".html", ""}}" class="{{page.collection}}">
 {% if page.body_id != "index" %}
 <nav id="main">
-	<span class="heading"><h2 class="title"><a href="{{ site.baseurl }}" class="section-heading">Disorientation</a></h2></span>
-	<a href="#" id="menu-toggle" alt="Menu"><span></span></a>
+	<span class="heading"><h2 class="title"><a href="#" id="menu-toggle" class="section-heading">Disorientation</a></h2></span>
 	<section style="display:none;" class="nav-wrapper">
+		<section>
+			<ol>
+				<li><a href="{{ site.baseurl }}">Home</a></li>
+			</ol>
+		</section>
 		<section class="lowdown">
 			<span class="heading"><h2 class="section">Lowdown</h2></span>
 			<ol>
