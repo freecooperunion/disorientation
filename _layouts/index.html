@@ -6,7 +6,6 @@ layout: default
 		<img src="{{site.baseurl}}/img/cover.gif" alt="Disorientation">
 	</figure>
 	<section class="intro">
-		<span class="heading"><h2 class="title">Free Cooper Union</h2></span>
 		<figure style="padding:0 5vw;width:90vw;">
 			<img src="{{site.baseurl}}/img/titles/disorientation.svg" alt="Disorientation">
 		</figure>
@@ -22,7 +21,7 @@ layout: default
 						{% for item in site.lowdown | sort: 'title' %}
 							{% if item.order == order %}
 							<li>
-								<a href="{{site.baseurl}}{{item.url}}#content" class="title">{{item.title}}</a>
+								<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a>
 							</li>
 							{% endif %}
 						{% endfor %}
@@ -36,7 +35,7 @@ layout: default
 			<ul>
 				{% for item in site.footnotes %}
 				<li>
-					<a href="{{site.baseurl}}{{item.url}}#content" class="title">{{item.title}}</a>
+					<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a>
 				</li>
 				{% endfor %}
 			</ul>
@@ -51,7 +50,7 @@ layout: default
 					{% for item in site.background %}
 						{% if item.order == order %}
 							<li>
-								<a href="{{site.baseurl}}{{item.url}}#content" class="title">
+								<a href="{{site.baseurl}}{{item.url}}" class="title">
 									<h3>{{item.title}}</h3>
 									{% if item.subtitle %}{{ item.subtitle | markdownify }}{% endif %}
 								</a>
