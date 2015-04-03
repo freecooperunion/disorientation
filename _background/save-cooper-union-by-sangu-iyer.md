@@ -1,7 +1,7 @@
 ---
 title: Save Cooper Union
 author: Sangu Iyer
-subtitle: Part one of School of Engineering alumna Sangu Iyer's exhaustive research on the events leading up to Jamshed Bharucha's appointment as President.
+subtitle: Part one of School of Engineering alumna **Sangu Iyer**'s exhaustive research on the events leading up to Jamshed Bharucha's appointment as President.
 source: 
 link: https://nplusonemag.com/online-only/online-only/save-cooper-union/
 layout: post

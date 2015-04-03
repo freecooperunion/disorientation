@@ -1,6 +1,6 @@
 ---
 title: You Can’t Just End an Era
-subtitle: Penned in response to lazy journalism declaring the "End of an Era" at Cooper Union, Sangu Iyer's second installment refutes the inevitablity of the Board's decision-making. 
+subtitle: Penned in response to lazy journalism declaring the "End of an Era" at Cooper Union, **Sangu Iyer**'s second installment refutes the inevitablity of the Board's decision-making. 
 link: https://nplusonemag.com/online-only/online-only/you-can-t-just-end-an-era/
 layout: post
 order: 12

@@ -2,11 +2,11 @@
 {% assign next_url = page.next | prepend:"/" | append: "/" %}
 {% assign prev_url = page.prev | prepend:"/" | append: "/" %}
   {% if item.url == next_url %}
-    <a href="{{site.baseurl}}{{item.url}}#content" class="keep-reading">
+    <a href="{{site.baseurl}}{{item.url}}" class="keep-reading">
       <h2 class="section-heading">Read Next</h2>
       <h2>{{item.title}}</h2>
       {% if item.subtitle %}
-      	<p>{{ item.subtitle }}</p>
+      	<p>{{ item.subtitle | markdownify }}</p>
 			{% else %}
       	<p>{{ item.content | strip_html | truncatewords: 20 }}</p>
       {% endif %}

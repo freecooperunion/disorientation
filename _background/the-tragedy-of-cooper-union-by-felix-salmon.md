@@ -1,7 +1,7 @@
 ---
 title: The Tragedy of Cooper Union (A Six-Part Series)
 author: Felix Salmon
-subtitle: In a series of six blog posts written for Reuters between 2011 and 2013, financial analyst Felix Salmon wrote what many consider to be the canonical account of a collapse in leadership at Cooper Union.
+subtitle: In a series of six blog posts written for Reuters between 2011 and 2013, financial analyst **Felix Salmon** wrote what many consider to be the canonical account of a collapse in leadership at Cooper Union.
 layout: post
 order: 13
 prev: you-cant-just-end-an-era-by-sangu-iyer
