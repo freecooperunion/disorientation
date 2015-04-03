@@ -16,7 +16,7 @@ While financial transparency was unfortunately not one of the results of the Nov
 
 In the current educational climate where astronomical tuition and routine hikes are the norm, Cooper’s policy is both unusual and unique. It may be a rapidly receding notion, but the students at Cooper are engaged in nothing less than the pursuit of knowledge and thinking for their own sake. The philosophy that courses through the institution is that education is a higher good, one that enriches the individual and, in so doing, enriches the human community. In this framework, education has its own value—and this is what makes Cooper Union radical and worth saving, perhaps even worth imitating: It is operating on a fundamentally different idea of what education is, and what it can be. So unfamiliar has this notion become, so fully has it been absented from current educational discourse, that it now rings of privilege or luxury—some kind of Enlightenment-era credo available only to the patriarchal elite. But when did it become okay to think that if an idea or a theory does not have an immediate, measurable, quantifiable economic use value it is a privilege to learn about it? When did such complacency develop around this kind of argument, enabling it to become the silent and seemingly obvious norm?
 
-<figure class="pull-right">
+<figure>
 	<img src="{{site.baseurl}}/img/background/free-society.jpg">
 </figure>
 
