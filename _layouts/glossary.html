@@ -3,20 +3,51 @@ layout: default
 body_id: glossary
 ---
 <article>
-	<h1>{{page.title}} <span class="loading">(Loading…)</span></h1>
+	<h1>{{page.title}}</h1>
 
-	<table id="glossary" style="display:none;"></table>
+	<ul id="glossary" style="display:none;"></ul>
 
 </article>
 {% raw %}
 <script id="glossary-template" type="text/x-handlebars-template">
-	<tr><th>{{term}}</th><td>{{{definition}}}</td></tr>
+	<li title='{{{definition}}}'>{{term}}</li>
 </script>
 {% endraw %}
 
 <script type="text/javascript" src="{{site.baseurl}}/js/handlebars.js"></script>
 <script type="text/javascript" src="{{site.baseurl}}/js/jquery.js"></script>
 <script type="text/javascript" src="{{site.baseurl}}/js/tabletop.js"></script>
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+<style type="text/css">
+.ui-tooltip {
+	padding: 10px;
+	color: #000;
+	border-radius: 0;
+	box-shadow:0 0px 10px rgba(0,0,0,.25);
+	border:5px solid #ff0!important;
+	font-size: 1em;
+}
+.ui-widget {
+	font-family:Avenir, sans-serif;
+	font-size:16px;
+	line-height:1.25em;
+}
+.spectrum-header.stuck {
+	position:fixed;
+	top:0;
+	box-shadow:0 2px 4px rgba(255, 255, 255, .3);
+}
+.fade-intro {
+	position:absolute;
+	top:110px;
+	left:20px;
+	color:gray;
+}
+#content {
+	position:relative;
+}
+</style>
 <script type="text/javascript">
 	var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1-OKVd-CRAkfGWdxLEvjN_kJmUdegO6ugn1uQTeQM42Y/pubhtml';
 
@@ -32,10 +63,22 @@ body_id: glossary
 
 		$.each( tabletop.sheets("Glossary").all(), function(i, glossary) {
 			var html = template(glossary);
-			$("table#glossary").append(html);
-			console.log("append");
+			$("ul#glossary").append(html);
 		});
-		$("table#glossary").fadeIn();
-		$(".loading").fadeOut();
+		$("ul#glossary").fadeIn();
 	}
+	jQuery(document).ready(function() {
+	    $( document ).tooltip({
+			track: true,
+			show: false,
+			hide: false,
+			items: "[title]",
+			content: function() {
+			var element = $( this );
+			if ( element.is( "[title]" ) ) {
+				return element.attr( "title" );
+			}
+	      }
+	    });
+	});
 </script>

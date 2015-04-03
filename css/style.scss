@@ -385,15 +385,34 @@ body#timeline {
 	}
 }
 body#glossary {
-	dl {
-		padding:0 10px;
+	h1 {
+		text-align: center;
 	}
-	dt {
-		padding-top:10px;
-		padding-bottom:5px;
+	article ul, article li {
+		margin:0;
+		padding:0;
 	}
-	dd {
-		padding-bottom:10px;
+	article ul {
+		max-width:100%;
+		margin-top:2em;
+		list-style-type:none;
+		text-align:left;
+		-moz-column-count: 5;
+		-moz-column-gap: 0;
+		-webkit-column-count: 5;
+		-webkit-column-gap: 0;
+	}
+	article li {
+		display:block;
+		width:100%;
+		cursor: zoom-in;
+		padding: .25em;
+		line-height:2;
+		text-align: center;
+		color: gray;
+	}
+	article li:hover {
+		color:#ff0;
 	}
 }
 nav {
