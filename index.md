@@ -4,7 +4,7 @@ subtitle: A Disorientation Reader
 layout: index
 body_id: index
 intro: |  
-  This is the second edition of Disorientation published by Free Cooper Union.
+  This is the second edition of Disorientation published by Free&nbsp;Cooper&nbsp;Union.
 
   Disorientation is a counter-orientation conventionally intended to introduce the incoming class to the real story of Cooper’s dense internal politics, as well as larger student issues. However, institutional memory is so short that we must constantly be disorienting ourselves and the communities around us. 
 
