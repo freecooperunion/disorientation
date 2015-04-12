@@ -1,6 +1,6 @@
 ---
 title: Legal Action & The Committee to Save Cooper Union
-order: 4
+order: 5
 layout: post
 next: code-of-conduct-and-campus-militarization
 prev: working-group

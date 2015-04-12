@@ -1,6 +1,6 @@
 ---
 title: Working Group
-order: 3
+order: 4
 layout: post
 next: legal-action-and-the-committee-to-save-cooper-union
 prev: ivory-tower

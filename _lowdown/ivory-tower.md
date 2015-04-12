@@ -1,6 +1,6 @@
 ---
 title: Ivory Tower
-order: 2
+order: 3
 layout: post
 next: working-group
 prev: direct-action-and-free-cooper-union

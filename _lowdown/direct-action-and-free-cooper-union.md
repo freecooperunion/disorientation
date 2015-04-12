@@ -1,6 +1,6 @@
 ---
 title: Direct Action & Free Cooper Union
-order: 1
+order: 2
 layout: post
 prev: /
 next: ivory-tower

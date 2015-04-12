@@ -1,9 +1,9 @@
 ---
 title: Vision Platter Deluxe
-order: 6
+order: 1
 layout: post
-prev: code-of-conduct-and-campus-militarization
-next: the-state-of-the-cooper-union-by-mike-borkowsky
+prev: 
+next: direct-action-and-free-cooper-union
 ---
 
 [The omniscient activist narrator loses their mind] 
