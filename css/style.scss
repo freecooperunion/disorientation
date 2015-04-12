@@ -542,8 +542,15 @@ nav#main.active {
 .invert {
 	background:#000;
 	color:#fff;
+	h2 {
+		border-bottom-color:#fff;
+	}
 	a:link, a:visited, h1, h2, h3 {
 		color:#fff;
+	}
+	a:hover, a:active {
+		background-color:#f00!important;
+		color:#fff!important;
 	}
 }
 
@@ -671,7 +678,7 @@ nav.boxes {
 		padding:1vw;
 		background-repeat:no-repeat;
 		background-size:contain;
-		background-position:bottom right;
+		background-position:center right;
 	}
 	a:hover {
 		background-color:#f00;
