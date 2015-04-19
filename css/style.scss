@@ -89,7 +89,7 @@ figure {
 }
 article {
 	margin:0 auto;
-	p, ul, ol, dl, blockquote, h2, h3, #disqus_thread, .heading {
+	p, ul, ol, dl, blockquote, h1, h2, h3, #disqus_thread, .heading {
 		display:block;
 		max-width:600px;
 		margin:auto;
@@ -111,6 +111,7 @@ article {
 	}
 	h1 {
 		margin-bottom:0!important;
+		margin-top:.5em;
 	}
 	h2 {
 		margin:30px auto 20px auto;
@@ -603,6 +604,7 @@ nav.boxes {
 		color:#f00;
 		background-color:#000;
 	}
+
 	.vision {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/vision.png")}
 	.direct-action-and-free-cooper-union {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/direct-action-and-free-cooper-union.png")}
 	.ivory-tower {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/ivory-tower.png")}

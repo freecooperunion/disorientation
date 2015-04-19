@@ -6,9 +6,13 @@ layout: default
 		{% if page.subtitle %}
 		<div class="subtitle">{{page.subtitle | markdownify}}</p>
 		{% endif %}
-		<figure>
-			<img src="{{site.baseurl}}/img/titles/{{page.url | replace: "/", ""}}.svg" alt="{{ page.title }}" style="width:80%;">
-		</figure>
+		{% if page.collection == "background" or page.collection == "lowdown" %}
+			<figure>
+				<img src="{{site.baseurl}}/img/titles/{{page.url | replace: "/", ""}}.svg" alt="{{ page.title }}" style="width:80%;">
+			</figure>
+		{% else %}
+			<h1>{{ page.title }}</h1>
+		{% endif %}
 		{% if page.source %}
 		<p class="source">{{ page.source | markdownify }}</p>
 		{% endif %}
