@@ -19,13 +19,13 @@ layout: default
 	<section class="clearfix invert">
 		<span class="heading"><h2 class="section">Lowdown</h2></span>
 		<p class="intro">Brief introductions to the things you need to know: recent developments, active groups, and ongoing issues.</p>
-			<nav class="boxes">
+			<nav class="boxes" id="lowdown-nav">
 				<ol>
 					{% for order in (1..8) %}
 						{% for item in site.lowdown | sort: 'title' %}
 							{% if item.order == order %}
 							<li>
-								<a href="{{site.baseurl}}{{item.url}}" class="title" style="background-image:url({{site.baseurl}}/img/lowdown-menu/{{item.url | replace: "/", ""}}.png);"><strong>{{item.order}}.</strong> {{item.title}}</a>
+								<a href="{{site.baseurl}}{{item.url}}" class="title {{item.url | replace: "/", ""}}"><strong>{{item.order}}.</strong> {{item.title}}</a>
 							</li>
 							{% endif %}
 						{% endfor %}

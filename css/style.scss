@@ -12,6 +12,28 @@
   clear: both;
 }
 
+@mixin wider-than($point) {
+    @if $point == large {
+        @media screen and (min-width: 44em) { @content; }
+    }
+
+    @else if $point == medium {
+        @media screen and (min-width: 34em) { @content; }
+    }
+
+    @else if $point == small {
+        @media screen and (min-width: 24em) { @content; }
+    }
+
+    @else {
+        @media screen and (min-width: $point) { @content; }
+    }
+}
+
+//	@include wider-than(small) {
+// 		Stuff Goes Here
+// 	}
+
 /* Styles for the CoverPop.js plugin */
 
 html,
@@ -549,8 +571,8 @@ nav#main.active {
 		color:#fff;
 	}
 	a:hover, a:active {
-		background-color:#f00!important;
-		color:#fff!important;
+		background-color:#f00;
+		color:#fff;
 	}
 }
 
@@ -656,9 +678,6 @@ table td {
 }
 
 nav.boxes {
-	* {
-//		background:rgba(0,0,0,.25);
-	}
 	ol, li {
 		max-width:100%;
 		list-style-type:none;
@@ -673,14 +692,41 @@ nav.boxes {
 	a:link, a:visited {
 		display:block;
 		width:100%;
-		min-height:230px;
-		width:23vw;
 		padding:1vw;
+		background-size:100%;
+		background-position:center;
 		background-repeat:no-repeat;
-		background-size:contain;
-		background-position:center right;
+		height:56vw;
+		width:48vw;		
+		@include wider-than(small) {
+			height:31vw;
+			width:31vw;		
+		}
+		@include wider-than(large) {
+			height:23vw;
+			width:23vw;		
+		}
 	}
 	a:hover {
-		background-color:#f00;
+		color:#f00;
+		background-color:#000;
 	}
+	.vision {background-image:url("/img/lowdown-menu/vision.png")}
+	.direct-action-and-free-cooper-union {background-image:url("/img/lowdown-menu/direct-action-and-free-cooper-union.png")}
+	.ivory-tower {background-image:url("/img/lowdown-menu/ivory-tower.png")}
+	.working-group {background-image:url("/img/lowdown-menu/working-group.png")}
+	.legal-action-and-the-committee-to-save-cooper-union {background-image:url("/img/lowdown-menu/legal-action-and-the-committee-to-save-cooper-union.png")}
+	.code-of-conduct-and-campus-militarization {background-image:url("/img/lowdown-menu/code-of-conduct-and-campus-militarization.png")}
+	.half-tuition-and-new-tuition {background-image:url("/img/lowdown-menu/half-tuition-and-new-tuition.png")}
+	.attorney-general-investigates {background-image:url("/img/lowdown-menu/attorney-general-investigates.png")}
+
+	.vision:hover {background-image:url("/img/lowdown-menu/vision-hover.png")}
+	.direct-action-and-free-cooper-union:hover {background-image:url("/img/lowdown-menu/direct-action-and-free-cooper-union-hover.png")}
+	.ivory-tower:hover {background-image:url("/img/lowdown-menu/ivory-tower-hover.png")}
+	.working-group:hover {background-image:url("/img/lowdown-menu/working-group-hover.png")}
+	.legal-action-and-the-committee-to-save-cooper-union:hover {background-image:url("/img/lowdown-menu/legal-action-and-the-committee-to-save-cooper-union-hover.png")}
+	.code-of-conduct-and-campus-militarization:hover {background-image:url("/img/lowdown-menu/code-of-conduct-and-campus-militarization-hover.png")}
+	.half-tuition-and-new-tuition:hover {background-image:url("/img/lowdown-menu/half-tuition-and-new-tuition-hover.png")}
+	.attorney-general-investigates:hover {background-image:url("/img/lowdown-menu/attorney-general-investigates-hover.png")}
+
 }
