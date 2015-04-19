@@ -1,6 +1,23 @@
 ---
 layout: default
 ---
+<script>
+$.preloadImages = function() {
+  for (var i = 0; i < arguments.length; i++) {
+    $("<img />").attr("src", arguments[i]);
+  }
+}
+$.preloadImages(
+	"http://freecooperunion.org/disorientation/img/lowdown-menu/vision-hover.png",
+	"http://freecooperunion.org/disorientation/img/lowdown-menu/direct-action-and-free-cooper-union-hover.png",
+	"http://freecooperunion.org/disorientation/img/lowdown-menu/ivory-tower-hover.png",
+	"http://freecooperunion.org/disorientation/img/lowdown-menu/working-group-hover.png",
+	"http://freecooperunion.org/disorientation/img/lowdown-menu/legal-action-and-the-committee-to-save-cooper-union-hover.png",
+	"http://freecooperunion.org/disorientation/img/lowdown-menu/code-of-conduct-and-campus-militarization-hover.png",
+	"http://freecooperunion.org/disorientation/img/lowdown-menu/half-tuition-and-new-tuition-hover.png",
+	"http://freecooperunion.org/disorientation/img/lowdown-menu/attorney-general-investigates-hover.png"
+);
+</script>
 <article>
 	<figure id="cover" style="height:80vh;background:url('{{site.baseurl}}/img/cover.png') no-repeat;background-position:center bottom;"></figure>
 	<section class="intro">
