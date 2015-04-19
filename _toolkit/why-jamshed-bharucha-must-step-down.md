@@ -3,6 +3,7 @@ title: Why Jamshed Bharucha Must Step Down
 order: 4
 subtitle: A look at Bharucha’s track record as President
 layout: post
+published: false
 ---
 
 These are a collection of incidents that lead us to believe that President Jamshed Bharucha is not fit to believe. He’s conned his way into leading and it’s 2014. He only has the next four semesters, but every moment he stays is costing the school money and time that we don’t have.
