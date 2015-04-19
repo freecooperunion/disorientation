@@ -624,3 +624,39 @@ nav.boxes {
 	.attorney-general-investigates:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/attorney-general-investigates-hover.png")}
 
 }
+
+#teaser-nav {
+	background:#fff;
+	h2.section, a {
+		color:#000!important;
+	}
+	h2.section {
+		border-bottom-color:#000!important;
+	}
+	.heading {
+		padding:0;
+	}
+	ol {
+		padding:0 4vw;
+	}
+	ol, li {
+		max-width:100%;
+		list-style-type:none;
+	}
+	li {
+		float:left;
+	}
+	a:link, a:visited {
+		display:block;
+		width:100%;
+		padding:1vw;
+		width:96vw;		
+		@include wider-than(medium) {
+			width:28vw;		
+		}
+	}
+	a:hover, a:active {
+		color:#f00!important;
+		h2.section {color:#f00!important;border-bottom-color:#f00!important;}
+	}
+}

@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
 $.preloadImages = function() {
   for (var i = 0; i < arguments.length; i++) {
@@ -17,13 +18,43 @@ $.preloadImages(
 	"http://freecooperunion.org/disorientation/img/lowdown-menu/half-tuition-and-new-tuition-hover.png",
 	"http://freecooperunion.org/disorientation/img/lowdown-menu/attorney-general-investigates-hover.png"
 );
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+        return false;
+      }
+    }
+  });
+});
 </script>
 <article>
-	<figure id="cover" style="height:80vh;background:#000 url('{{site.baseurl}}/img/cover.jpg') no-repeat;background-position:center bottom;"></figure>
-	<section class="intro">
+	<a href="#intro"><figure id="cover" style="height:80vh;background:#000 url('{{site.baseurl}}/img/cover.jpg') no-repeat;background-position:center bottom;"></figure></a>
+	<section class="intro" id="intro">
 		<figure style="padding:0 5vw;width:90vw;">
 			<img src="{{site.baseurl}}/img/titles/disorientation.svg" alt="Disorientation">
 		</figure>
+		<nav id="teaser-nav">
+			<ol class="clearfix">
+				<li><a href="#lowdown">
+					<span class="heading"><h2 class="section"><strong>1.</strong> Lowdown</h2></span>
+					<p class="intro">Brief introductions to the things you need to know: recent developments, active groups, and ongoing issues.</p>
+				</a></li>
+				<li><a href="#toolkit">
+					<span class="heading"><h2 class="section"><strong>2.</strong> Toolkit</h2></span>
+					<p class="intro">Reference documents that translate confusing jargon; highlight important events, key people, and groups; and provide links to media coverage, ideas for action, and further reading.</p>
+				</a></li>
+				<li><a href="#background">
+					<span class="heading"><h2 class="section"><strong>3.</strong> Background</h2></span>
+					<p class="intro">These selected essays dig into why Cooper matters, what’s going wrong with education everywhere, and how we might fix it.</p>
+				</a></li>
+			</ol>
+		</nav>
 
 		{{ page.intro | markdownify }}
 	</section>
@@ -33,7 +64,7 @@ $.preloadImages(
 		</figure>
 		{{ page.fired | markdownify }}
 	</section>
-	<section class="clearfix invert">
+	<section id="lowdown" class="clearfix invert">
 		<span class="heading"><h2 class="section">Lowdown</h2></span>
 		<p class="intro">Brief introductions to the things you need to know: recent developments, active groups, and ongoing issues.</p>
 			<nav class="boxes" id="lowdown-nav">
@@ -50,7 +81,7 @@ $.preloadImages(
 				</ol>
 			</nav>
 	</section>
-	<section>
+	<section id="toolkit">
 		<span class="heading"><h2 class="section">Toolkit</h2></span>
 		<p class="intro">Reference documents that translate confusing jargon; highlight important events, key people, and groups; and provide links to media coverage, ideas for action, and further reading.</p>
 		<nav>
@@ -63,7 +94,7 @@ $.preloadImages(
 			</ul>
 		</nav>
 	</section>
-	<section>
+	<section id="background">
 		<span class="heading"><h2 class="section">Background</h2></span>
 		<p class="intro">These selected essays dig into why Cooper matters, what’s going wrong with education everywhere, and how we might fix it.</p>
 		<nav>
