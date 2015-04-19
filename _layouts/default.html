@@ -89,17 +89,12 @@
 {% endif %}
 <p>STAY FREE OR DIE TRYIN&apos;</p>
 </footer>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.2/fastclick.min.js"></script>
 <script>
 	$( "#menu-toggle" ).click(function() {
 		this.classList.toggle( "active" );
 		$("nav#main").toggleClass("active");
 		$( ".nav-wrapper" ).slideToggle( "slow");
 	});
-
-	window.addEventListener('load', function() {
-		FastClick.attach(document.body);
-	}, false);
 </script>
 </body>
 </html>
