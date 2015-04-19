@@ -10,3 +10,6 @@ collections:
   toolkit:
     output: true
     permalink: /:path/
+  toolkit_drafts:
+    output: true
+    permalink: /:path/
