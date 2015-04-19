@@ -1,7 +1,6 @@
 ---
 title: Ask a Question
 layout: post
-published: false
 ---
 
 <div id="disqus_thread"></div>
