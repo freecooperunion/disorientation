@@ -10,13 +10,13 @@ prev: two-educations-for-the-price-of-none-by-jakob-biernat
 next: you-cant-just-end-an-era-by-sangu-iyer
 ---
 
-<figure>
-	<img src="{{site.baseurl}}/img/background/free-society.png">
-</figure>
-
 On November 17, 2011, at a student rally in Union Square organized by Occupy Wall Street, a young woman’s words echoed through the crowd via the people’s microphone: “Education should be as free as air and water.”
 
 The rally came just a few weeks after Dr. Jamshed Bharucha, who became president of Cooper Union in July 2011, revealed the grim financial condition of the school and suggested that the historically tuition-free institution could no longer be free. “I’m not saying I want to charge tuition,” Bharucha said at a subsequent meeting in his office with alumni. “I’m saying the institution is going down. We have to have all options on the table and hopefully this is only the last resort.”
+
+<figure>
+	<img src="{{site.baseurl}}/img/background/free-society.jpg">
+</figure>
 
 Cooper Union is currently only one of a handful of schools that offer tuition-free education to all enrolled students. Among them are Webb Institute in Long Island, Deep Springs College in California, and military academies such as West Point. Berea College in Kentucky accepts only low-income students, offering them tuition-free education in exchange for a labor requirement. Olin College, which was founded in 1997 as a free engineering school, switched from offering full tuition to half tuition after suffering endowment losses during the recession. But it wasn’t long ago that free education was within reach at some of the nation’s best public universities. The City University of New York, once called the Free Academy, only started charging tuition in the 1970s. Several decades ago, state residents could attend the University of California for free.
 
