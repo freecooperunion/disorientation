@@ -399,13 +399,23 @@ nav#main {
 	display:block;
 	width:95vw;
 	padding:10px 2.5vw 10px 2.5vw;
+	margin-bottom:3em;
 	background:#fff;
 	color:#ff0000;
 	vertical-align:baseline;
 	z-index: 2147483647!important;
-	-webkit-transition: all .75s;
+	-webkit-transition: .75s;
+	font-size:14px;
 	text-align:center;
-
+	#menu-toggle {
+		display:block;
+		width:100%;
+		line-height:1;
+	}
+	#menu-toggle:hover {
+		.diso {display:none;}
+		.menu {display:block!important;}
+	}
 	li a:link, li a:visited {
 		padding:0;
 		text-decoration:none;
@@ -413,24 +423,25 @@ nav#main {
 	}
 	h2 a:link, h2 a:visited {
 		color:#ff0000;
+		text-decoration:none;
 	}
 	h2.title {
-		border-bottom-color:#ff0000;
+		border-bottom-color:#f00;
+		color:#f00;
 	}
 	li a:hover, li a:active {
 		text-decoration: underline;
+		color:#f00;
 	}
 	.current {
 		font-weight:bold!important;
-	}
-	h2 a:link, h2 a:visited {
-		text-decoration:none;
 	}
 	ul, ol {
 		margin:0;
 		padding:0;
 		list-style-type:none;
 		line-height: 1.15em;
+		max-width:100%;
 		li {
 			padding-left: 0em;
 			text-indent:0em;
@@ -444,7 +455,7 @@ nav#main {
 nav#main.active {
 	background: red;
 	color: #000;
-	a:link, a:visited {
+	a:link, a:visited, a:hover, a:active {
 		color: #fff;
 	}
 	span::before, span::after {
@@ -452,9 +463,15 @@ nav#main.active {
 	}
 	h2 {
 		border-bottom-color:#000;
+		color:#000;
 	}
 	h2.title {
 		border-bottom-color:#fff;
+		color:#fff;
+	}
+	#menu-toggle {
+		.diso {display:none;}
+		.menu {display:block!important;}
 	}
 }
 
@@ -699,28 +716,6 @@ table td {
 	border-style: solid;
 	border-color: black;
 	vertical-align:top;
-}
-@media (max-width: 340px) {
-	/* code for iPhones only */
-}
-@media (min-width: 340px) {
-	/* code for tablets only */
-
-}
-
-@media (min-width: 720px) {
-	/* all other code if its not mobile or tablet */
-	.metadata {
-		display:inline-block;
-		width:200px;
-		float:right;
-		margin:0 0 10px 20px;
-	}
-	.nav-wrapper {
-		font-size:14px;
-	}
-	.lowdown, .background, .toolkit {
-	}
 }
 
 @media print {

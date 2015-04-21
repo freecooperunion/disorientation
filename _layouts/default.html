@@ -14,8 +14,8 @@
 <body id="{{page.url | replace: "/", "" | replace: ".html", ""}}" class="{{page.collection}}">
 {% if page.body_id != "index" %}
 <nav id="main">
-	<span class="heading"><h2 class="title"><a href="#" id="menu-toggle" class="section-heading">Disorientation</a></h2></span>
-	<section style="display:none;" class="nav-wrapper">
+	<a href="#" id="menu-toggle" class="section-heading"><span class="heading"><h2 class="title"><span class="diso">Disorientation</span><span class="menu" style="display:none;">Table of Contents</span></h2></span></a>
+	<section style="display:none;" class="nav-wrapper clearfix">
 		<section>
 			<ol>
 				<li><a href="{{ site.baseurl }}">Home</a></li>
@@ -34,6 +34,20 @@
 				<li><a href="{{ site.baseurl }}/vision/">Vision Platter Deluxe</a></li>
 			</ol>
 		</section>
+		<section class="toolkit">
+			<span class="heading"><h2 class="section">toolkit</h2></span>
+			<ul>
+				<li> <a href="{{ site.baseurl }}/further-reading/" class="title">Further Reading</a> </li>
+				<li> <a href="{{ site.baseurl }}/glossary/" class="title">Glossary</a> </li>
+				<li> <a href="{{ site.baseurl }}/movement-stages/" class="title">Movement Stages</a> </li>
+				<li> <a href="{{ site.baseurl }}/org-chart/" class="title">Org Chart</a> </li>
+				<li> <a href="{{ site.baseurl }}/press/" class="title">Press Log</a> </li>
+				<li> <a href="{{ site.baseurl }}/social-barometer/" class="title">Social Barometer</a> </li>
+				<li> <a href="{{ site.baseurl }}/spectrum/" class="title">Spectrum of Allies</a> </li>
+				<li> <a href="{{ site.baseurl }}/tactic-star/" class="title">Tactic Star</a> </li>
+				<li> <a href="{{ site.baseurl }}/timeline/" class="title">Timeline</a> </li>
+			</ul>
+		</section>
 		<section class="background">
 			<span class="heading"><h2 class="section">Background</h2></span>
 			<nav></nav>
@@ -51,20 +65,6 @@
 				<li><a href="{{ site.baseurl }}/save-cooper-union-by-sangu-iyer/">Save Cooper Union</a></li>
 				<li><a href="{{ site.baseurl }}/you-cant-just-end-an-era-by-sangu-iyer/">You Can’t Just End an Era</a></li>
 				<li><a href="{{ site.baseurl }}/the-tragedy-of-cooper-union-by-felix-salmon/">The Tragedy of Cooper Union (A Six-Part Series)</a></li>
-			</ul>
-		</section>
-		<section class="toolkit">
-			<span class="heading"><h2 class="section">toolkit</h2></span>
-			<ul>
-				<li> <a href="{{ site.baseurl }}/further-reading/" class="title">Further Reading</a> </li>
-				<li> <a href="{{ site.baseurl }}/glossary/" class="title">Glossary</a> </li>
-				<li> <a href="{{ site.baseurl }}/movement-stages/" class="title">Movement Stages</a> </li>
-				<li> <a href="{{ site.baseurl }}/org-chart/" class="title">Org Chart</a> </li>
-				<li> <a href="{{ site.baseurl }}/press/" class="title">Press Log</a> </li>
-				<li> <a href="{{ site.baseurl }}/social-barometer/" class="title">Social Barometer</a> </li>
-				<li> <a href="{{ site.baseurl }}/spectrum/" class="title">Spectrum of Allies</a> </li>
-				<li> <a href="{{ site.baseurl }}/tactic-star/" class="title">Tactic Star</a> </li>
-				<li> <a href="{{ site.baseurl }}/timeline/" class="title">Timeline</a> </li>
 			</ul>
 		</section>
 	</section>
