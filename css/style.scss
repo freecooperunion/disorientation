@@ -46,7 +46,22 @@ h1,h2,h3 {
 	color:#222;
 }
 
-h1, table, p, ul, ol, iframe, figure, .keep-reading, blockquote {
+#clock {
+	display:block;
+	width:100px;
+	height:100px;
+	margin:0 auto;
+	text-indent: -5000em;
+	overflow:hidden;
+	background:url(http://freecooperunion.org/disorientation/img/clock.png) no-repeat;
+	background-size: 100px 100px;
+	&:hover {
+		background-image:url(http://freecooperunion.org/disorientation/img/clock-hover.png);
+	}
+}
+
+
+h1, table, p, ul, ol, iframe, figure, blockquote {
 	margin-bottom:1em!important;
 }
 .fluid-width-video-wrapper {
@@ -472,18 +487,41 @@ nav#main.active {
 	}
 }
 
-.keep-reading {
-	display:block;
-	padding:1em;
-	border:1px solid #000;
-	text-decoration: none;
-	max-width:600px;
-	margin:auto;
-	clear:both;
-}
-.keep-reading:hover {
-	text-decoration: none;
-	background:#eee;
+#section-nav {
+	max-width:1200px;
+	width:92vw;
+	margin:3em auto;
+	padding:0 4vw;
+	a {
+		display:block;
+		padding:0 2vw;
+	}
+	a:hover {
+		color:#f00;
+	}
+	.prev {
+		color:gray;
+	}
+	.next {
+		border:5px solid #000;
+		color:#000;
+	}
+	@include wider-than(medium) {
+		.prev {
+			width:36vw;
+			max-width:450px;
+			float:left;
+		}
+		.next {
+			width:36vw;
+			max-width:450px;
+			float:right;
+		}
+	}
+	.next:hover {
+		color:#f00;
+		border-color:#f00;
+	}
 }
 
 .invert {
