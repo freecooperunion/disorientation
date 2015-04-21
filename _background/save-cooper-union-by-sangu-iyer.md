@@ -11,7 +11,7 @@ next: you-cant-just-end-an-era-by-sangu-iyer
 ---
 
 <figure>
-	<img src="{{site.baseurl}}/img/freeschool.png">
+	<img src="{{site.baseurl}}/img/background/free-society.png">
 </figure>
 
 On November 17, 2011, at a student rally in Union Square organized by Occupy Wall Street, a young woman’s words echoed through the crowd via the people’s microphone: “Education should be as free as air and water.”
