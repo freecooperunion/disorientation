@@ -587,7 +587,8 @@ body#index {
 		margin:0 2vw;
 		padding:0;
 		ul {
-			max-width:100%;
+			max-width:1000px!important;
+			margin: auto;
 		}
 		li {
 			float:left;
@@ -595,6 +596,7 @@ body#index {
 		a:link, a:visited {
 			height:auto;
 			width:32vw;
+			max-width:333px;
 			background-size: 100%;
 			background-repeat: no-repeat;
 			background-position:top center;
