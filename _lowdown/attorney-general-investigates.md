@@ -2,8 +2,8 @@
 title: Attorney General Investigates
 order: 8
 layout: post
-prev: half-tuition-and-new-tuition
 next: the-state-of-the-cooper-union-by-mike-borkowsky
+prev: half-tuition-and-new-tuition
 ---
 
 On March 24th, 2015 the Wall Street Journal broke the news that New York’s Attorney General Eric Schneiderman is pursuing an investigation into Cooper Union’s Board of Trustees.

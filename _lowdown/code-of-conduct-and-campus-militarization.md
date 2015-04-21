@@ -2,8 +2,8 @@
 title: Code of Conduct & Campus Militarization
 order: 6
 layout: post
-next: 
 prev: legal-action-and-the-committee-to-save-cooper-union
+next: half-tuition-and-new-tuition
 ---
 
 <figure class="pull-right">

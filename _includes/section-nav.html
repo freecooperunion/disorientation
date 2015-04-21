@@ -1,30 +1,32 @@
 <nav id="section-nav" class="clearfix">
 {% for item in site.documents %}
-{% assign next_url = page.next | prepend:"/" | append: "/" %}
-  {% if item.url == next_url %}
-    <a href="{{site.baseurl}}{{item.url}}" class="next">
-      <p>&rarr;<br>
-      Next Chapter:<br>
-      <strong>{{item.title}}</strong></p>
-      {% if item.subtitle %}
-        <p>{{ item.subtitle | markdownify }}</p>
-      {% else %}
-        <p>{{ item.content | strip_html | truncatewords: 20 }}</p>
-      {% endif %}
-    </a>
-  {% endif %}
-{% assign prev_url = page.prev | prepend:"/" | append: "/" %}
-  {% if item.url == prev_url %}
-    <a href="{{site.baseurl}}{{item.url}}" class="prev">
-      <p>&larr;<br> 
-      Previous Chapter:<br>
-      <strong>{{item.title}}</strong></p>
-      {% if item.subtitle %}
-        <p>{{ item.subtitle | markdownify }}</p>
-      {% else %}
-        <p>{{ item.content | strip_html | truncatewords: 20 }}</p>
-      {% endif %}
-    </a>
-  {% endif %}
+    {% assign next_url = page.next | prepend:"/" | append: "/" %}
+    {% if item.url == next_url %}
+      <a href="{{site.baseurl}}{{item.url}}" class="next">
+        <p>&rarr;<br>
+        Next Chapter:<br>
+        <strong>{{item.title}}</strong></p>
+        {% if item.subtitle %}
+          <p>{{ item.subtitle | markdownify }}</p>
+        {% else %}
+          <p>{{ item.content | strip_html | truncatewords: 20 }}</p>
+        {% endif %}
+      </a>
+    {% endif %}
+{% endfor %}
+{% for item in site.documents %}
+    {% assign prev_url = page.prev | prepend:"/" | append: "/" %}
+    {% if item.url == prev_url %}
+      <a href="{{site.baseurl}}{{item.url}}" class="prev">
+        <p>&larr;<br> 
+        Previous Chapter:<br>
+        <strong>{{item.title}}</strong></p>
+        {% if item.subtitle %}
+          <p>{{ item.subtitle | markdownify }}</p>
+        {% else %}
+          <p>{{ item.content | strip_html | truncatewords: 20 }}</p>
+        {% endif %}
+      </a>
+    {% endif %}
 {% endfor %}
 </nav>

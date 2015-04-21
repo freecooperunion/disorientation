@@ -489,12 +489,12 @@ nav#main.active {
 
 #section-nav {
 	max-width:1200px;
-	width:92vw;
+	width:88vw;
 	margin:3em auto;
 	padding:0 4vw;
 	a {
 		display:block;
-		padding:0 2vw;
+		padding:0 4vw;
 	}
 	a:hover {
 		color:#f00;
@@ -507,6 +507,7 @@ nav#main.active {
 		color:#000;
 	}
 	@include wider-than(medium) {
+		a {padding: 0 2vw;}
 		.prev {
 			width:36vw;
 			max-width:450px;

@@ -5,7 +5,7 @@ source: Originally published on July 24, 2014
 layout: post
 order: 1
 next: open-letter-to-president-bharucha-by-walid-raad
-prev: vision
+prev: attorney-general-investigates
 ---
 _Former Trustee Mike Borkowsky’s statement to the Board of Trustees in response to Board Chair Richard Lincer’s email dated July 18, 2014._
 
