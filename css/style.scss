@@ -336,11 +336,20 @@ body#glossary {
 	}
 }
 nav {
+	padding: 0 1em;
 	a:link, a:visited {
 		color:#000;
 	}
+	a:hover, a:active {
+		color:#f00;
+		text-decoration: none;
+		h2, h3 {
+			color:#f00;
+		}
+	}
 	ul, ol {
-		padding: 0 2em;
+		padding: 0;
+		max-width:600px;
 
 		li {
 			margin:0;
@@ -359,12 +368,24 @@ nav {
 		h3 {
 			margin:0;
 			padding:0;
+			line-height:1;
 		}
 	}
 	ul {
 		list-style-type:none;
 	}
+	&.two-col {
+		max-width: 1000px;
+		margin:2em auto 3em auto;
+		@include wider-than(large) {
+			-moz-column-count: 2;
+			-moz-column-gap: 1em;
+			-webkit-column-count: 2;
+			-webkit-column-gap: 2em;
+		}
+	}
 }
+
 dt {
 	border-top:1px solid #eee;
 	a:link, a:visited {
@@ -503,6 +524,8 @@ body#index {
 		background:#000;
 	}
 	nav.boxes {
+		padding:0;
+		margin-top:3em;
 		ol, li {
 			max-width:100%;
 			list-style-type:none;
@@ -561,6 +584,7 @@ body#index {
 	}
 	#teaser-nav {
 		margin:2em 0 3em 0;
+		padding:0;
 		h2.section, a {
 			color:#fff!important;
 		}
