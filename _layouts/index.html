@@ -79,6 +79,7 @@ $(function() {
 			</ul>
 		</nav>
 	</section>
+	<hr>
 	<section id="background">
 		<span class="heading"><h2 class="section">Background</h2></span>
 		<p class="intro">These selected essays dig into why Cooper matters, what’s going wrong with education everywhere, and how we might fix it.</p>
@@ -99,10 +100,11 @@ $(function() {
 			</dl>
 		</nav>
 	</section>
+	<hr>
 	<section>
 		<span class="heading"><h2 class="section">Colophon</h2></span>
 	</section>
-	{{content}}
+	{{ page.colophon | markdownify }}
 	<hr>
 	<section id="download">
 		<span class="heading"><h2 class="section">Download + Print</h2></span>
@@ -114,6 +116,21 @@ $(function() {
 				<li><a class="d-2013" href="{{site.baseurl}}/download/2013-disorientation-reader-pages.pdf"><img src="{{site.baseurl}}/img/download/pdf.png"> 2013 (PDF, 8.3mb)</a></li>
 			</ul>
 		</nav>
+	</section>
+	<hr>
+	<section id="know">
+		<span class="heading"><h2 class="section">Stay in the Know</h2></span>
+		<p class="intro">These channels are all easy to unsubscribe from, so try them all our and drop what doesn't work for you.</p>
+		<ul>
+			<li><h3>Text <strong>@FreeCooperUnion</strong> to <strong>23559</strong></h3>
+				<p><a href="https://cel.ly/c/freecooperunion/landing">Moderated text loop</a> for meeting and action announcements.</p></li>
+			<li><h3>Follow <strong>@FreeCooperUnion</strong></h3>
+				<p>This is us on <a href="http://twitter.com/freecooperunion">Twitter</a> and <a href="http://facebook.com/freecooperunion">Facebook</a>.</p></li>
+			<li><h3>Join <strong>FB group SaveCooperUnion</strong></h3>
+				<p>Facebook group full of lively discussion about Cooper. Great place to ask questions.</p></li>
+			<li><h3>Email us <strong><a href="mailto:cooperunionsos@gmail.com">cooperunionsos@gmail.com</a></strong></h3>
+				<p>Group email address. Don't hesistate to get in touch with questions.</p></li>
+		</ul>
 	</section>
 	<hr>
 </article>

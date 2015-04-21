@@ -664,6 +664,18 @@ body#index {
 			h2.section {color:#f00!important;border-bottom-color:#f00!important;}
 		}
 	}
+	#know {
+		h3 {
+			text-decoration: none;
+			padding:0;
+		}
+		p {
+			padding:0;
+		}
+		li {
+			margin: 0;
+		}
+	}
 }
 
 table {
