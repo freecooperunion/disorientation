@@ -1,38 +1,6 @@
 ---
 layout: default
 ---
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>
-$.preloadImages = function() {
-  for (var i = 0; i < arguments.length; i++) {
-    $("<img />").attr("src", arguments[i]);
-  }
-}
-$.preloadImages(
-	"http://freecooperunion.org/disorientation/img/lowdown-menu/vision-hover.png",
-	"http://freecooperunion.org/disorientation/img/lowdown-menu/direct-action-and-free-cooper-union-hover.png",
-	"http://freecooperunion.org/disorientation/img/lowdown-menu/ivory-tower-hover.png",
-	"http://freecooperunion.org/disorientation/img/lowdown-menu/working-group-hover.png",
-	"http://freecooperunion.org/disorientation/img/lowdown-menu/legal-action-and-the-committee-to-save-cooper-union-hover.png",
-	"http://freecooperunion.org/disorientation/img/lowdown-menu/code-of-conduct-and-campus-militarization-hover.png",
-	"http://freecooperunion.org/disorientation/img/lowdown-menu/half-tuition-and-new-tuition-hover.png",
-	"http://freecooperunion.org/disorientation/img/lowdown-menu/attorney-general-investigates-hover.png"
-);
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 500);
-        return false;
-      }
-    }
-  });
-});
-</script>
 <article>
 	<a href="#intro"><figure id="cover" style="height:80vh;background:#000 url('{{site.baseurl}}/img/cover.jpg') no-repeat;background-position:center bottom;"></figure></a>
 	<section class="intro" id="intro">
