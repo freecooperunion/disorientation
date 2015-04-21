@@ -12,10 +12,10 @@ intro: |
 
   We must constantly be disorienting ourselves.
 
-  Disorientation is a brick,
-  a ping-pong ball,
-  a barricade,
-  a vote of no confidence,
+  Disorientation is a brick,  
+  a ping-pong ball,  
+  a barricade,  
+  a vote of no confidence,  
   an infinite dream.
 
   What follows is a very focused history of what’s happening at Cooper, and in no way adequately addresses all of the broader intersectional struggles that continue to shape and support our movement. We’d like to acknowledge all of the past and present groundwork, in hopes that we can achieve paradigm shifts together through our continued campaign building.
