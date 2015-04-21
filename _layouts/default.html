@@ -89,7 +89,9 @@
 {% endif %}
 <p>STAY FREE OR DIE TRYIN&apos;</p>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/js/jquery.widowFix-1.3.2.min.js"></script>
 <script>
 	$( "#menu-toggle" ).click(function() {
 		this.classList.toggle( "active" );
@@ -99,6 +101,7 @@
 	$(function() {
 	    FastClick.attach(document.body);
 	});
+	    $('p').widowFix();
 </script>
 </body>
 </html>

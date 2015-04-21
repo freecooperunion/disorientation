@@ -1,23 +1,6 @@
 ---
 layout: default
 ---
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 500);
-        return false;
-      }
-    }
-  });
-});
-</script>
 <article>
 	<a href="#intro"><figure id="cover" style="height:80vh;background:#000 url('{{site.baseurl}}/img/cover.jpg') no-repeat;background-position:center bottom;"></figure></a>
 	<section class="intro" id="intro">
@@ -135,3 +118,19 @@ $(function() {
 	{{ page.colophon | markdownify }}
 	<hr>
 </article>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+        return false;
+      }
+    }
+  });
+});
+</script>
