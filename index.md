@@ -34,6 +34,7 @@ fired: |
 
   So hang in there. Familiarize yourself with the situation by reading this book, and anything else you can get your hands on. Channel your energy and ideas into developing, demanding, and fulfilling a Free Cooper Union. And don’t stop there. We want everything. So can you.
 colophon: |  
+  
   **A note on abridgement.**  
   Much of the content in this reader has been <strike>hacked and slashed</strike> edited for brevity. Where we have abridged content, we will provide links to unabridged versions.
 
@@ -42,4 +43,18 @@ colophon: |
 
   **There are no stupid questions.**  
   Write an email to <a href="mailto:cooperunionsos@gmail.com?subject=Disorientation">cooperunionsos@gmail.com</a> and Free Cooper students or alumni will get back to you.
+
+  **Web**  
+  Generated with [Jekyll](http://jekyllrb.com)  
+  Hosted by [Github Pages](http://pages.github.com)  
+  [Open source](https://github.com/freecooperunion/disorientation)  
+
+  **Print**  
+  Printed at [Linco Printing](http://lincoprinting.com/) in Long Island City, New York  
+  April 2015
+
+  **Type**  
+  Calibre and Tiempos Text by [Klim Type Foundry](https://klim.co.nz/)  
+  Acropolis by [Hoefler & Frere-Jones](http://typography.com/)  
+
 ---
