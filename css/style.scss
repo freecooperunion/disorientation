@@ -483,7 +483,7 @@ body#index {
 		background: #000;
 		color: #fff;
 		display:block;
-		padding:1em 0;
+		padding:1em 0 4em 0;
 		h2 {
 			color:#fff;
 			border-bottom-color:#fff;
@@ -501,6 +501,111 @@ body#index {
 		display:block!important;
 		width:100%!important;
 		background:#000;
+	}
+	nav.boxes {
+		ol, li {
+			max-width:100%;
+			list-style-type:none;
+		}
+		ol, ul, li, a {
+			margin:0;
+			padding:0;
+		}
+		li {
+			float:left;
+		}
+		a:link, a:visited {
+			display:block;
+			width:100%;
+			padding:1vw;
+			background-size:100%;
+			background-position:center;
+			background-repeat:no-repeat;
+			height:56vw;
+			width:48vw;		
+			@include wider-than(small) {
+				height:31vw;
+				width:31vw;		
+			}
+			@include wider-than(large) {
+				height:23vw;
+				width:23vw;		
+			}
+		}
+		a:hover {
+			color:#f00;
+			background-color:#000;
+		}
+
+		.vision {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/vision.png")}
+		.direct-action-and-free-cooper-union {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/direct-action-and-free-cooper-union.png")}
+		.ivory-tower {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/ivory-tower.png")}
+		.working-group {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/working-group.png")}
+		.legal-action-and-the-committee-to-save-cooper-union {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/legal-action-and-the-committee-to-save-cooper-union.png")}
+		.code-of-conduct-and-campus-militarization {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/code-of-conduct-and-campus-militarization.png")}
+		.half-tuition-and-new-tuition {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/half-tuition-and-new-tuition.png")}
+		.attorney-general-investigates {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/attorney-general-investigates.png")}
+
+		.vision:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/vision-hover.png")}
+		.direct-action-and-free-cooper-union:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/direct-action-and-free-cooper-union-hover.png")}
+		.ivory-tower:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/ivory-tower-hover.png")}
+		.working-group:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/working-group-hover.png")}
+		.legal-action-and-the-committee-to-save-cooper-union:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/legal-action-and-the-committee-to-save-cooper-union-hover.png")}
+		.code-of-conduct-and-campus-militarization:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/code-of-conduct-and-campus-militarization-hover.png")}
+		.half-tuition-and-new-tuition:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/half-tuition-and-new-tuition-hover.png")}
+		.attorney-general-investigates:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/attorney-general-investigates-hover.png")}
+
+	}
+	.fired {
+		margin:3em 0;
+	}
+	#teaser-nav {
+		margin:2em 0 3em 0;
+		h2.section, a {
+			color:#fff!important;
+		}
+		h2.section {
+			border-bottom-color:#000!important;
+			padding-top:0!important;
+		}
+		.heading {
+			padding:0;
+		}
+		ol {
+			padding:0;
+			border-top: 1px solid #333;
+			border-bottom: 1px solid #333;
+		}
+		ol, li {
+			max-width:100%;
+			list-style-type:none;
+		}
+		li {
+			float:left;
+		}
+		li:nth-child(2) {
+			border-bottom:1px solid #333;
+			border-top:1px solid #333;
+			@include wider-than(medium) {
+				border:none;	
+				border-left:1px solid #333;
+				border-right:1px solid #333;
+			}
+		}
+		a:link, a:visited {
+			display:block;
+			width:100%;
+			padding:0 4vw;
+			width:92vw;
+			@include wider-than(medium) {
+				width:25vw;
+			}
+		}
+		a:hover, a:active {
+			color:#f00!important;
+			text-decoration: none;
+			h2.section {color:#f00!important;border-bottom-color:#f00!important;}
+		}
 	}
 }
 
@@ -567,108 +672,5 @@ table td {
 	}
 	#content:before {
 		content: "This page was printed from the website of Free Cooper Union's Disorientation Guide (http://freecooperunion.github.io/disorientation). Make sure to check online for updates, as many pages are living documents.";
-	}
-}
-
-nav.boxes {
-	ol, li {
-		max-width:100%;
-		list-style-type:none;
-	}
-	ol, ul, li, a {
-		margin:0;
-		padding:0;
-	}
-	li {
-		float:left;
-	}
-	a:link, a:visited {
-		display:block;
-		width:100%;
-		padding:1vw;
-		background-size:100%;
-		background-position:center;
-		background-repeat:no-repeat;
-		height:56vw;
-		width:48vw;		
-		@include wider-than(small) {
-			height:31vw;
-			width:31vw;		
-		}
-		@include wider-than(large) {
-			height:23vw;
-			width:23vw;		
-		}
-	}
-	a:hover {
-		color:#f00;
-		background-color:#000;
-	}
-
-	.vision {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/vision.png")}
-	.direct-action-and-free-cooper-union {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/direct-action-and-free-cooper-union.png")}
-	.ivory-tower {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/ivory-tower.png")}
-	.working-group {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/working-group.png")}
-	.legal-action-and-the-committee-to-save-cooper-union {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/legal-action-and-the-committee-to-save-cooper-union.png")}
-	.code-of-conduct-and-campus-militarization {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/code-of-conduct-and-campus-militarization.png")}
-	.half-tuition-and-new-tuition {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/half-tuition-and-new-tuition.png")}
-	.attorney-general-investigates {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/attorney-general-investigates.png")}
-
-	.vision:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/vision-hover.png")}
-	.direct-action-and-free-cooper-union:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/direct-action-and-free-cooper-union-hover.png")}
-	.ivory-tower:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/ivory-tower-hover.png")}
-	.working-group:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/working-group-hover.png")}
-	.legal-action-and-the-committee-to-save-cooper-union:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/legal-action-and-the-committee-to-save-cooper-union-hover.png")}
-	.code-of-conduct-and-campus-militarization:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/code-of-conduct-and-campus-militarization-hover.png")}
-	.half-tuition-and-new-tuition:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/half-tuition-and-new-tuition-hover.png")}
-	.attorney-general-investigates:hover {background-image:url("http://freecooperunion.org/disorientation/img/lowdown-menu/attorney-general-investigates-hover.png")}
-
-}
-
-#teaser-nav {
-	h2.section, a {
-		color:#fff!important;
-	}
-	h2.section {
-		border-bottom-color:#000!important;
-		padding-top:0!important;
-	}
-	.heading {
-		padding:0;
-	}
-	ol {
-		padding:0;
-		border-top: 1px solid #333;
-		border-bottom: 1px solid #333;
-	}
-	ol, li {
-		max-width:100%;
-		list-style-type:none;
-	}
-	li {
-		float:left;
-	}
-	li:nth-child(2) {
-		border-bottom:1px solid #333;
-		border-top:1px solid #333;
-		@include wider-than(medium) {
-			border:none;	
-			border-left:1px solid #333;
-			border-right:1px solid #333;
-		}
-	}
-	a:link, a:visited {
-		display:block;
-		width:100%;
-		padding:0 4vw;
-		width:92vw;
-		@include wider-than(medium) {
-			width:25vw;
-		}
-	}
-	a:hover, a:active {
-		color:#f00!important;
-		text-decoration: none;
-		h2.section {color:#f00!important;border-bottom-color:#f00!important;}
 	}
 }
