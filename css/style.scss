@@ -150,10 +150,6 @@ footer {
 	text-align:center;
 }
 
-#download {
-	text-align: center;
-}
-
 footer img {
 	padding:15px;
 }
@@ -609,6 +605,7 @@ body#index {
 		}
 		li {
 			float:left;
+			text-align: center;
 		}
 		a:link, a:visited {
 			height:auto;
