@@ -151,9 +151,6 @@ footer {
 }
 
 #download {
-	background:#eee;
-	padding:15px;
-	border-radius:10px;
 	text-align: center;
 }
 
@@ -544,16 +541,6 @@ body#index {
 			background-size:100%;
 			background-position:center;
 			background-repeat:no-repeat;
-			height:56vw;
-			width:48vw;		
-			@include wider-than(small) {
-				height:31vw;
-				width:31vw;		
-			}
-			@include wider-than(large) {
-				height:23vw;
-				width:23vw;		
-			}
 		}
 		a:hover {
 			color:#f00;
@@ -581,6 +568,50 @@ body#index {
 	}
 	.fired {
 		margin:3em 0;
+	}
+	#lowdown-nav {
+		a:link, a:visited {
+			height:56vw;
+			width:48vw;		
+			@include wider-than(small) {
+				height:31vw;
+				width:31vw;		
+			}
+			@include wider-than(large) {
+				height:23vw;
+				width:23vw;		
+			}
+		}
+	}
+	#download-nav {
+		margin:0 2vw;
+		padding:0;
+		ul {
+			max-width:100%;
+		}
+		li {
+			float:left;
+		}
+		a:link, a:visited {
+			height:auto;
+			width:32vw;
+			background-size: 100%;
+			background-repeat: no-repeat;
+			background-position:top center;
+			img {width:100%!important;}
+		}
+		a:hover, a:active {
+			background-color:transparent!important;
+		}
+
+		.d-2015 {background-image:url("http://freecooperunion.org/disorientation/img/download/2015.png")}
+		.d-2014 {background-image:url("http://freecooperunion.org/disorientation/img/download/2014.png")}
+		.d-2013 {background-image:url("http://freecooperunion.org/disorientation/img/download/2013.png")}
+
+		.d-2015:hover {background-image:url("http://freecooperunion.org/disorientation/img/download/2015-hover.png")}
+		.d-2014:hover {background-image:url("http://freecooperunion.org/disorientation/img/download/2014-hover.png")}
+		.d-2013:hover {background-image:url("http://freecooperunion.org/disorientation/img/download/2013-hover.png")}
+
 	}
 	#teaser-nav {
 		margin:2em 0 3em 0;
