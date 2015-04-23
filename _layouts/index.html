@@ -49,14 +49,14 @@ layout: default
 				</ol>
 			</nav>
 	</section>
-	<section id="toolkit">
+	<section id="toolkit" class="clearfix">
 		<span class="heading"><h2 class="section">Toolkit</h2></span>
 		<p class="intro">Reference documents that translate confusing jargon; highlight important events, key people, and groups; and provide links to media coverage, ideas for action, and further reading.</p>
-		<nav>
+		<nav class="boxes" id="toolkit-nav">
 			<ul>
 				{% for item in site.toolkit %}
 				<li>
-					<a href="{{site.baseurl}}{{item.url}}" class="title">{{item.title}}</a>
+					<a href="{{site.baseurl}}{{item.url}}" class="title {{item.url | replace: "/", ""}}">{{item.title}}</a>
 				</li>
 				{% endfor %}
 			</ul>
