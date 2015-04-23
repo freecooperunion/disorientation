@@ -72,7 +72,7 @@ layout: default
 					{% for item in site.background %}
 						{% if item.order == order %}
 							<li>
-								<a href="{{site.baseurl}}{{item.url}}" class="title">
+								<a href="{{site.baseurl}}{{item.url}}" class="title" title="{{item.url | replace: "/", ""}}">
 									<h3>{{item.title}}</h3>
 									{% if item.subtitle %}{{ item.subtitle | markdownify }}{% endif %}
 								</a>
@@ -118,7 +118,24 @@ layout: default
 	{{ page.colophon | markdownify }}
 	<hr>
 </article>
-<script>
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    $( document ).tooltip({
+		track: true,
+		effect: "none",
+		show: false,
+		hide: false,
+		duration: 0,
+		delay: 0,
+		items: "[title]",
+		content: function() {
+		var element = $( this );
+		if ( element.is( "[title]" ) ) {
+			return "<img src='{{site.baseurl}}/img/background-menu/" + element.attr( "title" ) + ".png'>";
+		}
+      }
+    });
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -134,3 +151,10 @@ $(function() {
   });
 });
 </script>
+<style type="text/css">
+.ui-tooltip {
+	background:transparent;
+	border:none;
+	box-shadow: none;
+}
+</style>
