@@ -14,6 +14,10 @@ This might make no sense, but keep reading. Come back to the platter as you lear
 
 Behind every tactic is a crazy vision platter deluxe.
 
+<figure>
+	<img src="{{site.baseurl}}/img/lowdown/okay-whatever.jpg">
+</figure>
+
 - **INSTITUTIONS**: Institutions are full of shit. Are we the Drain-O? Is there Drain-O strong enough? Is education like washing our hands in a sink? Is the sink the absence of a pipe? Is water money?
 - **FALSE DICHOTOMIES**: It behooves them to financialize us. Beware of false choices. Being for and being against both reinforce the terms of a debate. Are you sure you don’t want to switch tabs?
 - **TIME SCALES**: Don’t forget: short, middle, and long. But now is always the time for principled action. Organize as if social relations matter.
@@ -38,7 +42,3 @@ Behind every tactic is a crazy vision platter deluxe.
 - **ACCREDITATION**: People flip a shit about losing accreditation but why should we care? Except that it’s tied to financial aid. A degree means nothing in a world completely saturated with degrees. If you get your education for free, nobody can lord a certificate over you.
 - **SOCIAL JUSTICE**: How can we have a section called Social Justice? And yet we must. If only as a reminder that we too often opt-out, and that shouldn’t be an option.
 - **PHILANTHROPY**: You can’t have philanthropy without a system that relies on charity to make amends for incredible disparity. Reinforces the gap between the rich and the poor. We don’t want the end of philanthropy but the beginning of a society that it would make no sense to.
-
-<figure>
-	<img src="{{site.baseurl}}/img/lowdown/okay-whatever.jpg">
-</figure>

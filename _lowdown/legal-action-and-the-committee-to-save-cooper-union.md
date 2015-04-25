@@ -6,7 +6,7 @@ next: code-of-conduct-and-campus-militarization
 prev: working-group
 ---
 
-Seeing a clear pattern in the way the administration had sabotaged community efforts in the past, alumni and faculty met in parallel with the Working Group to develop an alternative course of action in the event that the Board decided to ignore the community and implement their tuition scheme. The Committee to Save Cooper Union (CSCU), a not-for-profit organization, was founded to keep Cooper free through legal efforts and political outreach. The group is headed by Engineering alumnus Adrian Jovanovic, along with Art professor and alumnus Mike Essl, and Engineering professor Toby Cumberbatch. CSCU operates in conjunction with FCU, alumni, students, and community supporters.
+Seeing a clear pattern in the way the administration had sabotaged community efforts in the past, alumni and faculty met in parallel with the Working Group to develop an alternative course of action in the event that the Board decided to ignore the community and implement their tuition scheme. The Committee to Save Cooper Union (CSCU), a not-for-profit organization, was founded to keep Cooper free through legal efforts and political outreach. The group is co-founded by Art professor and alumnus Mike Essl, Engineering professor Toby Cumberbatch, and Engineering alumnus Adrian Jovanovic.
 
 <figure>
 	<img src="{{site.baseurl}}/img/lowdown/cscu-press-conference.jpg" alt="">
@@ -25,12 +25,10 @@ At the 2014 Commencement ceremony, CSCU announced their intention to file a laws
 4. An injunction to halt the charging of tuition
 5. The removal of trustees who voted to implement tuition for “breach of fiduciary duty”
 
-In July 2014, CSCU successfully crowdfunded $173,000 from over 1,000 donors to fund the first phase of litigation. During the fundraising period, the Board’s lawyers attempted to have the case reassigned to the court’s corporate division but were denied. In an attempt to stall litigation, trustees Mark Epstein and Jeremy Wertheimer refused to be served their court papers.
+CSCU successfully crowdfunded $260,000 from over 1,000 donors to fund the litigation. During the fundraising period, the Board’s lawyers attempted to have the case reassigned to the court’s corporate division but were denied. In an attempt to stall litigation, trustees Mark Epstein and Jeremy Wertheimer refused to be served their court papers.
 
 <figure class="pull-left">
 	<img src="{{site.baseurl}}/img/lowdown/cu-in-court.jpg">
 </figure>
 
-Following these delays, the court date was held on August 15th, 2014. Lawyers for the Committee, the Board, and Wertheimer delivered arguments before Justice Nancy Bannon. While no trustees or administrators were in attendance, supporters of Free Cooper Union and the Committee to Save Cooper Union (including a handful of incoming students) packed the room. At a lunchtime press conference, Jovanovic, State Senator Brad Hoylman, alumnus and former art adjunct Ben Degen, and incoming student Claire Kleinman (also a plaintiff in the suit), spoke to a crowd of about a hundred.
-
-The court resumed to hear rebuttals and closing statements. No timeline was set for the judgement (which as of this writing has not been released), but it is expected in the coming weeks. Regardless of the outcome, the case is likely to progress to the appellate court.
+Following these delays, the court date was held on August 15th, 2014. Lawyers for the Committee, the Board, and Wertheimer delivered arguments before Justice Nancy Bannon. While no trustees or administrators were in attendance, supporters of Free Cooper Union and the CSCU (including a handful of incoming students) packed the room.
