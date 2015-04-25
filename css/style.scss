@@ -793,6 +793,8 @@ body#index {
 	}
 	@for $i from 1 through 24 {
 		article ul li:nth-child(#{$i}) {
+			-webkit-transform: rotate(random(30) + -15 + deg);
+			-moz-transform: rotate(random(30) + -15 + deg);
 			transform: rotate(random(30) + -15 + deg);
 		}
 	}
