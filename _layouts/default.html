@@ -12,7 +12,7 @@
 	</script>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.1/picturefill.min.js" async></script>
 </head>
-<body id="{{page.url | replace: "/", "" | replace: ".html", ""}}" class="{{page.collection}}">
+<body id="{{page.url | replace: "/", "" | replace: ".html", ""}}" class="{{page.collection}}{% if page.bg == "dark" %} dark{% endif %}">
 {% if page.body_id != "index" %}
 <nav id="main">
 	<a href="#" id="menu-toggle" class="section-heading"><span class="heading"><h2 class="title"><span class="diso">Disorientation</span><span class="menu" style="display:none;">Table of Contents</span></h2></span></a>

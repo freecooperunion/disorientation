@@ -33,7 +33,10 @@ body {
 	padding:0;
 	color:#222;
 }
-
+body.dark {
+	background: #000!important;
+	h1 {color:#fff!important}
+}
 header img {
 	display:block;
 	margin:0;
@@ -302,6 +305,9 @@ body#spectrum {
 	}
 }
 body#timeline {
+	h1 {
+		text-align: center;
+	}
 	#content {
 		max-width:none;
 		padding:0!important;
