@@ -770,7 +770,33 @@ body#index {
 		}
 	}
 }
-
+#vision {
+	article ul {
+		max-width: 1200px;
+		margin:3em auto;
+		li {
+			display:block;
+			margin-bottom:3em;
+			max-width:650px;
+			content: "";
+			display: table;
+			clear: both;
+			@include wider-than(medium) {
+				margin-bottom:6em;
+			}
+		}
+		li:nth-child(even) {float:left;}
+		li:nth-child(even) {float:right;}
+		@include wider-than(large) {
+			overflow: visible;
+		}
+	}
+	@for $i from 1 through 24 {
+		article ul li:nth-child(#{$i}) {
+			transform: rotate(random(30) + -15 + deg);
+		}
+	}
+}
 table {
 	border-width: 4px;
 	border-spacing: 1px;
