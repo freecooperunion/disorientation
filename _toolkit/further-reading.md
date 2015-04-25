@@ -195,10 +195,10 @@ Collect email signups and send newsletters.
 
 Social network for short looping videos. Subsidiary of Twitter. Easier than producing a video and sometimes as effective at conveying what’s going on in a clip.
 
-[Sendy](http://sendy.co)
+### [Sendy](http://sendy.co)
 
 Self-hosted alternative for email newsletters, less regulation of lists than Mailchimp, and can be cheaper at scale.
 
-[Nationbuilder](http://nationbuilder.com)
+### [Nationbuilder](http://nationbuilder.com)
 
 Political organizing platform that can be used to centralize social media, mailing, and fundraising activities.
