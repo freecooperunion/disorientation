@@ -35,7 +35,7 @@ layout: default
 	<section id="lowdown" class="clearfix invert">
 		<span class="heading"><h2 class="section">Lowdown</h2></span>
 		<p class="intro">Brief introductions to the things you need to know: recent developments, active groups, and ongoing issues.</p>
-			<nav class="boxes" id="lowdown-nav">
+			<nav class="boxes clearfix" id="lowdown-nav">
 				<ol>
 					{% for order in (1..8) %}
 						{% for item in site.lowdown | sort: 'title' %}
