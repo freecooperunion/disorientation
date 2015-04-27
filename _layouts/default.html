@@ -17,7 +17,7 @@
 	<meta name="twitter:description" content="{% if page.subtitle %}{{ page.subtitle | markdownify }}{% else %}{{ page.content | strip_html | truncatewords: 20 }}{% endif %}">
 	<meta name="twitter:image:src" content="{% if page.thumb %}http://freecooperunion.org/disorientation/img/{{ page.thumb }}{% else %}http://freecooperunion.org/disorientation/img/{{ page.collection }}-menu/{{ page.url | replace: "/", "" | replace: ".html", "" }}{% if page.collection != "background" %}-hover{% endif %}.png{% endif %}">
 	<meta name="og:image" content="{% if page.thumb %}http://freecooperunion.org/disorientation/img/{{ page.thumb }}{% else %}http://freecooperunion.org/disorientation/img/{{ page.collection }}-menu/{{ page.url | replace: "/", "" | replace: ".html", "" }}{% if page.collection != "background" %}-hover{% endif %}.png{% endif %}">
-	<meta property="og:title" content="{{ page.title }} | Free Cooper Union Disorientation Reader" />
+	<meta property="og:title" content="{{ page.title }}{% if page.body_id != "index" %} | Free Cooper Union Disorientation Reader{% endif %}" />
 	<meta property="og:site_name" content="Free Cooper Union Disorientation Reader" />
 </head>
 <body id="{{page.url | replace: "/", "" | replace: ".html", ""}}" class="{{page.collection}}{% if page.bg == "dark" %} dark{% endif %}">
