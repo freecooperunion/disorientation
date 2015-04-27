@@ -3,7 +3,7 @@ layout: default
 ---
 <article>
 	<a href="#intro"><figure id="cover"></figure></a>
-	<section class="intro" id="intro">
+	<section class="intro" id="intro" style="background-image:url({{site.baseurl}}/img/slant-right-to-white.png);background-repeat:no-repeat;background-position:bottom center;background-size:100%;">
 		<figure style="padding:0 5vw;width:90vw;">
 			<img src="{{site.baseurl}}/img/titles/disorientation.svg" alt="Disorientation">
 		</figure>
@@ -26,16 +26,16 @@ layout: default
 
 		{{ page.intro | markdownify }}
 	</section>
-	<section class="fired">
+	<section class="fired" style="background-image:url({{site.baseurl}}/img/slant-left-to-black.png);background-repeat:no-repeat;background-position:bottom center;background-size:100%;">
 		<figure>
 			<img src="{{site.baseurl}}/img/titles/jamshed-is-fired.svg" alt="{{ page.title }}" style="width:80%;margin:2em auto;">
 		</figure>
 		{{ page.fired | markdownify }}
 	</section>
-	<section id="lowdown" class="clearfix invert">
+	<section id="lowdown" class="clearfix invert" style="padding-bottom:10px;background-image:url({{site.baseurl}}/img/slant-right-to-white.png);background-repeat:no-repeat;background-position:bottom center;background-size:100%;">
 		<span class="heading"><h2 class="section">Lowdown</h2></span>
 		<p class="intro">Brief introductions to the things you need to know: recent developments, active groups, and ongoing issues.</p>
-			<nav class="boxes clearfix" id="lowdown-nav">
+			<nav class="boxes clearfix" id="lowdown-nav" style="margin-bottom:10px;">
 				<ol>
 					{% for order in (1..8) %}
 						{% for item in site.lowdown | sort: 'title' %}
