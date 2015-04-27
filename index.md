@@ -1,5 +1,5 @@
 ---
-title: Free Cooper Union Disorientation Reader 2015
+title: Free Cooper Union Disorientation Reader
 subtitle: This is the second-and-a-half edition of Disorientation published by Free&nbsp;Cooper&nbsp;Union. Disorientation is a counter-orientation intended to introduce YOU to the real story of Cooper’s dense internal politics, as well as larger community issues.
 layout: index
 body_id: index
