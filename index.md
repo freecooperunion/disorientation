@@ -13,7 +13,8 @@ intro: |
 
   We must constantly be disorienting ourselves.
 
-  Disorientation is a brick,  
+  Disorientation is  
+  a brick,  
   a ping-pong ball,  
   a barricade,  
   a vote of no confidence,  
