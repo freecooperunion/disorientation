@@ -15,7 +15,7 @@
 	<meta name="twitter:site" content="@FreeCooperUnion">
 	<meta name="twitter:title" content="{{ page.title }}">
 	<meta name="twitter:description" content="{% if page.subtitle %}{{ page.subtitle | markdownify }}{% else %}{{ page.content | strip_html | truncatewords: 20 }}{% endif %}">
-	<meta name="twitter:image:src" content="{% if page.thumb %}{{ site.baseurl }}/img/thumbs/{{ page.thumb }}{% else %}{{ site.baseurl }}/img/{{ page.collection }}-menu/{{ page.url | replace: "/", "" | replace: ".html", "" }}{% endif %}.png">
+	<meta name="twitter:image:src" content="{% if page.thumb %}http://freecooperunion.org/disorientation/img/thumbs/{{ page.thumb }}{% else %}http://freecooperunion.org/disorientation/img/{{ page.collection }}-menu/{{ page.url | replace: "/", "" | replace: ".html", "" }}{% endif %}.png">
 </head>
 <body id="{{page.url | replace: "/", "" | replace: ".html", ""}}" class="{{page.collection}}{% if page.bg == "dark" %} dark{% endif %}">
 {% if page.body_id != "index" %}
