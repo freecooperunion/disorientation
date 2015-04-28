@@ -94,7 +94,7 @@
 	$( "#menu-toggle" ).click(function() {
 		this.classList.toggle( "active" );
 		$("nav#main").toggleClass("active");
-		$( ".nav-reveal" ).toggle();
+		$( ".nav-reveal" ).slideToggle();
 	});
 	$(function() {
 	    FastClick.attach(document.body);
