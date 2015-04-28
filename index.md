@@ -5,10 +5,6 @@ layout: index
 body_id: index
 thumb: cover-small.jpg
 intro: |  
-  This is the second-and-a-half edition of Disorientation published by Free&nbsp;Cooper&nbsp;Union. 
-
-  Disorientation is a counter-orientation intended to introduce YOU to the real story of Cooper’s dense internal politics, as well as larger community issues.
-
   Why is institutional memory so short? To maintain systems of control. Disorientation is a rejection of the administration’s rewriting of history, the systemic underpinnings of financialized realism, and the way that our communities are strategically disempowered.
 
   We must constantly be disorienting ourselves.
