@@ -53,18 +53,26 @@ body_id: glossary
 		});
 		$("ul#glossary").fadeIn();
 	}
+
+	var viewportWidth = $(window).width();
+	var viewportHeight = $(window).height();
+
+
 	jQuery(document).ready(function() {
-	    $( document ).tooltip({
-			track: true,
-			show: false,
-			hide: false,
-			items: "[title]",
-			content: function() {
-			var element = $( this );
-			if ( element.is( "[title]" ) ) {
-				return element.attr( "title" );
-			}
-	      }
-	    });
+		if(viewportWidth > 703) {
+		    $( document ).tooltip({
+				track: true,
+				show: false,
+				hide: false,
+				items: "[title]",
+				content: function() {
+					var element = $( this );
+					if ( element.is( "[title]" ) ) {
+						return element.attr( "title" );
+					}
+			      }
+		    });
+		};
 	});
+
 </script>
