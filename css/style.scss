@@ -43,6 +43,10 @@ header img {
 	max-width:100%;
 }
 
+a:link, a:visited, a:hover, a:active {
+	outline:none;
+}
+
 h1,h2,h3 {
 	margin:10px 0;
 	padding:0;
@@ -416,7 +420,7 @@ dd {
 nav#main {
 	display:block;
 	width:95vw;
-	padding:10px 2.5vw 10px 2.5vw;
+	padding:10px 2.5vw;
 	margin-bottom:3em;
 	background:#fff;
 	color:#ff0000;
@@ -468,17 +472,18 @@ nav#main {
 			}
 		}
 	}
-	@include wider-than(764px) {
-		text-align:left;
+	@include wider-than(753px) {
+		padding:2em 2.5vw;
+		text-align:left;  
 		.nav-wrapper {
-			max-width:764px;
+			max-width:715px;
 			margin:auto;
 		}
 		.toolkit, .lowdown, .background {
 			float:left;
 		}
 		.toolkit {
-			width: 130px;
+			width: 120px;
 		}
 		.lowdown {
 			width: 275px;
@@ -486,27 +491,8 @@ nav#main {
 		.background {
 			width: 320px;
 		}
-	}
-	@include wider-than(985px) {
-		.nav-wrapper {
-			max-width: 935px;
-			margin:auto;
-		}
-		.home-narrow {
-			display:none
-		}
-		.home-wide {
-			display:inline-block!important;
-			visibility:hidden;
-		}
-		&.active .home-wide {
-			visibility:visible;
-		}
-		.toc {
-			width:210px;
-		}
-		.toc, .nav-reveal {
-			float:left;
+		#menu-toggle, ol.home {
+			text-align:center;
 		}
 	}
 }
