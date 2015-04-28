@@ -327,6 +327,9 @@ body#glossary {
 	h1 {
 		text-align: center;
 	}
+	article {
+		margin: 0 4vw;
+	}
 	article ul, article li {
 		margin:0;
 		padding:0;
@@ -336,15 +339,8 @@ body#glossary {
 		margin-top:2em;
 		list-style-type:none;
 		text-align:left;
-		@include wider-than(small) {
-			-moz-column-count: 3;
-			-moz-column-gap: 0;
-			-webkit-column-count: 3;
-			-webkit-column-gap: 0;
-			column-count: 3;
-			column-gap: 0;
-		}
 		@include wider-than(medium) {
+			text-align:center;
 			-moz-column-count: 4;
 			-moz-column-gap: 0;
 			-webkit-column-count: 4;
@@ -370,11 +366,14 @@ body#glossary {
 		&:after {
 			content: " (" attr(title) ") ";
 			color: gray;
+			word-wrap: break-word;
+			overflow-wrap: break-word;
 		}
-		@include wider-than(small) {
+		@include wider-than(medium) {
 			&:after {
 				content:"";
 			}
+			color:gray;
 		}
 	}
 	article li:hover {
