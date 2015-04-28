@@ -422,7 +422,6 @@ nav#main {
 	color:#ff0000;
 	vertical-align:baseline;
 	z-index: 2147483647!important;
-	-webkit-transition: .75s;
 	font-size:14px;
 	text-align:center;
 	#menu-toggle {
@@ -467,6 +466,47 @@ nav#main {
 				padding:.25em 0;
 				display:block;
 			}
+		}
+	}
+	@include wider-than(764px) {
+		text-align:left;
+		.nav-wrapper {
+			max-width:764px;
+			margin:auto;
+		}
+		.toolkit, .lowdown, .background {
+			float:left;
+		}
+		.toolkit {
+			width: 130px;
+		}
+		.lowdown {
+			width: 275px;
+		}
+		.background {
+			width: 320px;
+		}
+	}
+	@include wider-than(985px) {
+		.nav-wrapper {
+			max-width: 935px;
+			margin:auto;
+		}
+		.home-narrow {
+			display:none
+		}
+		.home-wide {
+			display:inline-block!important;
+			visibility:hidden;
+		}
+		&.active .home-wide {
+			visibility:visible;
+		}
+		.toc {
+			width:210px;
+		}
+		.toc, .nav-reveal {
+			float:left;
 		}
 	}
 }

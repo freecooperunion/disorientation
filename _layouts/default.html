@@ -23,58 +23,63 @@
 <body id="{{page.url | replace: "/", "" | replace: ".html", ""}}" class="{{page.collection}}{% if page.bg == "dark" %} dark{% endif %}">
 {% if page.body_id != "index" %}
 <nav id="main">
-	<a href="#" id="menu-toggle" class="section-heading"><span class="heading"><h2 class="title"><span class="diso">Disorientation</span><span class="menu" style="display:none;">Table of Contents</span></h2></span></a>
-	<section style="display:none;" class="nav-wrapper clearfix">
-		<section>
-			<ol>
+	<section class="nav-wrapper clearfix">
+		<section class="toc">
+			<a href="#" id="menu-toggle" class="section-heading"><span class="heading"><h2 class="title"><span class="diso">Disorientation</span><span class="menu" style="display:none;">Table of Contents</span></h2></span></a>
+			<ol class="home-wide" style="display:none;">
 				<li><a href="{{ site.baseurl }}">Home</a></li>
 			</ol>
 		</section>
-		<section class="lowdown">
-			<span class="heading"><h2 class="section">Lowdown</h2></span>
-			<ol>
-				<li><a href="{{ site.baseurl }}/direct-action-and-free-cooper-union/">Direct Action &amp; Free Cooper Union</a></li>
-				<li><a href="{{ site.baseurl }}/ivory-tower/">Ivory Tower</a></li>
-				<li><a href="{{ site.baseurl }}/working-group/">Working Group</a></li>
-				<li><a href="{{ site.baseurl }}/legal-action-and-the-committee-to-save-cooper-union/">Legal Action &amp; The Committee to Save Cooper Union</a></li>
-				<li><a href="{{ site.baseurl }}/code-of-conduct-and-campus-militarization/">Code of Conduct &amp; Campus Militarization</a></li>
-				<li><a href="{{ site.baseurl }}/half-tuition-and-new-tuition/">Half-Tuition and New Tuition</a></li>
-				<li><a href="{{ site.baseurl }}/attorney-general-investigates/">Attorney General Investigates</a></li>
-				<li><a href="{{ site.baseurl }}/vision/">Vision Platter Deluxe</a></li>
+		<section style="display:none;" class="nav-reveal clearfix">
+			<ol class="home-narrow">
+				<li><a href="{{ site.baseurl }}">Home</a></li>
 			</ol>
-		</section>
-		<section class="toolkit">
-			<span class="heading"><h2 class="section">toolkit</h2></span>
-			<ul>
-				<li> <a href="{{ site.baseurl }}/further-reading/" class="title">Further Reading</a> </li>
-				<li> <a href="{{ site.baseurl }}/glossary/" class="title">Glossary</a> </li>
-				<li> <a href="{{ site.baseurl }}/movement-stages/" class="title">Movement Stages</a> </li>
-				<li> <a href="{{ site.baseurl }}/org-chart/" class="title">Org Chart</a> </li>
-				<li> <a href="{{ site.baseurl }}/press/" class="title">Press Log</a> </li>
-				<li> <a href="{{ site.baseurl }}/social-barometer/" class="title">Social Barometer</a> </li>
-				<li> <a href="{{ site.baseurl }}/spectrum/" class="title">Spectrum of Allies</a> </li>
-				<li> <a href="{{ site.baseurl }}/tactic-star/" class="title">Tactic Star</a> </li>
-				<li> <a href="{{ site.baseurl }}/timeline/" class="title">Timeline</a> </li>
-			</ul>
-		</section>
-		<section class="background">
-			<span class="heading"><h2 class="section">Background</h2></span>
-			<nav></nav>
-			<ul>
-				<li><a href="{{ site.baseurl }}/the-state-of-the-cooper-union-by-mike-borkowsky/">The State of the Cooper Union</a></li>
-				<li><a href="{{ site.baseurl }}/open-letter-to-president-bharucha-by-walid-raad/">Open Letter to President Bharucha</a></li>
-				<li><a href="{{ site.baseurl }}/the-loss-of-cooper-union-by-jordan-bowen/">The Loss of Cooper Union</a></li>
-				<li><a href="{{ site.baseurl }}/why-cooper-unions-tuition-fight-matters-for-the-future-of-art-by-ben-davis/">Why Cooper Union’s Tuition Fight Matters for the Future of Art</a></li>
-				<li><a href="{{ site.baseurl }}/organizing-as-if-social-relations-matter-by-cindy-milstein/">Organizing As If Social Relations Matter</a></li>
-				<li><a href="{{ site.baseurl }}/academy-fight-song-by-thomas-frank/">Academy Fight Song</a></li>
-				<li><a href="{{ site.baseurl }}/why-cooper-union-matters-by-litia-perta/">Why Cooper Union Matters</a></li>
-				<li><a href="{{ site.baseurl }}/removing-barriers-mobilizes-resources-by-david-gersten/">Removing Barriers Mobilizes Resources</a></li>
-				<li><a href="{{ site.baseurl }}/an-appeal-to-the-cooper-community-by-sam-rosner/">An Appeal to the Cooper Community</a></li>
-				<li><a href="{{ site.baseurl }}/two-educations-for-the-price-of-none-by-jakob-biernat/">Two Educations for the Price of None</a></li>
-				<li><a href="{{ site.baseurl }}/save-cooper-union-by-sangu-iyer/">Save Cooper Union</a></li>
-				<li><a href="{{ site.baseurl }}/you-cant-just-end-an-era-by-sangu-iyer/">You Can’t Just End an Era</a></li>
-				<li><a href="{{ site.baseurl }}/the-tragedy-of-cooper-union-by-felix-salmon/">The Tragedy of Cooper Union (A Six-Part Series)</a></li>
-			</ul>
+			<section class="lowdown">
+				<span class="heading"><h2 class="section">Lowdown</h2></span>
+				<ol>
+					<li><a href="{{ site.baseurl }}/direct-action-and-free-cooper-union/">Direct Action &amp; Free Cooper Union</a></li>
+					<li><a href="{{ site.baseurl }}/ivory-tower/">Ivory Tower</a></li>
+					<li><a href="{{ site.baseurl }}/working-group/">Working Group</a></li>
+					<li><a href="{{ site.baseurl }}/legal-action-and-the-committee-to-save-cooper-union/">Legal Action &amp; The Committee to Save C.U.</a></li>
+					<li><a href="{{ site.baseurl }}/code-of-conduct-and-campus-militarization/">Code of Conduct &amp; Campus Militarization</a></li>
+					<li><a href="{{ site.baseurl }}/half-tuition-and-new-tuition/">Half-Tuition and New Tuition</a></li>
+					<li><a href="{{ site.baseurl }}/attorney-general-investigates/">Attorney General Investigates</a></li>
+					<li><a href="{{ site.baseurl }}/vision/">Vision Platter Deluxe</a></li>
+				</ol>
+			</section>
+			<section class="background">
+				<span class="heading"><h2 class="section">Background</h2></span>
+				<nav></nav>
+				<ul>
+					<li><a href="{{ site.baseurl }}/the-state-of-the-cooper-union-by-mike-borkowsky/">The State of the Cooper Union</a></li>
+					<li><a href="{{ site.baseurl }}/open-letter-to-president-bharucha-by-walid-raad/">Open Letter to President Bharucha</a></li>
+					<li><a href="{{ site.baseurl }}/the-loss-of-cooper-union-by-jordan-bowen/">The Loss of Cooper Union</a></li>
+					<li><a href="{{ site.baseurl }}/why-cooper-unions-tuition-fight-matters-for-the-future-of-art-by-ben-davis/">Why C.U.’s Tuition Fight Matters for the Future of Art</a></li>
+					<li><a href="{{ site.baseurl }}/organizing-as-if-social-relations-matter-by-cindy-milstein/">Organizing As If Social Relations Matter</a></li>
+					<li><a href="{{ site.baseurl }}/academy-fight-song-by-thomas-frank/">Academy Fight Song</a></li>
+					<li><a href="{{ site.baseurl }}/why-cooper-union-matters-by-litia-perta/">Why Cooper Union Matters</a></li>
+					<li><a href="{{ site.baseurl }}/removing-barriers-mobilizes-resources-by-david-gersten/">Removing Barriers Mobilizes Resources</a></li>
+					<li><a href="{{ site.baseurl }}/an-appeal-to-the-cooper-community-by-sam-rosner/">An Appeal to the Cooper Community</a></li>
+					<li><a href="{{ site.baseurl }}/two-educations-for-the-price-of-none-by-jakob-biernat/">Two Educations for the Price of None</a></li>
+					<li><a href="{{ site.baseurl }}/save-cooper-union-by-sangu-iyer/">Save Cooper Union</a></li>
+					<li><a href="{{ site.baseurl }}/you-cant-just-end-an-era-by-sangu-iyer/">You Can’t Just End an Era</a></li>
+					<li><a href="{{ site.baseurl }}/the-tragedy-of-cooper-union-by-felix-salmon/">The Tragedy of Cooper Union (A Six-Part Series)</a></li>
+				</ul>
+			</section>
+			<section class="toolkit">
+				<span class="heading"><h2 class="section">toolkit</h2></span>
+				<ul>
+					<li> <a href="{{ site.baseurl }}/further-reading/" class="title">Further Reading</a> </li>
+					<li> <a href="{{ site.baseurl }}/glossary/" class="title">Glossary</a> </li>
+					<li> <a href="{{ site.baseurl }}/movement-stages/" class="title">Movement Stages</a> </li>
+					<li> <a href="{{ site.baseurl }}/org-chart/" class="title">Org Chart</a> </li>
+					<li> <a href="{{ site.baseurl }}/press/" class="title">Press Log</a> </li>
+					<li> <a href="{{ site.baseurl }}/social-barometer/" class="title">Social Barometer</a> </li>
+					<li> <a href="{{ site.baseurl }}/spectrum/" class="title">Spectrum of Allies</a> </li>
+					<li> <a href="{{ site.baseurl }}/tactic-star/" class="title">Tactic Star</a> </li>
+					<li> <a href="{{ site.baseurl }}/timeline/" class="title">Timeline</a> </li>
+				</ul>
+			</section>
 		</section>
 	</section>
 </nav>
@@ -92,7 +97,7 @@
 	$( "#menu-toggle" ).click(function() {
 		this.classList.toggle( "active" );
 		$("nav#main").toggleClass("active");
-		$( ".nav-wrapper" ).slideToggle( "slow");
+		$( ".nav-reveal" ).toggle();
 	});
 	$(function() {
 	    FastClick.attach(document.body);
