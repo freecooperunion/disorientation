@@ -13,3 +13,5 @@ collections:
   toolkit_drafts:
     output: true
     permalink: /:path/
+gems:
+  - jekyll-redirect-from
